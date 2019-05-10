@@ -7,11 +7,17 @@
 //
 
 #import "ViewController.h"
-#import "Driver.h"
-#import "Benz.h"
-#import "BMW.h"
 
+#import "LSPMain.h"
+#import "DependencyInversionMain.h"
+#import "InterfaceMain.h"
+#import "LKPMain.h"
+#import "LKPMain2.h"
 #import "BookStore.h"
+
+#import "NvWaMain.h"
+#import "TemplateMain.h"
+#import "BuilderMain.h"
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -58,18 +64,39 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    if (indexPath.row == 2) {
-        id<IDriver> zhangSan = [Driver new];
-        id<ICar> benz = [Benz new];
-        [zhangSan drive:benz];
+    id<IMain> iMain;
+    if (indexPath.section == 0) {
+        if (indexPath.row == 1) {
+            iMain = [LSPMain new];
+        }else if (indexPath.row == 2) {
+            iMain = [DependencyInversionMain new];
+        }else if (indexPath.row == 3) {
+            iMain = [InterfaceMain new];
+        }else if (indexPath.row == 4) {
+            iMain = [LKPMain new];
+            id<IMain> iMain2 = [LKPMain2 new];
+            [iMain2 main];
+        }else if (indexPath.row == 5) {
+            iMain = [BookStore new];
+        }
+    }else if (indexPath.section == 1){
+        if (indexPath.row == 0) {
+            //单例模式
+        }else if (indexPath.row == 1) {
+            iMain = [NvWaMain new];
+        }else if (indexPath.row == 2) {
+            //抽象工厂模式
+        }else if (indexPath.row == 3){
+            iMain = [TemplateMain new];
+        }else if (indexPath.row == 4){
+            iMain = [BuilderMain new];
+        }
         
-        id<ICar> bmw = [BMW new];
-        [zhangSan drive:bmw];
-    }else if (indexPath.row == 5) {
-        [[[BookStore alloc] init] main];
-        return;
     }
     
+    if (iMain) {
+        [iMain main];
+    }
 }
 
 #pragma mark - getter
@@ -77,7 +104,7 @@
     if (!_dataArr) {
         _dataArr = @[
                      @[@"单一职责原则",@"里氏替换原则",@"依赖倒置原则",@"接口隔离原则",@"迪米特法则",@"开闭原则"],
-                     @[@"打印两个有序链表的公共部分"
+                     @[@"单例模式",@"工厂模式",@"抽象工厂模式",@"模板模式",@"建造者模式"
                        ],
                      ];
     }
