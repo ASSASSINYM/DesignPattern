@@ -20,6 +20,56 @@
 		4B46C6932282E8BC00A5FA1A /* Driver.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B46C6922282E8BC00A5FA1A /* Driver.m */; };
 		4B46C6962282E8E000A5FA1A /* Benz.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B46C6952282E8E000A5FA1A /* Benz.m */; };
 		4B46C6992282E9BB00A5FA1A /* BMW.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B46C6982282E9BB00A5FA1A /* BMW.m */; };
+		4B6694B22285797100F17A56 /* AdvTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6694B12285797100F17A56 /* AdvTemplate.m */; };
+		4B6694B522857BD900F17A56 /* Mail.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6694B422857BD900F17A56 /* Mail.m */; };
+		4B6694B822857EA200F17A56 /* PrototypeMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6694B722857EA200F17A56 /* PrototypeMain.m */; };
+		4B6694BC2285865000F17A56 /* Purchase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6694BB2285865000F17A56 /* Purchase.m */; };
+		4B6694BF2285867D00F17A56 /* Stock.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6694BE2285867D00F17A56 /* Stock.m */; };
+		4B6694C22285873500F17A56 /* Sale.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6694C12285873500F17A56 /* Sale.m */; };
+		4B6694C5228589E800F17A56 /* MediatorMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6694C4228589E800F17A56 /* MediatorMain.m */; };
+		4B6DBDA42286516C008559EF /* Group.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDA32286516C008559EF /* Group.m */; };
+		4B6DBDA7228651D0008559EF /* RequirementGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDA6228651D0008559EF /* RequirementGroup.m */; };
+		4B6DBDAA2286524B008559EF /* PageGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDA92286524B008559EF /* PageGroup.m */; };
+		4B6DBDAD22865289008559EF /* CodeGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDAC22865289008559EF /* CodeGroup.m */; };
+		4B6DBDB022865306008559EF /* CommandMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDAF22865306008559EF /* CommandMain.m */; };
+		4B6DBDB322865458008559EF /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDB222865458008559EF /* Command.m */; };
+		4B6DBDB622865519008559EF /* AddRequirementCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDB522865519008559EF /* AddRequirementCommand.m */; };
+		4B6DBDB92286556F008559EF /* DeletePageCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDB82286556F008559EF /* DeletePageCommand.m */; };
+		4B6DBDBC228655E4008559EF /* Invoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDBB228655E4008559EF /* Invoker.m */; };
+		4B6DBDC322865AB2008559EF /* Women.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDC222865AB2008559EF /* Women.m */; };
+		4B6DBDC722865BAE008559EF /* Father.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDC622865BAE008559EF /* Father.m */; };
+		4B6DBDCA22865C2B008559EF /* Husband.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDC922865C2B008559EF /* Husband.m */; };
+		4B6DBDCD22865C64008559EF /* Son.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDCC22865C64008559EF /* Son.m */; };
+		4B6DBDD022865CB8008559EF /* ResponseMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDCF22865CB8008559EF /* ResponseMain.m */; };
+		4B6DBDD322865E89008559EF /* Handler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDD222865E89008559EF /* Handler.m */; };
+		4B6DBDD82286917C008559EF /* SchoolReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDD72286917C008559EF /* SchoolReport.m */; };
+		4B6DBDDB228691B9008559EF /* FouthGradeSchoolReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDDA228691B9008559EF /* FouthGradeSchoolReport.m */; };
+		4B6DBDDE22869234008559EF /* DrcorationMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDDD22869234008559EF /* DrcorationMain.m */; };
+		4B6DBDE1228692CE008559EF /* SugarFouthGradeSchoolReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDE0228692CE008559EF /* SugarFouthGradeSchoolReport.m */; };
+		4B6DBDE4228693B8008559EF /* Decorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDE3228693B8008559EF /* Decorator.m */; };
+		4B6DBDE72286945C008559EF /* HighScoreDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDE62286945C008559EF /* HighScoreDecorator.m */; };
+		4B6DBDEA228694D0008559EF /* SortDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDE9228694D0008559EF /* SortDecorator.m */; };
+		4B6DBDF12286A7B5008559EF /* BackDoor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDF02286A7B5008559EF /* BackDoor.m */; };
+		4B6DBDF42286A80C008559EF /* GivenGreenLight.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDF32286A80C008559EF /* GivenGreenLight.m */; };
+		4B6DBDF72286A843008559EF /* BlockEnemy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDF62286A843008559EF /* BlockEnemy.m */; };
+		4B6DBDFA2286A884008559EF /* Context.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDF92286A884008559EF /* Context.m */; };
+		4B6DBDFD2286A932008559EF /* StrategyMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDFC2286A932008559EF /* StrategyMain.m */; };
+		4B6DBE012286AC15008559EF /* AdapterMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE002286AC15008559EF /* AdapterMain.m */; };
+		4B6DBE072286ADB8008559EF /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE062286ADB8008559EF /* UserInfo.m */; };
+		4B6DBE0D2286AECE008559EF /* OuterUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE0C2286AECE008559EF /* OuterUser.m */; };
+		4B6DBE102286B01D008559EF /* OuterUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE0F2286B01D008559EF /* OuterUserInfo.m */; };
+		4B6DBE172286B729008559EF /* Root.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE162286B729008559EF /* Root.m */; };
+		4B6DBE1A2286B8D6008559EF /* Branch.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE192286B8D6008559EF /* Branch.m */; };
+		4B6DBE1D2286B94A008559EF /* Leaf.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE1C2286B94A008559EF /* Leaf.m */; };
+		4B6DBE202286B9D5008559EF /* CombineMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE1F2286B9D5008559EF /* CombineMain.m */; };
+		4B6DBE272286BE18008559EF /* HanFeiZi.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE262286BE18008559EF /* HanFeiZi.m */; };
+		4B6DBE2A2286BF15008559EF /* Lisi.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE292286BF15008559EF /* Lisi.m */; };
+		4B6DBE2D2286C047008559EF /* ObserverMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE2C2286C047008559EF /* ObserverMain.m */; };
+		4B6DBE302286C333008559EF /* WangSi.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE2F2286C333008559EF /* WangSi.m */; };
+		4B6DBE332286C3B8008559EF /* LiuSi.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE322286C3B8008559EF /* LiuSi.m */; };
+		4B8DE4A222858F0A00667D86 /* AbstractMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DE4A122858F0A00667D86 /* AbstractMediator.m */; };
+		4B8DE4A522858FAD00667D86 /* Mediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DE4A422858FAD00667D86 /* Mediator.m */; };
+		4B8DE4A8228598A400667D86 /* AbstractColleague.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DE4A7228598A400667D86 /* AbstractColleague.m */; };
 		4BD8D9C722831FB900B79C31 /* OffNovelBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD8D9C622831FB900B79C31 /* OffNovelBook.m */; };
 		4BD8D9CD228328CE00B79C31 /* ComputerBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD8D9CC228328CE00B79C31 /* ComputerBook.m */; };
 		4BD8D9D32283AC7000B79C31 /* DependencyInversionMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD8D9D22283AC7000B79C31 /* DependencyInversionMain.m */; };
@@ -71,6 +121,9 @@
 		4BD8DA822284704400B79C31 /* BenzBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD8DA812284704400B79C31 /* BenzBuilder.m */; };
 		4BD8DA85228470AF00B79C31 /* BMWBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD8DA84228470AF00B79C31 /* BMWBuilder.m */; };
 		4BD8DA882285015500B79C31 /* Director.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD8DA872285015500B79C31 /* Director.m */; };
+		4BD8DA8F228506A900B79C31 /* GamePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD8DA8E228506A900B79C31 /* GamePlayer.m */; };
+		4BD8DA922285075D00B79C31 /* DelegateMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD8DA912285075D00B79C31 /* DelegateMain.m */; };
+		4BD8DA952285081500B79C31 /* GamePlayerProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD8DA942285081500B79C31 /* GamePlayerProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +173,112 @@
 		4B46C69E2282EC7500A5FA1A /* IDriver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDriver.h; sourceTree = "<group>"; };
 		4B46C6A12282EC8500A5FA1A /* ICar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICar.h; sourceTree = "<group>"; };
 		4B46C6A5228313AB00A5FA1A /* IBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBook.h; sourceTree = "<group>"; };
+		4B6694B02285797100F17A56 /* AdvTemplate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdvTemplate.h; sourceTree = "<group>"; };
+		4B6694B12285797100F17A56 /* AdvTemplate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdvTemplate.m; sourceTree = "<group>"; };
+		4B6694B322857BD900F17A56 /* Mail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mail.h; sourceTree = "<group>"; };
+		4B6694B422857BD900F17A56 /* Mail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mail.m; sourceTree = "<group>"; };
+		4B6694B622857EA200F17A56 /* PrototypeMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrototypeMain.h; sourceTree = "<group>"; };
+		4B6694B722857EA200F17A56 /* PrototypeMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrototypeMain.m; sourceTree = "<group>"; };
+		4B6694BA2285865000F17A56 /* Purchase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Purchase.h; sourceTree = "<group>"; };
+		4B6694BB2285865000F17A56 /* Purchase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Purchase.m; sourceTree = "<group>"; };
+		4B6694BD2285867D00F17A56 /* Stock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stock.h; sourceTree = "<group>"; };
+		4B6694BE2285867D00F17A56 /* Stock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stock.m; sourceTree = "<group>"; };
+		4B6694C02285873500F17A56 /* Sale.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sale.h; sourceTree = "<group>"; };
+		4B6694C12285873500F17A56 /* Sale.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sale.m; sourceTree = "<group>"; };
+		4B6694C3228589E800F17A56 /* MediatorMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediatorMain.h; sourceTree = "<group>"; };
+		4B6694C4228589E800F17A56 /* MediatorMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediatorMain.m; sourceTree = "<group>"; };
+		4B6DBDA22286516C008559EF /* Group.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Group.h; sourceTree = "<group>"; };
+		4B6DBDA32286516C008559EF /* Group.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Group.m; sourceTree = "<group>"; };
+		4B6DBDA5228651D0008559EF /* RequirementGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequirementGroup.h; sourceTree = "<group>"; };
+		4B6DBDA6228651D0008559EF /* RequirementGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequirementGroup.m; sourceTree = "<group>"; };
+		4B6DBDA82286524B008559EF /* PageGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageGroup.h; sourceTree = "<group>"; };
+		4B6DBDA92286524B008559EF /* PageGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageGroup.m; sourceTree = "<group>"; };
+		4B6DBDAB22865289008559EF /* CodeGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodeGroup.h; sourceTree = "<group>"; };
+		4B6DBDAC22865289008559EF /* CodeGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeGroup.m; sourceTree = "<group>"; };
+		4B6DBDAE22865306008559EF /* CommandMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandMain.h; sourceTree = "<group>"; };
+		4B6DBDAF22865306008559EF /* CommandMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommandMain.m; sourceTree = "<group>"; };
+		4B6DBDB122865458008559EF /* Command.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		4B6DBDB222865458008559EF /* Command.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
+		4B6DBDB422865519008559EF /* AddRequirementCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddRequirementCommand.h; sourceTree = "<group>"; };
+		4B6DBDB522865519008559EF /* AddRequirementCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddRequirementCommand.m; sourceTree = "<group>"; };
+		4B6DBDB72286556F008559EF /* DeletePageCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeletePageCommand.h; sourceTree = "<group>"; };
+		4B6DBDB82286556F008559EF /* DeletePageCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeletePageCommand.m; sourceTree = "<group>"; };
+		4B6DBDBA228655E4008559EF /* Invoker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Invoker.h; sourceTree = "<group>"; };
+		4B6DBDBB228655E4008559EF /* Invoker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Invoker.m; sourceTree = "<group>"; };
+		4B6DBDBE22865A1A008559EF /* IWomen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IWomen.h; sourceTree = "<group>"; };
+		4B6DBDC122865AB2008559EF /* Women.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Women.h; sourceTree = "<group>"; };
+		4B6DBDC222865AB2008559EF /* Women.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Women.m; sourceTree = "<group>"; };
+		4B6DBDC522865BAE008559EF /* Father.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Father.h; sourceTree = "<group>"; };
+		4B6DBDC622865BAE008559EF /* Father.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Father.m; sourceTree = "<group>"; };
+		4B6DBDC822865C2B008559EF /* Husband.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Husband.h; sourceTree = "<group>"; };
+		4B6DBDC922865C2B008559EF /* Husband.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Husband.m; sourceTree = "<group>"; };
+		4B6DBDCB22865C64008559EF /* Son.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Son.h; sourceTree = "<group>"; };
+		4B6DBDCC22865C64008559EF /* Son.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Son.m; sourceTree = "<group>"; };
+		4B6DBDCE22865CB8008559EF /* ResponseMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResponseMain.h; sourceTree = "<group>"; };
+		4B6DBDCF22865CB8008559EF /* ResponseMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResponseMain.m; sourceTree = "<group>"; };
+		4B6DBDD122865E89008559EF /* Handler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Handler.h; sourceTree = "<group>"; };
+		4B6DBDD222865E89008559EF /* Handler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Handler.m; sourceTree = "<group>"; };
+		4B6DBDD62286917C008559EF /* SchoolReport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SchoolReport.h; sourceTree = "<group>"; };
+		4B6DBDD72286917C008559EF /* SchoolReport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchoolReport.m; sourceTree = "<group>"; };
+		4B6DBDD9228691B9008559EF /* FouthGradeSchoolReport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FouthGradeSchoolReport.h; sourceTree = "<group>"; };
+		4B6DBDDA228691B9008559EF /* FouthGradeSchoolReport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FouthGradeSchoolReport.m; sourceTree = "<group>"; };
+		4B6DBDDC22869234008559EF /* DrcorationMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrcorationMain.h; sourceTree = "<group>"; };
+		4B6DBDDD22869234008559EF /* DrcorationMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrcorationMain.m; sourceTree = "<group>"; };
+		4B6DBDDF228692CE008559EF /* SugarFouthGradeSchoolReport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SugarFouthGradeSchoolReport.h; sourceTree = "<group>"; };
+		4B6DBDE0228692CE008559EF /* SugarFouthGradeSchoolReport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SugarFouthGradeSchoolReport.m; sourceTree = "<group>"; };
+		4B6DBDE2228693B8008559EF /* Decorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Decorator.h; sourceTree = "<group>"; };
+		4B6DBDE3228693B8008559EF /* Decorator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Decorator.m; sourceTree = "<group>"; };
+		4B6DBDE52286945C008559EF /* HighScoreDecorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HighScoreDecorator.h; sourceTree = "<group>"; };
+		4B6DBDE62286945C008559EF /* HighScoreDecorator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HighScoreDecorator.m; sourceTree = "<group>"; };
+		4B6DBDE8228694D0008559EF /* SortDecorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortDecorator.h; sourceTree = "<group>"; };
+		4B6DBDE9228694D0008559EF /* SortDecorator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SortDecorator.m; sourceTree = "<group>"; };
+		4B6DBDEC2286A786008559EF /* IStrategy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IStrategy.h; sourceTree = "<group>"; };
+		4B6DBDEF2286A7B5008559EF /* BackDoor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackDoor.h; sourceTree = "<group>"; };
+		4B6DBDF02286A7B5008559EF /* BackDoor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackDoor.m; sourceTree = "<group>"; };
+		4B6DBDF22286A80C008559EF /* GivenGreenLight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GivenGreenLight.h; sourceTree = "<group>"; };
+		4B6DBDF32286A80C008559EF /* GivenGreenLight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GivenGreenLight.m; sourceTree = "<group>"; };
+		4B6DBDF52286A843008559EF /* BlockEnemy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockEnemy.h; sourceTree = "<group>"; };
+		4B6DBDF62286A843008559EF /* BlockEnemy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockEnemy.m; sourceTree = "<group>"; };
+		4B6DBDF82286A884008559EF /* Context.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Context.h; sourceTree = "<group>"; };
+		4B6DBDF92286A884008559EF /* Context.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Context.m; sourceTree = "<group>"; };
+		4B6DBDFB2286A932008559EF /* StrategyMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrategyMain.h; sourceTree = "<group>"; };
+		4B6DBDFC2286A932008559EF /* StrategyMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrategyMain.m; sourceTree = "<group>"; };
+		4B6DBDFF2286AC15008559EF /* AdapterMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdapterMain.h; sourceTree = "<group>"; };
+		4B6DBE002286AC15008559EF /* AdapterMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdapterMain.m; sourceTree = "<group>"; };
+		4B6DBE022286AD49008559EF /* IUserInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IUserInfo.h; sourceTree = "<group>"; };
+		4B6DBE052286ADB8008559EF /* UserInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		4B6DBE062286ADB8008559EF /* UserInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		4B6DBE082286AE83008559EF /* IOuterUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOuterUser.h; sourceTree = "<group>"; };
+		4B6DBE0B2286AECE008559EF /* OuterUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OuterUser.h; sourceTree = "<group>"; };
+		4B6DBE0C2286AECE008559EF /* OuterUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OuterUser.m; sourceTree = "<group>"; };
+		4B6DBE0E2286B01D008559EF /* OuterUserInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OuterUserInfo.h; sourceTree = "<group>"; };
+		4B6DBE0F2286B01D008559EF /* OuterUserInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OuterUserInfo.m; sourceTree = "<group>"; };
+		4B6DBE122286B686008559EF /* ICombine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICombine.h; sourceTree = "<group>"; };
+		4B6DBE152286B729008559EF /* Root.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Root.h; sourceTree = "<group>"; };
+		4B6DBE162286B729008559EF /* Root.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Root.m; sourceTree = "<group>"; };
+		4B6DBE182286B8D6008559EF /* Branch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Branch.h; sourceTree = "<group>"; };
+		4B6DBE192286B8D6008559EF /* Branch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Branch.m; sourceTree = "<group>"; };
+		4B6DBE1B2286B94A008559EF /* Leaf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Leaf.h; sourceTree = "<group>"; };
+		4B6DBE1C2286B94A008559EF /* Leaf.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Leaf.m; sourceTree = "<group>"; };
+		4B6DBE1E2286B9D5008559EF /* CombineMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CombineMain.h; sourceTree = "<group>"; };
+		4B6DBE1F2286B9D5008559EF /* CombineMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CombineMain.m; sourceTree = "<group>"; };
+		4B6DBE222286BDD9008559EF /* IObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IObserver.h; sourceTree = "<group>"; };
+		4B6DBE252286BE18008559EF /* HanFeiZi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HanFeiZi.h; sourceTree = "<group>"; };
+		4B6DBE262286BE18008559EF /* HanFeiZi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HanFeiZi.m; sourceTree = "<group>"; };
+		4B6DBE282286BF15008559EF /* Lisi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lisi.h; sourceTree = "<group>"; };
+		4B6DBE292286BF15008559EF /* Lisi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lisi.m; sourceTree = "<group>"; };
+		4B6DBE2B2286C047008559EF /* ObserverMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObserverMain.h; sourceTree = "<group>"; };
+		4B6DBE2C2286C047008559EF /* ObserverMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObserverMain.m; sourceTree = "<group>"; };
+		4B6DBE2E2286C333008559EF /* WangSi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WangSi.h; sourceTree = "<group>"; };
+		4B6DBE2F2286C333008559EF /* WangSi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WangSi.m; sourceTree = "<group>"; };
+		4B6DBE312286C3B8008559EF /* LiuSi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiuSi.h; sourceTree = "<group>"; };
+		4B6DBE322286C3B8008559EF /* LiuSi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiuSi.m; sourceTree = "<group>"; };
+		4B8DE4A022858F0A00667D86 /* AbstractMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractMediator.h; sourceTree = "<group>"; };
+		4B8DE4A122858F0A00667D86 /* AbstractMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractMediator.m; sourceTree = "<group>"; };
+		4B8DE4A322858FAD00667D86 /* Mediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mediator.h; sourceTree = "<group>"; };
+		4B8DE4A422858FAD00667D86 /* Mediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mediator.m; sourceTree = "<group>"; };
+		4B8DE4A6228598A400667D86 /* AbstractColleague.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractColleague.h; sourceTree = "<group>"; };
+		4B8DE4A7228598A400667D86 /* AbstractColleague.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractColleague.m; sourceTree = "<group>"; };
 		4BD8D9C522831FB900B79C31 /* OffNovelBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OffNovelBook.h; sourceTree = "<group>"; };
 		4BD8D9C622831FB900B79C31 /* OffNovelBook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OffNovelBook.m; sourceTree = "<group>"; };
 		4BD8D9C82283285400B79C31 /* IComputerBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IComputerBook.h; sourceTree = "<group>"; };
@@ -227,6 +386,13 @@
 		4BD8DA84228470AF00B79C31 /* BMWBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMWBuilder.m; sourceTree = "<group>"; };
 		4BD8DA862285015500B79C31 /* Director.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Director.h; sourceTree = "<group>"; };
 		4BD8DA872285015500B79C31 /* Director.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Director.m; sourceTree = "<group>"; };
+		4BD8DA8A2285065100B79C31 /* IGamePlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGamePlayer.h; sourceTree = "<group>"; };
+		4BD8DA8D228506A900B79C31 /* GamePlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GamePlayer.h; sourceTree = "<group>"; };
+		4BD8DA8E228506A900B79C31 /* GamePlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GamePlayer.m; sourceTree = "<group>"; };
+		4BD8DA902285075D00B79C31 /* DelegateMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DelegateMain.h; sourceTree = "<group>"; };
+		4BD8DA912285075D00B79C31 /* DelegateMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegateMain.m; sourceTree = "<group>"; };
+		4BD8DA932285081500B79C31 /* GamePlayerProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GamePlayerProxy.h; sourceTree = "<group>"; };
+		4BD8DA942285081500B79C31 /* GamePlayerProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GamePlayerProxy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -367,6 +533,16 @@
 				4BD8DA3B22844AC300B79C31 /* AbstractFactory */,
 				4BD8DA6322845BE800B79C31 /* Template */,
 				4BD8DA7022846AA500B79C31 /* Builder */,
+				4BD8DA892285063400B79C31 /* Delegate */,
+				4B6694AF2285791600F17A56 /* Prototype */,
+				4B6694B92285863600F17A56 /* Mediator */,
+				4B6DBDA12286513E008559EF /* Command */,
+				4B6DBDBD228659F3008559EF /* Response */,
+				4B6DBDD422869112008559EF /* Decoration */,
+				4B6DBDEB2286A76F008559EF /* Strategy */,
+				4B6DBDFE2286ABE3008559EF /* Adapter */,
+				4B6DBE112286B63E008559EF /* Combine */,
+				4B6DBE212286BD64008559EF /* Observer */,
 			);
 			path = Pattern;
 			sourceTree = "<group>";
@@ -386,6 +562,175 @@
 				4B42524122831637009DF4B9 /* BookStore.m */,
 			);
 			path = OpenClose;
+			sourceTree = "<group>";
+		};
+		4B6694AF2285791600F17A56 /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				4B6694B02285797100F17A56 /* AdvTemplate.h */,
+				4B6694B12285797100F17A56 /* AdvTemplate.m */,
+				4B6694B322857BD900F17A56 /* Mail.h */,
+				4B6694B422857BD900F17A56 /* Mail.m */,
+				4B6694B622857EA200F17A56 /* PrototypeMain.h */,
+				4B6694B722857EA200F17A56 /* PrototypeMain.m */,
+			);
+			path = Prototype;
+			sourceTree = "<group>";
+		};
+		4B6694B92285863600F17A56 /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				4B8DE4A6228598A400667D86 /* AbstractColleague.h */,
+				4B8DE4A7228598A400667D86 /* AbstractColleague.m */,
+				4B6694BA2285865000F17A56 /* Purchase.h */,
+				4B6694BB2285865000F17A56 /* Purchase.m */,
+				4B6694BD2285867D00F17A56 /* Stock.h */,
+				4B6694BE2285867D00F17A56 /* Stock.m */,
+				4B6694C02285873500F17A56 /* Sale.h */,
+				4B6694C12285873500F17A56 /* Sale.m */,
+				4B6694C3228589E800F17A56 /* MediatorMain.h */,
+				4B6694C4228589E800F17A56 /* MediatorMain.m */,
+				4B8DE4A022858F0A00667D86 /* AbstractMediator.h */,
+				4B8DE4A122858F0A00667D86 /* AbstractMediator.m */,
+				4B8DE4A322858FAD00667D86 /* Mediator.h */,
+				4B8DE4A422858FAD00667D86 /* Mediator.m */,
+			);
+			path = Mediator;
+			sourceTree = "<group>";
+		};
+		4B6DBDA12286513E008559EF /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				4B6DBDA22286516C008559EF /* Group.h */,
+				4B6DBDA32286516C008559EF /* Group.m */,
+				4B6DBDA5228651D0008559EF /* RequirementGroup.h */,
+				4B6DBDA6228651D0008559EF /* RequirementGroup.m */,
+				4B6DBDA82286524B008559EF /* PageGroup.h */,
+				4B6DBDA92286524B008559EF /* PageGroup.m */,
+				4B6DBDAB22865289008559EF /* CodeGroup.h */,
+				4B6DBDAC22865289008559EF /* CodeGroup.m */,
+				4B6DBDAE22865306008559EF /* CommandMain.h */,
+				4B6DBDAF22865306008559EF /* CommandMain.m */,
+				4B6DBDB122865458008559EF /* Command.h */,
+				4B6DBDB222865458008559EF /* Command.m */,
+				4B6DBDB422865519008559EF /* AddRequirementCommand.h */,
+				4B6DBDB522865519008559EF /* AddRequirementCommand.m */,
+				4B6DBDB72286556F008559EF /* DeletePageCommand.h */,
+				4B6DBDB82286556F008559EF /* DeletePageCommand.m */,
+				4B6DBDBA228655E4008559EF /* Invoker.h */,
+				4B6DBDBB228655E4008559EF /* Invoker.m */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		4B6DBDBD228659F3008559EF /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				4B6DBDBE22865A1A008559EF /* IWomen.h */,
+				4B6DBDC122865AB2008559EF /* Women.h */,
+				4B6DBDC222865AB2008559EF /* Women.m */,
+				4B6DBDD122865E89008559EF /* Handler.h */,
+				4B6DBDD222865E89008559EF /* Handler.m */,
+				4B6DBDC522865BAE008559EF /* Father.h */,
+				4B6DBDC622865BAE008559EF /* Father.m */,
+				4B6DBDC822865C2B008559EF /* Husband.h */,
+				4B6DBDC922865C2B008559EF /* Husband.m */,
+				4B6DBDCB22865C64008559EF /* Son.h */,
+				4B6DBDCC22865C64008559EF /* Son.m */,
+				4B6DBDCE22865CB8008559EF /* ResponseMain.h */,
+				4B6DBDCF22865CB8008559EF /* ResponseMain.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		4B6DBDD422869112008559EF /* Decoration */ = {
+			isa = PBXGroup;
+			children = (
+				4B6DBDD62286917C008559EF /* SchoolReport.h */,
+				4B6DBDD72286917C008559EF /* SchoolReport.m */,
+				4B6DBDD9228691B9008559EF /* FouthGradeSchoolReport.h */,
+				4B6DBDDA228691B9008559EF /* FouthGradeSchoolReport.m */,
+				4B6DBDDF228692CE008559EF /* SugarFouthGradeSchoolReport.h */,
+				4B6DBDE0228692CE008559EF /* SugarFouthGradeSchoolReport.m */,
+				4B6DBDDC22869234008559EF /* DrcorationMain.h */,
+				4B6DBDDD22869234008559EF /* DrcorationMain.m */,
+				4B6DBDE2228693B8008559EF /* Decorator.h */,
+				4B6DBDE3228693B8008559EF /* Decorator.m */,
+				4B6DBDE52286945C008559EF /* HighScoreDecorator.h */,
+				4B6DBDE62286945C008559EF /* HighScoreDecorator.m */,
+				4B6DBDE8228694D0008559EF /* SortDecorator.h */,
+				4B6DBDE9228694D0008559EF /* SortDecorator.m */,
+			);
+			path = Decoration;
+			sourceTree = "<group>";
+		};
+		4B6DBDEB2286A76F008559EF /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				4B6DBDEC2286A786008559EF /* IStrategy.h */,
+				4B6DBDEF2286A7B5008559EF /* BackDoor.h */,
+				4B6DBDF02286A7B5008559EF /* BackDoor.m */,
+				4B6DBDF22286A80C008559EF /* GivenGreenLight.h */,
+				4B6DBDF32286A80C008559EF /* GivenGreenLight.m */,
+				4B6DBDF52286A843008559EF /* BlockEnemy.h */,
+				4B6DBDF62286A843008559EF /* BlockEnemy.m */,
+				4B6DBDF82286A884008559EF /* Context.h */,
+				4B6DBDF92286A884008559EF /* Context.m */,
+				4B6DBDFB2286A932008559EF /* StrategyMain.h */,
+				4B6DBDFC2286A932008559EF /* StrategyMain.m */,
+			);
+			path = Strategy;
+			sourceTree = "<group>";
+		};
+		4B6DBDFE2286ABE3008559EF /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				4B6DBE022286AD49008559EF /* IUserInfo.h */,
+				4B6DBE052286ADB8008559EF /* UserInfo.h */,
+				4B6DBE062286ADB8008559EF /* UserInfo.m */,
+				4B6DBE082286AE83008559EF /* IOuterUser.h */,
+				4B6DBE0B2286AECE008559EF /* OuterUser.h */,
+				4B6DBE0C2286AECE008559EF /* OuterUser.m */,
+				4B6DBE0E2286B01D008559EF /* OuterUserInfo.h */,
+				4B6DBE0F2286B01D008559EF /* OuterUserInfo.m */,
+				4B6DBDFF2286AC15008559EF /* AdapterMain.h */,
+				4B6DBE002286AC15008559EF /* AdapterMain.m */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		4B6DBE112286B63E008559EF /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				4B6DBE122286B686008559EF /* ICombine.h */,
+				4B6DBE152286B729008559EF /* Root.h */,
+				4B6DBE162286B729008559EF /* Root.m */,
+				4B6DBE182286B8D6008559EF /* Branch.h */,
+				4B6DBE192286B8D6008559EF /* Branch.m */,
+				4B6DBE1B2286B94A008559EF /* Leaf.h */,
+				4B6DBE1C2286B94A008559EF /* Leaf.m */,
+				4B6DBE1E2286B9D5008559EF /* CombineMain.h */,
+				4B6DBE1F2286B9D5008559EF /* CombineMain.m */,
+			);
+			path = Combine;
+			sourceTree = "<group>";
+		};
+		4B6DBE212286BD64008559EF /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				4B6DBE222286BDD9008559EF /* IObserver.h */,
+				4B6DBE252286BE18008559EF /* HanFeiZi.h */,
+				4B6DBE262286BE18008559EF /* HanFeiZi.m */,
+				4B6DBE282286BF15008559EF /* Lisi.h */,
+				4B6DBE292286BF15008559EF /* Lisi.m */,
+				4B6DBE2E2286C333008559EF /* WangSi.h */,
+				4B6DBE2F2286C333008559EF /* WangSi.m */,
+				4B6DBE312286C3B8008559EF /* LiuSi.h */,
+				4B6DBE322286C3B8008559EF /* LiuSi.m */,
+				4B6DBE2B2286C047008559EF /* ObserverMain.h */,
+				4B6DBE2C2286C047008559EF /* ObserverMain.m */,
+			);
+			path = Observer;
 			sourceTree = "<group>";
 		};
 		4BD8D9CE2283ABF700B79C31 /* Base */ = {
@@ -524,6 +869,20 @@
 			path = Builder;
 			sourceTree = "<group>";
 		};
+		4BD8DA892285063400B79C31 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				4BD8DA8A2285065100B79C31 /* IGamePlayer.h */,
+				4BD8DA8D228506A900B79C31 /* GamePlayer.h */,
+				4BD8DA8E228506A900B79C31 /* GamePlayer.m */,
+				4BD8DA932285081500B79C31 /* GamePlayerProxy.h */,
+				4BD8DA942285081500B79C31 /* GamePlayerProxy.m */,
+				4BD8DA902285075D00B79C31 /* DelegateMain.h */,
+				4BD8DA912285075D00B79C31 /* DelegateMain.m */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -656,16 +1015,22 @@
 			files = (
 				4BD8DA4122844B7C00B79C31 /* AbstractBlackHuman.m in Sources */,
 				4BD8DA5F228454B100B79C31 /* MaleFactory.m in Sources */,
+				4B6DBDF72286A843008559EF /* BlockEnemy.m in Sources */,
+				4BD8DA922285075D00B79C31 /* DelegateMain.m in Sources */,
 				4BD8DA6922845C8700B79C31 /* HummerH1Model.m in Sources */,
+				4B6DBE172286B729008559EF /* Root.m in Sources */,
 				4BD8DA6C22845D0C00B79C31 /* HummerH2Model.m in Sources */,
 				4BD8DA5C2284542500B79C31 /* MaleWhiteHuman.m in Sources */,
+				4B6DBDBC228655E4008559EF /* Invoker.m in Sources */,
 				4BD8D9D72283AEA600B79C31 /* Teacher.m in Sources */,
 				4BD8DA62228454FA00B79C31 /* NvWaMain2.m in Sources */,
 				4BD8DA31228442EE00B79C31 /* WhiteHuman.m in Sources */,
 				4BD8D9E92283B34200B79C31 /* LKPMain2.m in Sources */,
+				4B6694BC2285865000F17A56 /* Purchase.m in Sources */,
 				4B46C6992282E9BB00A5FA1A /* BMW.m in Sources */,
 				4BD8DA56228453D700B79C31 /* MaleBlackHuman.m in Sources */,
 				4BD8DA252284406500B79C31 /* ToyGun.m in Sources */,
+				4B6DBDAD22865289008559EF /* CodeGroup.m in Sources */,
 				4BD8DA002283F64F00B79C31 /* PettyGirl.m in Sources */,
 				4BD8DA372284439100B79C31 /* HumanFactory.m in Sources */,
 				4B46C6962282E8E000A5FA1A /* Benz.m in Sources */,
@@ -673,45 +1038,92 @@
 				4BD8DA85228470AF00B79C31 /* BMWBuilder.m in Sources */,
 				4BD8D9C722831FB900B79C31 /* OffNovelBook.m in Sources */,
 				4BD8D9E32283B21600B79C31 /* Wizard.m in Sources */,
+				4B6DBE302286C333008559EF /* WangSi.m in Sources */,
 				4BD8DA0F228429D100B79C31 /* InterfaceMain.m in Sources */,
 				4BD8DA1622843E5E00B79C31 /* Handgun.m in Sources */,
+				4B6DBE012286AC15008559EF /* AdapterMain.m in Sources */,
+				4B6DBDB622865519008559EF /* AddRequirementCommand.m in Sources */,
+				4B6DBE202286B9D5008559EF /* CombineMain.m in Sources */,
+				4B6694C5228589E800F17A56 /* MediatorMain.m in Sources */,
+				4B6DBE272286BE18008559EF /* HanFeiZi.m in Sources */,
 				4BD8DA3E22844B4500B79C31 /* AbstractWhiteHuman.m in Sources */,
 				4BD8DA53228453A200B79C31 /* FemaleBlackHuman.m in Sources */,
+				4B6DBDCA22865C2B008559EF /* Husband.m in Sources */,
 				4BD8DA882285015500B79C31 /* Director.m in Sources */,
+				4B6DBE1D2286B94A008559EF /* Leaf.m in Sources */,
 				4BD8DA7C22846D2C00B79C31 /* BuilderMain.m in Sources */,
+				4B6DBDE72286945C008559EF /* HighScoreDecorator.m in Sources */,
 				4B46C65B2282E3D400A5FA1A /* ViewController.m in Sources */,
+				4B8DE4A522858FAD00667D86 /* Mediator.m in Sources */,
+				4BD8DA8F228506A900B79C31 /* GamePlayer.m in Sources */,
+				4B6694B822857EA200F17A56 /* PrototypeMain.m in Sources */,
+				4B6DBDCD22865C64008559EF /* Son.m in Sources */,
 				4BD8DA1922843E8600B79C31 /* Rifle.m in Sources */,
 				4BD8DA2B2284425C00B79C31 /* BlackHuman.m in Sources */,
+				4B6DBDAA2286524B008559EF /* PageGroup.m in Sources */,
 				4BD8DA6622845C4200B79C31 /* HummerModel.m in Sources */,
+				4B6DBDF12286A7B5008559EF /* BackDoor.m in Sources */,
+				4B6DBE1A2286B8D6008559EF /* Branch.m in Sources */,
 				4BD8DA50228452FE00B79C31 /* FemaleFactory.m in Sources */,
 				4B324BBE228314C700F78D8E /* NovelBook.m in Sources */,
+				4B8DE4A222858F0A00667D86 /* AbstractMediator.m in Sources */,
+				4B6DBDF42286A80C008559EF /* GivenGreenLight.m in Sources */,
+				4B6DBDC322865AB2008559EF /* Women.m in Sources */,
 				4B46C6662282E3D400A5FA1A /* main.m in Sources */,
 				4BD8DA1C22843EA700B79C31 /* MachineGun.m in Sources */,
 				4BD8DA7922846CDE00B79C31 /* BMWModel.m in Sources */,
+				4B6694B522857BD900F17A56 /* Mail.m in Sources */,
+				4B6DBDB92286556F008559EF /* DeletePageCommand.m in Sources */,
 				4BD8D9E02283B0A300B79C31 /* LKPMain.m in Sources */,
+				4B6DBDFA2286A884008559EF /* Context.m in Sources */,
 				4BD8DA59228453FC00B79C31 /* FemaleWhiteHuman.m in Sources */,
+				4B6DBDE1228692CE008559EF /* SugarFouthGradeSchoolReport.m in Sources */,
 				4BD8DA7322846ADA00B79C31 /* CarModel.m in Sources */,
 				4B46C6582282E3D400A5FA1A /* AppDelegate.m in Sources */,
 				4BD8DA7F22846FEF00B79C31 /* CarBuilder.m in Sources */,
 				4BD8D9DA2283AECE00B79C31 /* GroupLeader.m in Sources */,
+				4B6DBDE4228693B8008559EF /* Decorator.m in Sources */,
 				4BD8DA062283F91700B79C31 /* Searcher.m in Sources */,
 				4BD8DA6F22845DD300B79C31 /* TemplateMain.m in Sources */,
+				4B6DBE0D2286AECE008559EF /* OuterUser.m in Sources */,
+				4B6DBDB022865306008559EF /* CommandMain.m in Sources */,
 				4BD8DA4422844BB300B79C31 /* AbstractYellowHuman.m in Sources */,
+				4BD8DA952285081500B79C31 /* GamePlayerProxy.m in Sources */,
+				4B6694BF2285867D00F17A56 /* Stock.m in Sources */,
 				4BD8D9CD228328CE00B79C31 /* ComputerBook.m in Sources */,
+				4B6DBE102286B01D008559EF /* OuterUserInfo.m in Sources */,
+				4B6DBDD022865CB8008559EF /* ResponseMain.m in Sources */,
 				4BD8DA822284704400B79C31 /* BenzBuilder.m in Sources */,
 				4BD8DA7622846C4B00B79C31 /* BenzModel.m in Sources */,
+				4B6DBDC722865BAE008559EF /* Father.m in Sources */,
 				4BD8DA2E228442AC00B79C31 /* YellowHuman.m in Sources */,
+				4B6694B22285797100F17A56 /* AdvTemplate.m in Sources */,
 				4BD8DA2222843F4500B79C31 /* LSPMain.m in Sources */,
 				4B42524222831637009DF4B9 /* BookStore.m in Sources */,
 				4BD8DA3A228445D400B79C31 /* NvWaMain.m in Sources */,
+				4B6DBE332286C3B8008559EF /* LiuSi.m in Sources */,
+				4B6DBE2D2286C047008559EF /* ObserverMain.m in Sources */,
+				4B6DBDA42286516C008559EF /* Group.m in Sources */,
 				4BD8DA1F22843ECE00B79C31 /* Solidier.m in Sources */,
 				4BD8DA4A22844C3600B79C31 /* MaleYellowHuman.m in Sources */,
+				4B6DBE072286ADB8008559EF /* UserInfo.m in Sources */,
 				4BD8DA4722844C1400B79C31 /* FemaleYellowHuman.m in Sources */,
+				4B6DBDA7228651D0008559EF /* RequirementGroup.m in Sources */,
+				4B6DBDD82286917C008559EF /* SchoolReport.m in Sources */,
 				4BD8D9D32283AC7000B79C31 /* DependencyInversionMain.m in Sources */,
+				4B6DBDD322865E89008559EF /* Handler.m in Sources */,
+				4B6694C22285873500F17A56 /* Sale.m in Sources */,
 				4BD8DA342284433100B79C31 /* AbstractHumanFactory.m in Sources */,
+				4B6DBDDB228691B9008559EF /* FouthGradeSchoolReport.m in Sources */,
+				4B8DE4A8228598A400667D86 /* AbstractColleague.m in Sources */,
+				4B6DBDEA228694D0008559EF /* SortDecorator.m in Sources */,
+				4B6DBDB322865458008559EF /* Command.m in Sources */,
 				4B46C6932282E8BC00A5FA1A /* Driver.m in Sources */,
 				4BD8DA1322843D4E00B79C31 /* AbstractGun.m in Sources */,
+				4B6DBDDE22869234008559EF /* DrcorationMain.m in Sources */,
 				4BD8DA032283F82600B79C31 /* AbstractSearcher.m in Sources */,
+				4B6DBE2A2286BF15008559EF /* Lisi.m in Sources */,
+				4B6DBDFD2286A932008559EF /* StrategyMain.m in Sources */,
 				4BD8D9DD2283AEEC00B79C31 /* Girl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

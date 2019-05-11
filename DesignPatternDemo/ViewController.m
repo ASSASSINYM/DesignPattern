@@ -18,6 +18,16 @@
 #import "NvWaMain.h"
 #import "TemplateMain.h"
 #import "BuilderMain.h"
+#import "DelegateMain.h"
+#import "PrototypeMain.h"
+#import "MediatorMain.h"
+#import "CommandMain.h"
+#import "ResponseMain.h"
+#import "DrcorationMain.h"
+#import "StrategyMain.h"
+#import "AdapterMain.h"
+#import "CombineMain.h"
+#import "ObserverMain.h"
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -90,7 +100,30 @@
             iMain = [TemplateMain new];
         }else if (indexPath.row == 4){
             iMain = [BuilderMain new];
+        }else if (indexPath.row == 5){
+            iMain = [DelegateMain new];
+        }else if (indexPath.row == 6){
+            iMain = [PrototypeMain new];
+        }else if (indexPath.row == 7){
+            iMain = [MediatorMain new];
+        }else if (indexPath.row == 8){
+            iMain = [CommandMain new];
+        }else if (indexPath.row == 9){
+            iMain = [ResponseMain new];
+        }else if (indexPath.row == 10){
+            iMain = [DrcorationMain new];
+        }else if (indexPath.row == 11){
+            iMain = [StrategyMain new];
+        }else if (indexPath.row == 12){
+            iMain = [AdapterMain new];
+        }else if (indexPath.row == 13){
+            //迭代器模式
+        }else if (indexPath.row == 14){
+            iMain = [CombineMain new];
+        }else if (indexPath.row == 15){
+            iMain = [ObserverMain new];
         }
+        
         
     }
     
@@ -104,7 +137,7 @@
     if (!_dataArr) {
         _dataArr = @[
                      @[@"单一职责原则",@"里氏替换原则",@"依赖倒置原则",@"接口隔离原则",@"迪米特法则",@"开闭原则"],
-                     @[@"单例模式",@"工厂模式",@"抽象工厂模式",@"模板模式",@"建造者模式"
+                     @[@"单例模式",@"工厂模式",@"抽象工厂模式",@"模板模式",@"建造者模式",@"代理模式",@"原型模式",@"中介者模式",@"命令模式",@"责任链模式",@"装饰模式",@"策略模式",@"适配器模式",@"迭代器模式",@"组合模式",@"观察者模式"
                        ],
                      ];
     }
