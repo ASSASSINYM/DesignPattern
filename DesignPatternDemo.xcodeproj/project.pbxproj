@@ -67,6 +67,46 @@
 		4B6DBE2D2286C047008559EF /* ObserverMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE2C2286C047008559EF /* ObserverMain.m */; };
 		4B6DBE302286C333008559EF /* WangSi.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE2F2286C333008559EF /* WangSi.m */; };
 		4B6DBE332286C3B8008559EF /* LiuSi.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE322286C3B8008559EF /* LiuSi.m */; };
+		4B6DBE3A2286D135008559EF /* LetterProcessImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE392286D135008559EF /* LetterProcessImpl.m */; };
+		4B6DBE3D2286D19C008559EF /* FacadeMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE3C2286D19C008559EF /* FacadeMain.m */; };
+		4B6DBE402286D264008559EF /* ModenPostOffice.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE3F2286D264008559EF /* ModenPostOffice.m */; };
+		4B6DBE432286D361008559EF /* Police.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE422286D361008559EF /* Police.m */; };
+		4B6DBE472286F99D008559EF /* Boy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE462286F99D008559EF /* Boy.m */; };
+		4B6DBE4A2286FA11008559EF /* MemoMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE492286FA11008559EF /* MemoMain.m */; };
+		4B6DBE4D2286FB7E008559EF /* Menento.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE4C2286FB7E008559EF /* Menento.m */; };
+		4B6DBE502286FDE7008559EF /* Caretaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE4F2286FDE7008559EF /* Caretaker.m */; };
+		4B6DBE54228702D0008559EF /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE53228702D0008559EF /* Employee.m */; };
+		4B6DBE57228703F1008559EF /* CommonEmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE56228703F1008559EF /* CommonEmployee.m */; };
+		4B6DBE5A228709E6008559EF /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE59228709E6008559EF /* Manager.m */; };
+		4B6DBE5D22870A26008559EF /* VisitorMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE5C22870A26008559EF /* VisitorMain.m */; };
+		4B6DBE6322871146008559EF /* Visitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE6222871146008559EF /* Visitor.m */; };
+		4B6DBE6A2287AD6F008559EF /* Lift.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE692287AD6F008559EF /* Lift.m */; };
+		4B6DBE6D2287ADE4008559EF /* StateMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE6C2287ADE4008559EF /* StateMain.m */; };
+		4B6DBE702287B261008559EF /* LiftState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE6F2287B261008559EF /* LiftState.m */; };
+		4B6DBE732287B29C008559EF /* StateContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE722287B29C008559EF /* StateContext.m */; };
+		4B6DBE762287B2FA008559EF /* OpenningState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE752287B2FA008559EF /* OpenningState.m */; };
+		4B6DBE792287BA27008559EF /* ClosingState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE782287BA27008559EF /* ClosingState.m */; };
+		4B6DBE7C2288F5E0008559EF /* RunningState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE7B2288F5E0008559EF /* RunningState.m */; };
+		4B6DBE7F2288F638008559EF /* StoppingState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE7E2288F638008559EF /* StoppingState.m */; };
+		4B6DBE832288FD77008559EF /* Expression.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE822288FD77008559EF /* Expression.m */; };
+		4B6DBE862288FDCE008559EF /* VarExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE852288FDCE008559EF /* VarExpression.m */; };
+		4B6DBE892288FE43008559EF /* SymbolExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE882288FE43008559EF /* SymbolExpression.m */; };
+		4B6DBE8C2288FEC8008559EF /* AddExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE8B2288FEC8008559EF /* AddExpression.m */; };
+		4B6DBE8F2288FF63008559EF /* SubExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE8E2288FF63008559EF /* SubExpression.m */; };
+		4B6DBE922288FF80008559EF /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE912288FF80008559EF /* Calculator.m */; };
+		4B6DBE9622892220008559EF /* SignInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE9522892220008559EF /* SignInfo.m */; };
+		4B6DBE9922893F10008559EF /* FlyweightMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE9822893F10008559EF /* FlyweightMain.m */; };
+		4B6DBE9C22893FC8008559EF /* SignInfo4Pool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE9B22893FC8008559EF /* SignInfo4Pool.m */; };
+		4B6DBE9F2289401A008559EF /* SignInfoFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE9E2289401A008559EF /* SignInfoFactory.m */; };
+		4B6DBEA32289468F008559EF /* Crop.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBEA22289468F008559EF /* Crop.m */; };
+		4B6DBEA622894702008559EF /* HouseCrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBEA522894702008559EF /* HouseCrop.m */; };
+		4B6DBEA92289475D008559EF /* ClothesCrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBEA82289475D008559EF /* ClothesCrop.m */; };
+		4B6DBEAC2289479F008559EF /* BridgeMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBEAB2289479F008559EF /* BridgeMain.m */; };
+		4B6DBEAF22894844008559EF /* IPodCrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBEAE22894844008559EF /* IPodCrop.m */; };
+		4B6DBEB22289489C008559EF /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBEB12289489C008559EF /* Product.m */; };
+		4B6DBEB5228948C8008559EF /* House.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBEB4228948C8008559EF /* House.m */; };
+		4B6DBEB82289490F008559EF /* IPod.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBEB72289490F008559EF /* IPod.m */; };
+		4B6DBEBB22894B4C008559EF /* Clothes.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBEBA22894B4C008559EF /* Clothes.m */; };
 		4B8DE4A222858F0A00667D86 /* AbstractMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DE4A122858F0A00667D86 /* AbstractMediator.m */; };
 		4B8DE4A522858FAD00667D86 /* Mediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DE4A422858FAD00667D86 /* Mediator.m */; };
 		4B8DE4A8228598A400667D86 /* AbstractColleague.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DE4A7228598A400667D86 /* AbstractColleague.m */; };
@@ -273,6 +313,89 @@
 		4B6DBE2F2286C333008559EF /* WangSi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WangSi.m; sourceTree = "<group>"; };
 		4B6DBE312286C3B8008559EF /* LiuSi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiuSi.h; sourceTree = "<group>"; };
 		4B6DBE322286C3B8008559EF /* LiuSi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiuSi.m; sourceTree = "<group>"; };
+		4B6DBE352286D0CF008559EF /* ILetterProcess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ILetterProcess.h; sourceTree = "<group>"; };
+		4B6DBE382286D135008559EF /* LetterProcessImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LetterProcessImpl.h; sourceTree = "<group>"; };
+		4B6DBE392286D135008559EF /* LetterProcessImpl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LetterProcessImpl.m; sourceTree = "<group>"; };
+		4B6DBE3B2286D19C008559EF /* FacadeMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacadeMain.h; sourceTree = "<group>"; };
+		4B6DBE3C2286D19C008559EF /* FacadeMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacadeMain.m; sourceTree = "<group>"; };
+		4B6DBE3E2286D264008559EF /* ModenPostOffice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModenPostOffice.h; sourceTree = "<group>"; };
+		4B6DBE3F2286D264008559EF /* ModenPostOffice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModenPostOffice.m; sourceTree = "<group>"; };
+		4B6DBE412286D361008559EF /* Police.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Police.h; sourceTree = "<group>"; };
+		4B6DBE422286D361008559EF /* Police.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Police.m; sourceTree = "<group>"; };
+		4B6DBE452286F99D008559EF /* Boy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Boy.h; sourceTree = "<group>"; };
+		4B6DBE462286F99D008559EF /* Boy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Boy.m; sourceTree = "<group>"; };
+		4B6DBE482286FA11008559EF /* MemoMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoMain.h; sourceTree = "<group>"; };
+		4B6DBE492286FA11008559EF /* MemoMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoMain.m; sourceTree = "<group>"; };
+		4B6DBE4B2286FB7E008559EF /* Menento.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Menento.h; sourceTree = "<group>"; };
+		4B6DBE4C2286FB7E008559EF /* Menento.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Menento.m; sourceTree = "<group>"; };
+		4B6DBE4E2286FDE7008559EF /* Caretaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Caretaker.h; sourceTree = "<group>"; };
+		4B6DBE4F2286FDE7008559EF /* Caretaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Caretaker.m; sourceTree = "<group>"; };
+		4B6DBE52228702D0008559EF /* Employee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		4B6DBE53228702D0008559EF /* Employee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		4B6DBE55228703F1008559EF /* CommonEmployee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonEmployee.h; sourceTree = "<group>"; };
+		4B6DBE56228703F1008559EF /* CommonEmployee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonEmployee.m; sourceTree = "<group>"; };
+		4B6DBE58228709E6008559EF /* Manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
+		4B6DBE59228709E6008559EF /* Manager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
+		4B6DBE5B22870A26008559EF /* VisitorMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VisitorMain.h; sourceTree = "<group>"; };
+		4B6DBE5C22870A26008559EF /* VisitorMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisitorMain.m; sourceTree = "<group>"; };
+		4B6DBE5E228710A3008559EF /* IVisitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVisitor.h; sourceTree = "<group>"; };
+		4B6DBE6122871146008559EF /* Visitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Visitor.h; sourceTree = "<group>"; };
+		4B6DBE6222871146008559EF /* Visitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Visitor.m; sourceTree = "<group>"; };
+		4B6DBE652287ACE6008559EF /* ILift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ILift.h; sourceTree = "<group>"; };
+		4B6DBE682287AD6F008559EF /* Lift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lift.h; sourceTree = "<group>"; };
+		4B6DBE692287AD6F008559EF /* Lift.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lift.m; sourceTree = "<group>"; };
+		4B6DBE6B2287ADE4008559EF /* StateMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateMain.h; sourceTree = "<group>"; };
+		4B6DBE6C2287ADE4008559EF /* StateMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateMain.m; sourceTree = "<group>"; };
+		4B6DBE6E2287B261008559EF /* LiftState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiftState.h; sourceTree = "<group>"; };
+		4B6DBE6F2287B261008559EF /* LiftState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiftState.m; sourceTree = "<group>"; };
+		4B6DBE712287B29C008559EF /* StateContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateContext.h; sourceTree = "<group>"; };
+		4B6DBE722287B29C008559EF /* StateContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateContext.m; sourceTree = "<group>"; };
+		4B6DBE742287B2FA008559EF /* OpenningState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenningState.h; sourceTree = "<group>"; };
+		4B6DBE752287B2FA008559EF /* OpenningState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenningState.m; sourceTree = "<group>"; };
+		4B6DBE772287BA27008559EF /* ClosingState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClosingState.h; sourceTree = "<group>"; };
+		4B6DBE782287BA27008559EF /* ClosingState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClosingState.m; sourceTree = "<group>"; };
+		4B6DBE7A2288F5E0008559EF /* RunningState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunningState.h; sourceTree = "<group>"; };
+		4B6DBE7B2288F5E0008559EF /* RunningState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunningState.m; sourceTree = "<group>"; };
+		4B6DBE7D2288F638008559EF /* StoppingState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StoppingState.h; sourceTree = "<group>"; };
+		4B6DBE7E2288F638008559EF /* StoppingState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoppingState.m; sourceTree = "<group>"; };
+		4B6DBE812288FD77008559EF /* Expression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Expression.h; sourceTree = "<group>"; };
+		4B6DBE822288FD77008559EF /* Expression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Expression.m; sourceTree = "<group>"; };
+		4B6DBE842288FDCE008559EF /* VarExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VarExpression.h; sourceTree = "<group>"; };
+		4B6DBE852288FDCE008559EF /* VarExpression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VarExpression.m; sourceTree = "<group>"; };
+		4B6DBE872288FE43008559EF /* SymbolExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SymbolExpression.h; sourceTree = "<group>"; };
+		4B6DBE882288FE43008559EF /* SymbolExpression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SymbolExpression.m; sourceTree = "<group>"; };
+		4B6DBE8A2288FEC8008559EF /* AddExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddExpression.h; sourceTree = "<group>"; };
+		4B6DBE8B2288FEC8008559EF /* AddExpression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddExpression.m; sourceTree = "<group>"; };
+		4B6DBE8D2288FF63008559EF /* SubExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubExpression.h; sourceTree = "<group>"; };
+		4B6DBE8E2288FF63008559EF /* SubExpression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubExpression.m; sourceTree = "<group>"; };
+		4B6DBE902288FF80008559EF /* Calculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		4B6DBE912288FF80008559EF /* Calculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		4B6DBE9422892220008559EF /* SignInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignInfo.h; sourceTree = "<group>"; };
+		4B6DBE9522892220008559EF /* SignInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignInfo.m; sourceTree = "<group>"; };
+		4B6DBE9722893F10008559EF /* FlyweightMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlyweightMain.h; sourceTree = "<group>"; };
+		4B6DBE9822893F10008559EF /* FlyweightMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyweightMain.m; sourceTree = "<group>"; };
+		4B6DBE9A22893FC8008559EF /* SignInfo4Pool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignInfo4Pool.h; sourceTree = "<group>"; };
+		4B6DBE9B22893FC8008559EF /* SignInfo4Pool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignInfo4Pool.m; sourceTree = "<group>"; };
+		4B6DBE9D2289401A008559EF /* SignInfoFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignInfoFactory.h; sourceTree = "<group>"; };
+		4B6DBE9E2289401A008559EF /* SignInfoFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignInfoFactory.m; sourceTree = "<group>"; };
+		4B6DBEA12289468F008559EF /* Crop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Crop.h; sourceTree = "<group>"; };
+		4B6DBEA22289468F008559EF /* Crop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Crop.m; sourceTree = "<group>"; };
+		4B6DBEA422894702008559EF /* HouseCrop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HouseCrop.h; sourceTree = "<group>"; };
+		4B6DBEA522894702008559EF /* HouseCrop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HouseCrop.m; sourceTree = "<group>"; };
+		4B6DBEA72289475D008559EF /* ClothesCrop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClothesCrop.h; sourceTree = "<group>"; };
+		4B6DBEA82289475D008559EF /* ClothesCrop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClothesCrop.m; sourceTree = "<group>"; };
+		4B6DBEAA2289479F008559EF /* BridgeMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeMain.h; sourceTree = "<group>"; };
+		4B6DBEAB2289479F008559EF /* BridgeMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BridgeMain.m; sourceTree = "<group>"; };
+		4B6DBEAD22894844008559EF /* IPodCrop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPodCrop.h; sourceTree = "<group>"; };
+		4B6DBEAE22894844008559EF /* IPodCrop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPodCrop.m; sourceTree = "<group>"; };
+		4B6DBEB02289489B008559EF /* Product.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		4B6DBEB12289489C008559EF /* Product.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		4B6DBEB3228948C8008559EF /* House.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = House.h; sourceTree = "<group>"; };
+		4B6DBEB4228948C8008559EF /* House.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = House.m; sourceTree = "<group>"; };
+		4B6DBEB62289490F008559EF /* IPod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPod.h; sourceTree = "<group>"; };
+		4B6DBEB72289490F008559EF /* IPod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPod.m; sourceTree = "<group>"; };
+		4B6DBEB922894B4C008559EF /* Clothes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Clothes.h; sourceTree = "<group>"; };
+		4B6DBEBA22894B4C008559EF /* Clothes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Clothes.m; sourceTree = "<group>"; };
 		4B8DE4A022858F0A00667D86 /* AbstractMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractMediator.h; sourceTree = "<group>"; };
 		4B8DE4A122858F0A00667D86 /* AbstractMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractMediator.m; sourceTree = "<group>"; };
 		4B8DE4A322858FAD00667D86 /* Mediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mediator.h; sourceTree = "<group>"; };
@@ -543,6 +666,13 @@
 				4B6DBDFE2286ABE3008559EF /* Adapter */,
 				4B6DBE112286B63E008559EF /* Combine */,
 				4B6DBE212286BD64008559EF /* Observer */,
+				4B6DBE342286D09C008559EF /* Facade */,
+				4B6DBE442286F989008559EF /* Memo */,
+				4B6DBE51228702A3008559EF /* Visitor */,
+				4B6DBE642287ACA2008559EF /* State */,
+				4B6DBE802288FD59008559EF /* Interpreter */,
+				4B6DBE93228921BC008559EF /* Flyweight */,
+				4B6DBEA02289467B008559EF /* Bridge */,
 			);
 			path = Pattern;
 			sourceTree = "<group>";
@@ -731,6 +861,138 @@
 				4B6DBE2C2286C047008559EF /* ObserverMain.m */,
 			);
 			path = Observer;
+			sourceTree = "<group>";
+		};
+		4B6DBE342286D09C008559EF /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				4B6DBE352286D0CF008559EF /* ILetterProcess.h */,
+				4B6DBE382286D135008559EF /* LetterProcessImpl.h */,
+				4B6DBE392286D135008559EF /* LetterProcessImpl.m */,
+				4B6DBE3B2286D19C008559EF /* FacadeMain.h */,
+				4B6DBE3C2286D19C008559EF /* FacadeMain.m */,
+				4B6DBE3E2286D264008559EF /* ModenPostOffice.h */,
+				4B6DBE3F2286D264008559EF /* ModenPostOffice.m */,
+				4B6DBE412286D361008559EF /* Police.h */,
+				4B6DBE422286D361008559EF /* Police.m */,
+			);
+			path = Facade;
+			sourceTree = "<group>";
+		};
+		4B6DBE442286F989008559EF /* Memo */ = {
+			isa = PBXGroup;
+			children = (
+				4B6DBE452286F99D008559EF /* Boy.h */,
+				4B6DBE462286F99D008559EF /* Boy.m */,
+				4B6DBE482286FA11008559EF /* MemoMain.h */,
+				4B6DBE492286FA11008559EF /* MemoMain.m */,
+				4B6DBE4B2286FB7E008559EF /* Menento.h */,
+				4B6DBE4C2286FB7E008559EF /* Menento.m */,
+				4B6DBE4E2286FDE7008559EF /* Caretaker.h */,
+				4B6DBE4F2286FDE7008559EF /* Caretaker.m */,
+			);
+			path = Memo;
+			sourceTree = "<group>";
+		};
+		4B6DBE51228702A3008559EF /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+				4B6DBE52228702D0008559EF /* Employee.h */,
+				4B6DBE53228702D0008559EF /* Employee.m */,
+				4B6DBE55228703F1008559EF /* CommonEmployee.h */,
+				4B6DBE56228703F1008559EF /* CommonEmployee.m */,
+				4B6DBE58228709E6008559EF /* Manager.h */,
+				4B6DBE59228709E6008559EF /* Manager.m */,
+				4B6DBE5B22870A26008559EF /* VisitorMain.h */,
+				4B6DBE5C22870A26008559EF /* VisitorMain.m */,
+				4B6DBE5E228710A3008559EF /* IVisitor.h */,
+				4B6DBE6122871146008559EF /* Visitor.h */,
+				4B6DBE6222871146008559EF /* Visitor.m */,
+			);
+			path = Visitor;
+			sourceTree = "<group>";
+		};
+		4B6DBE642287ACA2008559EF /* State */ = {
+			isa = PBXGroup;
+			children = (
+				4B6DBE652287ACE6008559EF /* ILift.h */,
+				4B6DBE682287AD6F008559EF /* Lift.h */,
+				4B6DBE692287AD6F008559EF /* Lift.m */,
+				4B6DBE6B2287ADE4008559EF /* StateMain.h */,
+				4B6DBE6C2287ADE4008559EF /* StateMain.m */,
+				4B6DBE6E2287B261008559EF /* LiftState.h */,
+				4B6DBE6F2287B261008559EF /* LiftState.m */,
+				4B6DBE712287B29C008559EF /* StateContext.h */,
+				4B6DBE722287B29C008559EF /* StateContext.m */,
+				4B6DBE742287B2FA008559EF /* OpenningState.h */,
+				4B6DBE752287B2FA008559EF /* OpenningState.m */,
+				4B6DBE772287BA27008559EF /* ClosingState.h */,
+				4B6DBE782287BA27008559EF /* ClosingState.m */,
+				4B6DBE7A2288F5E0008559EF /* RunningState.h */,
+				4B6DBE7B2288F5E0008559EF /* RunningState.m */,
+				4B6DBE7D2288F638008559EF /* StoppingState.h */,
+				4B6DBE7E2288F638008559EF /* StoppingState.m */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		4B6DBE802288FD59008559EF /* Interpreter */ = {
+			isa = PBXGroup;
+			children = (
+				4B6DBE812288FD77008559EF /* Expression.h */,
+				4B6DBE822288FD77008559EF /* Expression.m */,
+				4B6DBE842288FDCE008559EF /* VarExpression.h */,
+				4B6DBE852288FDCE008559EF /* VarExpression.m */,
+				4B6DBE872288FE43008559EF /* SymbolExpression.h */,
+				4B6DBE882288FE43008559EF /* SymbolExpression.m */,
+				4B6DBE8A2288FEC8008559EF /* AddExpression.h */,
+				4B6DBE8B2288FEC8008559EF /* AddExpression.m */,
+				4B6DBE8D2288FF63008559EF /* SubExpression.h */,
+				4B6DBE8E2288FF63008559EF /* SubExpression.m */,
+				4B6DBE902288FF80008559EF /* Calculator.h */,
+				4B6DBE912288FF80008559EF /* Calculator.m */,
+			);
+			path = Interpreter;
+			sourceTree = "<group>";
+		};
+		4B6DBE93228921BC008559EF /* Flyweight */ = {
+			isa = PBXGroup;
+			children = (
+				4B6DBE9422892220008559EF /* SignInfo.h */,
+				4B6DBE9522892220008559EF /* SignInfo.m */,
+				4B6DBE9722893F10008559EF /* FlyweightMain.h */,
+				4B6DBE9822893F10008559EF /* FlyweightMain.m */,
+				4B6DBE9A22893FC8008559EF /* SignInfo4Pool.h */,
+				4B6DBE9B22893FC8008559EF /* SignInfo4Pool.m */,
+				4B6DBE9D2289401A008559EF /* SignInfoFactory.h */,
+				4B6DBE9E2289401A008559EF /* SignInfoFactory.m */,
+			);
+			path = Flyweight;
+			sourceTree = "<group>";
+		};
+		4B6DBEA02289467B008559EF /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				4B6DBEA12289468F008559EF /* Crop.h */,
+				4B6DBEA22289468F008559EF /* Crop.m */,
+				4B6DBEA422894702008559EF /* HouseCrop.h */,
+				4B6DBEA522894702008559EF /* HouseCrop.m */,
+				4B6DBEA72289475D008559EF /* ClothesCrop.h */,
+				4B6DBEA82289475D008559EF /* ClothesCrop.m */,
+				4B6DBEAD22894844008559EF /* IPodCrop.h */,
+				4B6DBEAE22894844008559EF /* IPodCrop.m */,
+				4B6DBEAA2289479F008559EF /* BridgeMain.h */,
+				4B6DBEAB2289479F008559EF /* BridgeMain.m */,
+				4B6DBEB02289489B008559EF /* Product.h */,
+				4B6DBEB12289489C008559EF /* Product.m */,
+				4B6DBEB3228948C8008559EF /* House.h */,
+				4B6DBEB4228948C8008559EF /* House.m */,
+				4B6DBEB62289490F008559EF /* IPod.h */,
+				4B6DBEB72289490F008559EF /* IPod.m */,
+				4B6DBEB922894B4C008559EF /* Clothes.h */,
+				4B6DBEBA22894B4C008559EF /* Clothes.m */,
+			);
+			path = Bridge;
 			sourceTree = "<group>";
 		};
 		4BD8D9CE2283ABF700B79C31 /* Base */ = {
@@ -1015,27 +1277,47 @@
 			files = (
 				4BD8DA4122844B7C00B79C31 /* AbstractBlackHuman.m in Sources */,
 				4BD8DA5F228454B100B79C31 /* MaleFactory.m in Sources */,
+				4B6DBE9622892220008559EF /* SignInfo.m in Sources */,
 				4B6DBDF72286A843008559EF /* BlockEnemy.m in Sources */,
 				4BD8DA922285075D00B79C31 /* DelegateMain.m in Sources */,
+				4B6DBE732287B29C008559EF /* StateContext.m in Sources */,
+				4B6DBE402286D264008559EF /* ModenPostOffice.m in Sources */,
 				4BD8DA6922845C8700B79C31 /* HummerH1Model.m in Sources */,
 				4B6DBE172286B729008559EF /* Root.m in Sources */,
 				4BD8DA6C22845D0C00B79C31 /* HummerH2Model.m in Sources */,
+				4B6DBE502286FDE7008559EF /* Caretaker.m in Sources */,
 				4BD8DA5C2284542500B79C31 /* MaleWhiteHuman.m in Sources */,
+				4B6DBE892288FE43008559EF /* SymbolExpression.m in Sources */,
 				4B6DBDBC228655E4008559EF /* Invoker.m in Sources */,
+				4B6DBE3A2286D135008559EF /* LetterProcessImpl.m in Sources */,
+				4B6DBE862288FDCE008559EF /* VarExpression.m in Sources */,
 				4BD8D9D72283AEA600B79C31 /* Teacher.m in Sources */,
 				4BD8DA62228454FA00B79C31 /* NvWaMain2.m in Sources */,
+				4B6DBE6D2287ADE4008559EF /* StateMain.m in Sources */,
 				4BD8DA31228442EE00B79C31 /* WhiteHuman.m in Sources */,
+				4B6DBE4D2286FB7E008559EF /* Menento.m in Sources */,
+				4B6DBE5D22870A26008559EF /* VisitorMain.m in Sources */,
 				4BD8D9E92283B34200B79C31 /* LKPMain2.m in Sources */,
+				4B6DBE8F2288FF63008559EF /* SubExpression.m in Sources */,
+				4B6DBE6322871146008559EF /* Visitor.m in Sources */,
 				4B6694BC2285865000F17A56 /* Purchase.m in Sources */,
+				4B6DBEB22289489C008559EF /* Product.m in Sources */,
 				4B46C6992282E9BB00A5FA1A /* BMW.m in Sources */,
 				4BD8DA56228453D700B79C31 /* MaleBlackHuman.m in Sources */,
 				4BD8DA252284406500B79C31 /* ToyGun.m in Sources */,
+				4B6DBE762287B2FA008559EF /* OpenningState.m in Sources */,
 				4B6DBDAD22865289008559EF /* CodeGroup.m in Sources */,
+				4B6DBEB82289490F008559EF /* IPod.m in Sources */,
+				4B6DBE7F2288F638008559EF /* StoppingState.m in Sources */,
+				4B6DBE5A228709E6008559EF /* Manager.m in Sources */,
 				4BD8DA002283F64F00B79C31 /* PettyGirl.m in Sources */,
 				4BD8DA372284439100B79C31 /* HumanFactory.m in Sources */,
+				4B6DBE4A2286FA11008559EF /* MemoMain.m in Sources */,
 				4B46C6962282E8E000A5FA1A /* Benz.m in Sources */,
 				4BD8D9E62283B2C500B79C31 /* InstallSoftware.m in Sources */,
 				4BD8DA85228470AF00B79C31 /* BMWBuilder.m in Sources */,
+				4B6DBE832288FD77008559EF /* Expression.m in Sources */,
+				4B6DBE57228703F1008559EF /* CommonEmployee.m in Sources */,
 				4BD8D9C722831FB900B79C31 /* OffNovelBook.m in Sources */,
 				4BD8D9E32283B21600B79C31 /* Wizard.m in Sources */,
 				4B6DBE302286C333008559EF /* WangSi.m in Sources */,
@@ -1045,10 +1327,13 @@
 				4B6DBDB622865519008559EF /* AddRequirementCommand.m in Sources */,
 				4B6DBE202286B9D5008559EF /* CombineMain.m in Sources */,
 				4B6694C5228589E800F17A56 /* MediatorMain.m in Sources */,
+				4B6DBE9922893F10008559EF /* FlyweightMain.m in Sources */,
 				4B6DBE272286BE18008559EF /* HanFeiZi.m in Sources */,
+				4B6DBE792287BA27008559EF /* ClosingState.m in Sources */,
 				4BD8DA3E22844B4500B79C31 /* AbstractWhiteHuman.m in Sources */,
 				4BD8DA53228453A200B79C31 /* FemaleBlackHuman.m in Sources */,
 				4B6DBDCA22865C2B008559EF /* Husband.m in Sources */,
+				4B6DBE54228702D0008559EF /* Employee.m in Sources */,
 				4BD8DA882285015500B79C31 /* Director.m in Sources */,
 				4B6DBE1D2286B94A008559EF /* Leaf.m in Sources */,
 				4BD8DA7C22846D2C00B79C31 /* BuilderMain.m in Sources */,
@@ -1056,11 +1341,13 @@
 				4B46C65B2282E3D400A5FA1A /* ViewController.m in Sources */,
 				4B8DE4A522858FAD00667D86 /* Mediator.m in Sources */,
 				4BD8DA8F228506A900B79C31 /* GamePlayer.m in Sources */,
+				4B6DBE702287B261008559EF /* LiftState.m in Sources */,
 				4B6694B822857EA200F17A56 /* PrototypeMain.m in Sources */,
 				4B6DBDCD22865C64008559EF /* Son.m in Sources */,
 				4BD8DA1922843E8600B79C31 /* Rifle.m in Sources */,
 				4BD8DA2B2284425C00B79C31 /* BlackHuman.m in Sources */,
 				4B6DBDAA2286524B008559EF /* PageGroup.m in Sources */,
+				4B6DBE922288FF80008559EF /* Calculator.m in Sources */,
 				4BD8DA6622845C4200B79C31 /* HummerModel.m in Sources */,
 				4B6DBDF12286A7B5008559EF /* BackDoor.m in Sources */,
 				4B6DBE1A2286B8D6008559EF /* Branch.m in Sources */,
@@ -1076,14 +1363,19 @@
 				4B6DBDB92286556F008559EF /* DeletePageCommand.m in Sources */,
 				4BD8D9E02283B0A300B79C31 /* LKPMain.m in Sources */,
 				4B6DBDFA2286A884008559EF /* Context.m in Sources */,
+				4B6DBE3D2286D19C008559EF /* FacadeMain.m in Sources */,
+				4B6DBE7C2288F5E0008559EF /* RunningState.m in Sources */,
 				4BD8DA59228453FC00B79C31 /* FemaleWhiteHuman.m in Sources */,
+				4B6DBE8C2288FEC8008559EF /* AddExpression.m in Sources */,
 				4B6DBDE1228692CE008559EF /* SugarFouthGradeSchoolReport.m in Sources */,
 				4BD8DA7322846ADA00B79C31 /* CarModel.m in Sources */,
+				4B6DBEBB22894B4C008559EF /* Clothes.m in Sources */,
 				4B46C6582282E3D400A5FA1A /* AppDelegate.m in Sources */,
 				4BD8DA7F22846FEF00B79C31 /* CarBuilder.m in Sources */,
 				4BD8D9DA2283AECE00B79C31 /* GroupLeader.m in Sources */,
 				4B6DBDE4228693B8008559EF /* Decorator.m in Sources */,
 				4BD8DA062283F91700B79C31 /* Searcher.m in Sources */,
+				4B6DBEAF22894844008559EF /* IPodCrop.m in Sources */,
 				4BD8DA6F22845DD300B79C31 /* TemplateMain.m in Sources */,
 				4B6DBE0D2286AECE008559EF /* OuterUser.m in Sources */,
 				4B6DBDB022865306008559EF /* CommandMain.m in Sources */,
@@ -1093,6 +1385,7 @@
 				4BD8D9CD228328CE00B79C31 /* ComputerBook.m in Sources */,
 				4B6DBE102286B01D008559EF /* OuterUserInfo.m in Sources */,
 				4B6DBDD022865CB8008559EF /* ResponseMain.m in Sources */,
+				4B6DBEB5228948C8008559EF /* House.m in Sources */,
 				4BD8DA822284704400B79C31 /* BenzBuilder.m in Sources */,
 				4BD8DA7622846C4B00B79C31 /* BenzModel.m in Sources */,
 				4B6DBDC722865BAE008559EF /* Father.m in Sources */,
@@ -1104,6 +1397,10 @@
 				4B6DBE332286C3B8008559EF /* LiuSi.m in Sources */,
 				4B6DBE2D2286C047008559EF /* ObserverMain.m in Sources */,
 				4B6DBDA42286516C008559EF /* Group.m in Sources */,
+				4B6DBEA622894702008559EF /* HouseCrop.m in Sources */,
+				4B6DBEA32289468F008559EF /* Crop.m in Sources */,
+				4B6DBE9C22893FC8008559EF /* SignInfo4Pool.m in Sources */,
+				4B6DBE6A2287AD6F008559EF /* Lift.m in Sources */,
 				4BD8DA1F22843ECE00B79C31 /* Solidier.m in Sources */,
 				4BD8DA4A22844C3600B79C31 /* MaleYellowHuman.m in Sources */,
 				4B6DBE072286ADB8008559EF /* UserInfo.m in Sources */,
@@ -1112,18 +1409,23 @@
 				4B6DBDD82286917C008559EF /* SchoolReport.m in Sources */,
 				4BD8D9D32283AC7000B79C31 /* DependencyInversionMain.m in Sources */,
 				4B6DBDD322865E89008559EF /* Handler.m in Sources */,
+				4B6DBE9F2289401A008559EF /* SignInfoFactory.m in Sources */,
 				4B6694C22285873500F17A56 /* Sale.m in Sources */,
 				4BD8DA342284433100B79C31 /* AbstractHumanFactory.m in Sources */,
 				4B6DBDDB228691B9008559EF /* FouthGradeSchoolReport.m in Sources */,
+				4B6DBE472286F99D008559EF /* Boy.m in Sources */,
 				4B8DE4A8228598A400667D86 /* AbstractColleague.m in Sources */,
 				4B6DBDEA228694D0008559EF /* SortDecorator.m in Sources */,
+				4B6DBE432286D361008559EF /* Police.m in Sources */,
 				4B6DBDB322865458008559EF /* Command.m in Sources */,
+				4B6DBEA92289475D008559EF /* ClothesCrop.m in Sources */,
 				4B46C6932282E8BC00A5FA1A /* Driver.m in Sources */,
 				4BD8DA1322843D4E00B79C31 /* AbstractGun.m in Sources */,
 				4B6DBDDE22869234008559EF /* DrcorationMain.m in Sources */,
 				4BD8DA032283F82600B79C31 /* AbstractSearcher.m in Sources */,
 				4B6DBE2A2286BF15008559EF /* Lisi.m in Sources */,
 				4B6DBDFD2286A932008559EF /* StrategyMain.m in Sources */,
+				4B6DBEAC2289479F008559EF /* BridgeMain.m in Sources */,
 				4BD8D9DD2283AEEC00B79C31 /* Girl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

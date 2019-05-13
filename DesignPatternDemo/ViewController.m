@@ -28,6 +28,12 @@
 #import "AdapterMain.h"
 #import "CombineMain.h"
 #import "ObserverMain.h"
+#import "FacadeMain.h"
+#import "MemoMain.h"
+#import "VisitorMain.h"
+#import "StateMain.h"
+#import "FlyweightMain.h"
+#import "BridgeMain.h"
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -122,6 +128,20 @@
             iMain = [CombineMain new];
         }else if (indexPath.row == 15){
             iMain = [ObserverMain new];
+        }else if (indexPath.row == 16){
+            iMain = [FacadeMain new];
+        }else if (indexPath.row == 17){
+            iMain = [MemoMain new];
+        }else if (indexPath.row == 18){
+            iMain = [VisitorMain new];
+        }else if (indexPath.row == 19){
+            iMain = [StateMain new];
+        }else if (indexPath.row == 20){
+            //解释器模式:在实际的系统开发中使用得非常少，因为它会引起效率、性能以及维护等问题
+        }else if (indexPath.row == 21){
+            iMain = [FlyweightMain new];
+        }else if (indexPath.row == 22){
+            iMain = [BridgeMain new];
         }
         
         
@@ -137,7 +157,7 @@
     if (!_dataArr) {
         _dataArr = @[
                      @[@"单一职责原则",@"里氏替换原则",@"依赖倒置原则",@"接口隔离原则",@"迪米特法则",@"开闭原则"],
-                     @[@"单例模式",@"工厂模式",@"抽象工厂模式",@"模板模式",@"建造者模式",@"代理模式",@"原型模式",@"中介者模式",@"命令模式",@"责任链模式",@"装饰模式",@"策略模式",@"适配器模式",@"迭代器模式",@"组合模式",@"观察者模式"
+                     @[@"单例模式",@"工厂模式",@"抽象工厂模式",@"模板模式",@"建造者模式",@"代理模式",@"原型模式",@"中介者模式",@"命令模式",@"责任链模式",@"装饰模式",@"策略模式",@"适配器模式",@"迭代器模式",@"组合模式",@"观察者模式",@"门面模式",@"备忘录模式",@"访问者模式",@"状态模式",@"解释器模式",@"享元模式",@"桥梁模式"
                        ],
                      ];
     }
