@@ -13,6 +13,9 @@ NS_ASSUME_NONNULL_BEGIN
 @protocol ICar <NSObject>
 @required
 - (void)run;
+//用作单元测试
+@optional
+- (NSString *)runUnitTest;
 @end
 
 

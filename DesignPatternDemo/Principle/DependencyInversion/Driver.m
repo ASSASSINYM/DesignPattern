@@ -14,6 +14,8 @@
     [car run];
 }
 
-
+- (NSString *)driveUnitTest:(id<ICar>)car{
+    return [car runUnitTest];
+}
 
 @end

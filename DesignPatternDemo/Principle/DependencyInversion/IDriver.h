@@ -13,6 +13,11 @@ NS_ASSUME_NONNULL_BEGIN
 @protocol IDriver <NSObject>
 @required
 - (void)drive:(id<ICar>)car;
+
+//用作单元测试
+@optional
+- (NSString *)driveUnitTest:(id<ICar>)car;
+
 @end
 
 NS_ASSUME_NONNULL_END

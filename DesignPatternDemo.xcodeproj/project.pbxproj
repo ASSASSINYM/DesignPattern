@@ -110,6 +110,8 @@
 		4B8DE4A222858F0A00667D86 /* AbstractMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DE4A122858F0A00667D86 /* AbstractMediator.m */; };
 		4B8DE4A522858FAD00667D86 /* Mediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DE4A422858FAD00667D86 /* Mediator.m */; };
 		4B8DE4A8228598A400667D86 /* AbstractColleague.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DE4A7228598A400667D86 /* AbstractColleague.m */; };
+		4B98705B228A5C7B00630C23 /* DelegateUITest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B98705A228A5C7B00630C23 /* DelegateUITest.m */; };
+		4B98705D228A5C9F00630C23 /* DelegateUnitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B98705C228A5C9F00630C23 /* DelegateUnitTest.m */; };
 		4BD8D9C722831FB900B79C31 /* OffNovelBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD8D9C622831FB900B79C31 /* OffNovelBook.m */; };
 		4BD8D9CD228328CE00B79C31 /* ComputerBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD8D9CC228328CE00B79C31 /* ComputerBook.m */; };
 		4BD8D9D32283AC7000B79C31 /* DependencyInversionMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD8D9D22283AC7000B79C31 /* DependencyInversionMain.m */; };
@@ -402,6 +404,8 @@
 		4B8DE4A422858FAD00667D86 /* Mediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mediator.m; sourceTree = "<group>"; };
 		4B8DE4A6228598A400667D86 /* AbstractColleague.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractColleague.h; sourceTree = "<group>"; };
 		4B8DE4A7228598A400667D86 /* AbstractColleague.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractColleague.m; sourceTree = "<group>"; };
+		4B98705A228A5C7B00630C23 /* DelegateUITest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegateUITest.m; sourceTree = "<group>"; };
+		4B98705C228A5C9F00630C23 /* DelegateUnitTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegateUnitTest.m; sourceTree = "<group>"; };
 		4BD8D9C522831FB900B79C31 /* OffNovelBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OffNovelBook.h; sourceTree = "<group>"; };
 		4BD8D9C622831FB900B79C31 /* OffNovelBook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OffNovelBook.m; sourceTree = "<group>"; };
 		4BD8D9C82283285400B79C31 /* IComputerBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IComputerBook.h; sourceTree = "<group>"; };
@@ -585,6 +589,8 @@
 		4B46C66E2282E3D500A5FA1A /* DesignPatternDemoTests */ = {
 			isa = PBXGroup;
 			children = (
+				4B98705A228A5C7B00630C23 /* DelegateUITest.m */,
+				4B98705C228A5C9F00630C23 /* DelegateUnitTest.m */,
 				4B46C66F2282E3D500A5FA1A /* DesignPatternDemoTests.m */,
 				4B46C6712282E3D500A5FA1A /* Info.plist */,
 			);
@@ -1434,6 +1440,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B98705B228A5C7B00630C23 /* DelegateUITest.m in Sources */,
+				4B98705D228A5C9F00630C23 /* DelegateUnitTest.m in Sources */,
 				4B46C6702282E3D500A5FA1A /* DesignPatternDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

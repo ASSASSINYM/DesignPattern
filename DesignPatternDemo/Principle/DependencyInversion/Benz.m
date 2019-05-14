@@ -14,4 +14,8 @@
     NSLog(@"奔驰汽车开始运行...");
 }
 
+- (NSString *)runUnitTest{
+    return @"奔驰跑起来了";
+}
+
 @end
