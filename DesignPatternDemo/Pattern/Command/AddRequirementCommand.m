@@ -13,6 +13,8 @@
 - (void)execute{
     [[super rg] find];
     [[super rg] add];
+    [[super pg] add];
+    [[super cg] add];
     [[super rg] plan];
 }
 

@@ -12,7 +12,7 @@
 #import "ClosingState.h"
 
 @implementation StateMain
-//和命令模式相似吗？保留意见，感觉StateContext持有了LiftState,LiftState又持有了StateContext。不会循环引用吗？
+
 - (void)main{
     StateContext * context = [StateContext sharedManager];
     [context setLiftState:context.closingState];

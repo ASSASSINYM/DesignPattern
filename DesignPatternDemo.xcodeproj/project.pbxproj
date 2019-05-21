@@ -80,7 +80,6 @@
 		4B6DBE5A228709E6008559EF /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE59228709E6008559EF /* Manager.m */; };
 		4B6DBE5D22870A26008559EF /* VisitorMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE5C22870A26008559EF /* VisitorMain.m */; };
 		4B6DBE6322871146008559EF /* Visitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE6222871146008559EF /* Visitor.m */; };
-		4B6DBE6A2287AD6F008559EF /* Lift.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE692287AD6F008559EF /* Lift.m */; };
 		4B6DBE6D2287ADE4008559EF /* StateMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE6C2287ADE4008559EF /* StateMain.m */; };
 		4B6DBE702287B261008559EF /* LiftState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE6F2287B261008559EF /* LiftState.m */; };
 		4B6DBE732287B29C008559EF /* StateContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE722287B29C008559EF /* StateContext.m */; };
@@ -343,9 +342,6 @@
 		4B6DBE5E228710A3008559EF /* IVisitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVisitor.h; sourceTree = "<group>"; };
 		4B6DBE6122871146008559EF /* Visitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Visitor.h; sourceTree = "<group>"; };
 		4B6DBE6222871146008559EF /* Visitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Visitor.m; sourceTree = "<group>"; };
-		4B6DBE652287ACE6008559EF /* ILift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ILift.h; sourceTree = "<group>"; };
-		4B6DBE682287AD6F008559EF /* Lift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lift.h; sourceTree = "<group>"; };
-		4B6DBE692287AD6F008559EF /* Lift.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lift.m; sourceTree = "<group>"; };
 		4B6DBE6B2287ADE4008559EF /* StateMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateMain.h; sourceTree = "<group>"; };
 		4B6DBE6C2287ADE4008559EF /* StateMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateMain.m; sourceTree = "<group>"; };
 		4B6DBE6E2287B261008559EF /* LiftState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiftState.h; sourceTree = "<group>"; };
@@ -921,9 +917,6 @@
 		4B6DBE642287ACA2008559EF /* State */ = {
 			isa = PBXGroup;
 			children = (
-				4B6DBE652287ACE6008559EF /* ILift.h */,
-				4B6DBE682287AD6F008559EF /* Lift.h */,
-				4B6DBE692287AD6F008559EF /* Lift.m */,
 				4B6DBE6B2287ADE4008559EF /* StateMain.h */,
 				4B6DBE6C2287ADE4008559EF /* StateMain.m */,
 				4B6DBE6E2287B261008559EF /* LiftState.h */,
@@ -1406,7 +1399,6 @@
 				4B6DBEA622894702008559EF /* HouseCrop.m in Sources */,
 				4B6DBEA32289468F008559EF /* Crop.m in Sources */,
 				4B6DBE9C22893FC8008559EF /* SignInfo4Pool.m in Sources */,
-				4B6DBE6A2287AD6F008559EF /* Lift.m in Sources */,
 				4BD8DA1F22843ECE00B79C31 /* Solidier.m in Sources */,
 				4BD8DA4A22844C3600B79C31 /* MaleYellowHuman.m in Sources */,
 				4B6DBE072286ADB8008559EF /* UserInfo.m in Sources */,

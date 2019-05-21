@@ -16,10 +16,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface StateContext : NSObject
 + (StateContext *)sharedManager;
-@property (nonatomic,strong) OpenningState * openingState;
-@property (nonatomic,strong) ClosingState * closingState;
-@property (nonatomic,strong) RunningState * runningState;
-@property (nonatomic,strong) StoppingState * stoppingState;
+@property (nonatomic,strong,readonly) OpenningState * openingState;
+@property (nonatomic,strong,readonly) ClosingState * closingState;
+@property (nonatomic,strong,readonly) RunningState * runningState;
+@property (nonatomic,strong,readonly) StoppingState * stoppingState;
 @property (nonatomic,strong) LiftState * liftState;
 - (void)open;
 - (void)close;

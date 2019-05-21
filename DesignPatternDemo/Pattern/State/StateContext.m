@@ -29,6 +29,17 @@
     return sharedInstance;
 }
 
+- (instancetype)init{
+    self = [super init];
+    if (self) {
+        _openingState = [OpenningState new];
+        _closingState = [ClosingState new];
+        _runningState = [RunningState new];
+        _stoppingState = [StoppingState new];
+    }
+    return self;
+}
+
 - (void)setLiftState:(LiftState *)liftState{
     _liftState = liftState;
     [_liftState setContext:self];
@@ -48,34 +59,6 @@
 
 - (void)stop{
     [_liftState stop];
-}
-
-- (OpenningState *)openingState{
-    if (!_openingState) {
-        _openingState = [OpenningState new];
-    }
-    return _openingState;
-}
-
-- (ClosingState *)closingState{
-    if (!_closingState) {
-        _closingState = [ClosingState new];
-    }
-    return _closingState;
-}
-
-- (RunningState *)runningState{
-    if (!_runningState) {
-        _runningState = [RunningState new];
-    }
-    return _runningState;
-}
-
-- (StoppingState *)stoppingState{
-    if (!_stoppingState) {
-        _stoppingState = [StoppingState new];
-    }
-    return _stoppingState;
 }
 
 @end
