@@ -165,24 +165,24 @@
             [specalMusicView show];
         }else{
             
-        CMApnsAlertView * apnsAlertView = [[CMApnsAlertView alloc] init];
-        LiveFooterView * footerView = [LiveFooterView createLiveFooterView];
-        SpecalMusicView * specalMusicView = [SpecalMusicView createSpecalView];
-        
-        [apnsAlertView setNext:footerView];
-        [footerView setNext:specalMusicView];
-        
-        AlertViewType type = apnsAlertViewType;
-        
-        if (alertCount%3 == 0) {
-            type = apnsAlertViewType;
-        }else if (alertCount%3 == 1){
-            type = liveFooterViewType;
-        }else if (alertCount%3 == 2){
-            type = specalMusicViewType;
-        }
-        alertCount++;
-        [apnsAlertView handleMessage:[[AlertViewRequest alloc] initWithType:type]];
+            CMApnsAlertView * apnsAlertView = [[CMApnsAlertView alloc] init];
+            LiveFooterView * footerView = [LiveFooterView createLiveFooterView];
+            SpecalMusicView * specalMusicView = [SpecalMusicView createSpecalView];
+            
+            [apnsAlertView setNext:footerView];
+            [footerView setNext:specalMusicView];
+            
+            AlertViewType type = apnsAlertViewType;
+            
+            if (alertCount%3 == 0) {
+                type = apnsAlertViewType;
+            }else if (alertCount%3 == 1){
+                type = liveFooterViewType;
+            }else if (alertCount%3 == 2){
+                type = specalMusicViewType;
+            }
+            alertCount++;
+            [apnsAlertView handleMessage:[[AlertViewRequest alloc] initWithType:type]];
             
         }
     }
