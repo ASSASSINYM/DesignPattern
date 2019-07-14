@@ -27,6 +27,19 @@
     // Use XCTAssert and related functions to verify your tests produce the correct results.
 }
 
+- (void)testDict{
+    NSDictionary * dict = @{
+                            @"a":@"a1",
+                            @"b":@"b1",
+                            @"c":@{
+                                @"aa":@"aa1",
+                                @"bb":@"bb2"
+                            }
+                            };
+    XCTAssertTrue([[dict valueForKeyPath:@"c.aa"] isEqualToString:@"aa1"]);
+    XCTAssertTrue([[dict valueForKeyPath:@"c.bb"] isEqualToString:@"bb2"]);
+}
+
 - (void)testPerformanceExample {
     // This is an example of a performance test case.
     [self measureBlock:^{

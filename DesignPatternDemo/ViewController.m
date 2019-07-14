@@ -35,7 +35,15 @@
 #import "FlyweightMain.h"
 #import "BridgeMain.h"
 
+#import "CMApnsAlertView.h"
+#import "LiveFooterView.h"
+#import "SpecalMusicView.h"
+#import "AlertViewRequest.h"
+
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
+{
+    NSInteger alertCount;
+}
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic,strong) NSArray<NSArray *> * dataArr;
 
@@ -56,7 +64,7 @@
 #pragma mark - tableView
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
-    NSArray * titleSection = @[@"第1章 六大设计原则",@"第2章 23种设计模式"];
+    NSArray * titleSection = @[@"第1章 六大设计原则",@"第2章 23种设计模式",@"第3章 责任链模式实现逐个弹窗"];
     return titleSection[section];
 }
 
@@ -143,8 +151,40 @@
         }else if (indexPath.row == 22){
             iMain = [BridgeMain new];
         }
+    }else if (indexPath.section == 2){
+        if (indexPath.row == 0) {
+            CMApnsAlertView * apnsAlertView = [[CMApnsAlertView alloc] init];
+            [apnsAlertView show];
+        }else if (indexPath.row == 1){
         
+        }else if (indexPath.row == 2){
+            LiveFooterView * footerView = [LiveFooterView createLiveFooterView];
+            [footerView show];
+        }else if (indexPath.row == 3){
+            SpecalMusicView * specalMusicView = [SpecalMusicView createSpecalView];
+            [specalMusicView show];
+        }else{
+            
+        CMApnsAlertView * apnsAlertView = [[CMApnsAlertView alloc] init];
+        LiveFooterView * footerView = [LiveFooterView createLiveFooterView];
+        SpecalMusicView * specalMusicView = [SpecalMusicView createSpecalView];
         
+        [apnsAlertView setNext:footerView];
+        [footerView setNext:specalMusicView];
+        
+        AlertViewType type = apnsAlertViewType;
+        
+        if (alertCount%3 == 0) {
+            type = apnsAlertViewType;
+        }else if (alertCount%3 == 1){
+            type = liveFooterViewType;
+        }else if (alertCount%3 == 2){
+            type = specalMusicViewType;
+        }
+        alertCount++;
+        [apnsAlertView handleMessage:[[AlertViewRequest alloc] initWithType:type]];
+            
+        }
     }
     
     if (iMain) {
@@ -159,6 +199,7 @@
                      @[@"单一职责原则",@"里氏替换原则",@"依赖倒置原则",@"接口隔离原则",@"迪米特法则",@"开闭原则"],
                      @[@"单例模式",@"工厂模式",@"抽象工厂模式",@"模板模式",@"建造者模式",@"代理模式",@"原型模式",@"中介者模式",@"命令模式",@"责任链模式",@"装饰模式",@"策略模式",@"适配器模式",@"迭代器模式",@"组合模式",@"观察者模式",@"门面模式",@"备忘录模式",@"访问者模式",@"状态模式",@"解释器模式",@"享元模式",@"桥梁模式"
                        ],
+                     @[@"弹出推送通知框",@"评分框",@"直播底部框",@"音乐框",@"责任链模式实现逐个弹窗"]
                      ];
     }
     return _dataArr;
