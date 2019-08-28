@@ -14,8 +14,7 @@
 @implementation StateMain
 
 - (void)main{
-    StateContext * context = [StateContext sharedManager];
-    [context setLiftState:context.closingState];
+    StateContext * context = [StateContext new];
     [context open];
     [context close];
     [context run];

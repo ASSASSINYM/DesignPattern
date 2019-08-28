@@ -215,6 +215,10 @@
 		4BD8DA8F228506A900B79C31 /* GamePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD8DA8E228506A900B79C31 /* GamePlayer.m */; };
 		4BD8DA922285075D00B79C31 /* DelegateMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD8DA912285075D00B79C31 /* DelegateMain.m */; };
 		4BD8DA952285081500B79C31 /* GamePlayerProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD8DA942285081500B79C31 /* GamePlayerProxy.m */; };
+		760C49ED22E09D900089CE9C /* MemoryCount.m in Sources */ = {isa = PBXBuildFile; fileRef = 760C49EC22E09D900089CE9C /* MemoryCount.m */; };
+		760C49F022E0AE840089CE9C /* Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 760C49EF22E0AE840089CE9C /* Block.m */; };
+		760C49F322E0BAE90089CE9C /* MyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 760C49F222E0BAE90089CE9C /* MyObject.m */; };
+		761276DA22F5108700917BEF /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 761276D922F5108600917BEF /* ViewController2.m */; };
 		76AC418822DB17AB004312B7 /* CMApnsAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC418622DB17AA004312B7 /* CMApnsAlertView.m */; };
 		76AC41DD22DB3013004312B7 /* SpecalMusicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC41DB22DB3013004312B7 /* SpecalMusicView.m */; };
 		76AC41DE22DB3013004312B7 /* SpecalMusicView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76AC41DC22DB3013004312B7 /* SpecalMusicView.xib */; };
@@ -627,6 +631,14 @@
 		4DC7E07A664F2A67B5CE2926 /* Pods-DesignPatternDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignPatternDemo.release.xcconfig"; path = "Target Support Files/Pods-DesignPatternDemo/Pods-DesignPatternDemo.release.xcconfig"; sourceTree = "<group>"; };
 		62D76F30719094CC7E78A742 /* Pods-DesignPatternDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignPatternDemo.debug.xcconfig"; path = "Target Support Files/Pods-DesignPatternDemo/Pods-DesignPatternDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		71C8FD1781E6C7E44025747E /* libPods-DesignPatternDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DesignPatternDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		760C49EB22E09D900089CE9C /* MemoryCount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoryCount.h; sourceTree = "<group>"; };
+		760C49EC22E09D900089CE9C /* MemoryCount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryCount.m; sourceTree = "<group>"; };
+		760C49EE22E0AE840089CE9C /* Block.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Block.h; sourceTree = "<group>"; };
+		760C49EF22E0AE840089CE9C /* Block.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Block.m; sourceTree = "<group>"; };
+		760C49F122E0BAE90089CE9C /* MyObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyObject.h; sourceTree = "<group>"; };
+		760C49F222E0BAE90089CE9C /* MyObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyObject.m; sourceTree = "<group>"; };
+		761276D822F5108600917BEF /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		761276D922F5108600917BEF /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 		76AC418622DB17AA004312B7 /* CMApnsAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMApnsAlertView.m; sourceTree = "<group>"; };
 		76AC418722DB17AB004312B7 /* CMApnsAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMApnsAlertView.h; sourceTree = "<group>"; };
 		76AC418922DB1894004312B7 /* Headers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Headers.h; sourceTree = "<group>"; };
@@ -699,11 +711,19 @@
 				4BD8D9CE2283ABF700B79C31 /* Base */,
 				4B46C6902282E89000A5FA1A /* Pattern */,
 				4B46C68F2282E87C00A5FA1A /* Principle */,
+				76AC41F222DB7DCC004312B7 /* PatternApply */,
 				4B46C6562282E3D400A5FA1A /* AppDelegate.h */,
 				4B46C6572282E3D400A5FA1A /* AppDelegate.m */,
 				4B46C6592282E3D400A5FA1A /* ViewController.h */,
 				4B46C65A2282E3D400A5FA1A /* ViewController.m */,
-				76AC41F222DB7DCC004312B7 /* PatternApply */,
+				761276D822F5108600917BEF /* ViewController2.h */,
+				761276D922F5108600917BEF /* ViewController2.m */,
+				760C49EB22E09D900089CE9C /* MemoryCount.h */,
+				760C49EC22E09D900089CE9C /* MemoryCount.m */,
+				760C49EE22E0AE840089CE9C /* Block.h */,
+				760C49EF22E0AE840089CE9C /* Block.m */,
+				760C49F122E0BAE90089CE9C /* MyObject.h */,
+				760C49F222E0BAE90089CE9C /* MyObject.m */,
 				4B46C65C2282E3D400A5FA1A /* Main.storyboard */,
 				4B46C65F2282E3D400A5FA1A /* Assets.xcassets */,
 				4B46C6612282E3D400A5FA1A /* LaunchScreen.storyboard */,
@@ -1048,12 +1068,8 @@
 		4B6DBE642287ACA2008559EF /* State */ = {
 			isa = PBXGroup;
 			children = (
-				4B6DBE6B2287ADE4008559EF /* StateMain.h */,
-				4B6DBE6C2287ADE4008559EF /* StateMain.m */,
 				4B6DBE6E2287B261008559EF /* LiftState.h */,
 				4B6DBE6F2287B261008559EF /* LiftState.m */,
-				4B6DBE712287B29C008559EF /* StateContext.h */,
-				4B6DBE722287B29C008559EF /* StateContext.m */,
 				4B6DBE742287B2FA008559EF /* OpenningState.h */,
 				4B6DBE752287B2FA008559EF /* OpenningState.m */,
 				4B6DBE772287BA27008559EF /* ClosingState.h */,
@@ -1062,6 +1078,10 @@
 				4B6DBE7B2288F5E0008559EF /* RunningState.m */,
 				4B6DBE7D2288F638008559EF /* StoppingState.h */,
 				4B6DBE7E2288F638008559EF /* StoppingState.m */,
+				4B6DBE712287B29C008559EF /* StateContext.h */,
+				4B6DBE722287B29C008559EF /* StateContext.m */,
+				4B6DBE6B2287ADE4008559EF /* StateMain.h */,
+				4B6DBE6C2287ADE4008559EF /* StateMain.m */,
 			);
 			path = State;
 			sourceTree = "<group>";
@@ -1670,6 +1690,7 @@
 				4BA3B960229BE8F7005B1295 /* ChangeCommissionedClassification.java in Sources */,
 				4BA3B964229BE8F7005B1295 /* ChangeUnffiliatedTransaction.java in Sources */,
 				4BD8DA50228452FE00B79C31 /* FemaleFactory.m in Sources */,
+				760C49F022E0AE840089CE9C /* Block.m in Sources */,
 				4B324BBE228314C700F78D8E /* NovelBook.m in Sources */,
 				4B8DE4A222858F0A00667D86 /* AbstractMediator.m in Sources */,
 				4B6DBDF42286A80C008559EF /* GivenGreenLight.m in Sources */,
@@ -1705,6 +1726,7 @@
 				4BD8DA4422844BB300B79C31 /* AbstractYellowHuman.m in Sources */,
 				4BD8DA952285081500B79C31 /* GamePlayerProxy.m in Sources */,
 				4B6694BF2285867D00F17A56 /* Stock.m in Sources */,
+				760C49F322E0BAE90089CE9C /* MyObject.m in Sources */,
 				4BA3B94C229BE8F7005B1295 /* ChangeClassificationTransaction.java in Sources */,
 				4BA3B94A229BE8F7005B1295 /* ChangeAffiliationTransaction.java in Sources */,
 				4BD8D9CD228328CE00B79C31 /* ComputerBook.m in Sources */,
@@ -1718,6 +1740,7 @@
 				4BA3B957229BE8F7005B1295 /* MailMethod.java in Sources */,
 				4BD8DA2E228442AC00B79C31 /* YellowHuman.m in Sources */,
 				4BA3B959229BE8F7005B1295 /* MonthlySchedule.java in Sources */,
+				761276DA22F5108700917BEF /* ViewController2.m in Sources */,
 				4B6694B22285797100F17A56 /* AdvTemplate.m in Sources */,
 				4BD8DA2222843F4500B79C31 /* LSPMain.m in Sources */,
 				4B42524222831637009DF4B9 /* BookStore.m in Sources */,
@@ -1729,6 +1752,7 @@
 				4BA3B941229BE8F7005B1295 /* AddEmployee.java in Sources */,
 				4BA3B93D229BE8F7005B1295 /* TestAddSalariedEmployee.java in Sources */,
 				4B6DBEA622894702008559EF /* HouseCrop.m in Sources */,
+				760C49ED22E09D900089CE9C /* MemoryCount.m in Sources */,
 				4B6DBEA32289468F008559EF /* Crop.m in Sources */,
 				4B6DBE9C22893FC8008559EF /* SignInfo4Pool.m in Sources */,
 				4BD8DA1F22843ECE00B79C31 /* Solidier.m in Sources */,

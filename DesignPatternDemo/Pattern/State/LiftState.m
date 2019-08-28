@@ -8,6 +8,22 @@
 
 #import "LiftState.h"
 
+@interface LiftState ()
+@property (nonatomic,weak) StateContext * stateContext;
+@end
+
 @implementation LiftState
+
+- (id)initWithContext:(StateContext *)context{
+    self = [super init];
+    if (self) {
+        _stateContext = context;
+    }
+    return self;
+}
+
+- (StateContext *)getStateContext{
+    return _stateContext;
+}
 
 @end

@@ -13,7 +13,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LiftState : NSObject
-@property (nonatomic,strong) StateContext * context;
+- (id)initWithContext:(StateContext *)context;
+- (StateContext *)getStateContext;
 @end
 
 @interface LiftState(Abstract)

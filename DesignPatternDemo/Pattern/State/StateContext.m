@@ -18,31 +18,21 @@
 
 @implementation StateContext
 
-+ (StateContext *)sharedManager
-{
-    static StateContext *sharedInstance = nil;
-    static dispatch_once_t predicate;
-    dispatch_once(&predicate, ^{
-        sharedInstance = [[self alloc] init];
-    });
-    
-    return sharedInstance;
-}
-
 - (instancetype)init{
     self = [super init];
     if (self) {
-        _openingState = [OpenningState new];
-        _closingState = [ClosingState new];
-        _runningState = [RunningState new];
-        _stoppingState = [StoppingState new];
+        _openingState = [[OpenningState alloc] initWithContext:self];
+        _closingState = [[ClosingState alloc] initWithContext:self];
+        _runningState = [[RunningState alloc] initWithContext:self];
+        _stoppingState = [[StoppingState alloc] initWithContext:self];
+        
+        [self setLiftState:_closingState];
     }
     return self;
 }
 
 - (void)setLiftState:(LiftState *)liftState{
     _liftState = liftState;
-    [_liftState setContext:self];
 }
 
 - (void)open{
@@ -59,6 +49,10 @@
 
 - (void)stop{
     [_liftState stop];
+}
+
+- (void)dealloc{
+    
 }
 
 @end

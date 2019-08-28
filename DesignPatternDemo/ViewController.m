@@ -40,6 +40,9 @@
 #import "SpecalMusicView.h"
 #import "AlertViewRequest.h"
 
+#import "MemoryCount.h"
+#import "Block.h"
+
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 {
     NSInteger alertCount;
@@ -64,7 +67,7 @@
 #pragma mark - tableView
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
-    NSArray * titleSection = @[@"第1章 六大设计原则",@"第2章 23种设计模式",@"第3章 责任链模式实现逐个弹窗"];
+    NSArray * titleSection = @[@"第1章 六大设计原则",@"第2章 23种设计模式",@"第3章 设计模式的应用",@"第4章 内存管理"];
     return titleSection[section];
 }
 
@@ -152,38 +155,30 @@
             iMain = [BridgeMain new];
         }
     }else if (indexPath.section == 2){
-        if (indexPath.row == 0) {
-            CMApnsAlertView * apnsAlertView = [[CMApnsAlertView alloc] init];
-            [apnsAlertView show];
-        }else if (indexPath.row == 1){
+        CMApnsAlertView * apnsAlertView = [[CMApnsAlertView alloc] init];
+        LiveFooterView * footerView = [LiveFooterView createLiveFooterView];
+        SpecalMusicView * specalMusicView = [SpecalMusicView createSpecalView];
         
-        }else if (indexPath.row == 2){
-            LiveFooterView * footerView = [LiveFooterView createLiveFooterView];
-            [footerView show];
-        }else if (indexPath.row == 3){
-            SpecalMusicView * specalMusicView = [SpecalMusicView createSpecalView];
-            [specalMusicView show];
+        [apnsAlertView setNext:footerView];
+        [footerView setNext:specalMusicView];
+        
+        AlertViewType type = apnsAlertViewType;
+        
+        if (alertCount%3 == 0) {
+            type = apnsAlertViewType;
+        }else if (alertCount%3 == 1){
+            type = liveFooterViewType;
+        }else if (alertCount%3 == 2){
+            type = specalMusicViewType;
+        }
+        alertCount++;
+        [apnsAlertView handleMessage:[[AlertViewRequest alloc] initWithType:type]];
+        
+    }else{
+        if (indexPath.row == 0) {
+            [MemoryCount printCount];
         }else{
-            
-            CMApnsAlertView * apnsAlertView = [[CMApnsAlertView alloc] init];
-            LiveFooterView * footerView = [LiveFooterView createLiveFooterView];
-            SpecalMusicView * specalMusicView = [SpecalMusicView createSpecalView];
-            
-            [apnsAlertView setNext:footerView];
-            [footerView setNext:specalMusicView];
-            
-            AlertViewType type = apnsAlertViewType;
-            
-            if (alertCount%3 == 0) {
-                type = apnsAlertViewType;
-            }else if (alertCount%3 == 1){
-                type = liveFooterViewType;
-            }else if (alertCount%3 == 2){
-                type = specalMusicViewType;
-            }
-            alertCount++;
-            [apnsAlertView handleMessage:[[AlertViewRequest alloc] initWithType:type]];
-            
+            [Block main1];
         }
     }
     
@@ -199,7 +194,8 @@
                      @[@"单一职责原则",@"里氏替换原则",@"依赖倒置原则",@"接口隔离原则",@"迪米特法则",@"开闭原则"],
                      @[@"单例模式",@"工厂模式",@"抽象工厂模式",@"模板模式",@"建造者模式",@"代理模式",@"原型模式",@"中介者模式",@"命令模式",@"责任链模式",@"装饰模式",@"策略模式",@"适配器模式",@"迭代器模式",@"组合模式",@"观察者模式",@"门面模式",@"备忘录模式",@"访问者模式",@"状态模式",@"解释器模式",@"享元模式",@"桥梁模式"
                        ],
-                     @[@"弹出推送通知框",@"评分框",@"直播底部框",@"音乐框",@"责任链模式实现逐个弹窗"]
+                     @[@"责任链模式实现逐个弹窗"],
+                     @[@"打印引用计数",@"block"]
                      ];
     }
     return _dataArr;

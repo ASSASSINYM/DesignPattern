@@ -8,6 +8,7 @@
 
 #import "StoppingState.h"
 #import "StateContext.h"
+
 @implementation StoppingState
 
 - (void)close{
@@ -15,17 +16,19 @@
 }
 
 - (void)open{
-    StateContext * shareManager = [StateContext sharedManager];
-    [super.context setLiftState:shareManager.openingState];
+    StateContext * _stateContext = [self getStateContext];
+    
+    [_stateContext setLiftState:_stateContext.openingState];
 
-    [[super.context liftState] open];
+    [[_stateContext liftState] open];
 }
 
 - (void)run{
-    StateContext * shareManager = [StateContext sharedManager];
-    [super.context setLiftState:shareManager.runningState];
+    StateContext * _stateContext = [self getStateContext];
+    
+    [_stateContext setLiftState:_stateContext.runningState];
 
-    [[[super context] liftState] run];
+    [[_stateContext liftState] run];
 }
 
 - (void)stop{

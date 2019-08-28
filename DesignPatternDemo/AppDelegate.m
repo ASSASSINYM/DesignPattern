@@ -8,9 +8,9 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
-
+#import "ViewController2.h"
 @interface AppDelegate ()
-
+@property (nonatomic,strong) UITabBarController * tabBarController;
 @end
 
 @implementation AppDelegate
@@ -18,14 +18,34 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-
+#if DEBUG
+    BOOL loadSuccess = [[NSBundle bundleWithPath:@"/Applications/InjectionIII.app/Contents/Resources/iOSInjection.bundle"] load];
+    NSLog(@"loadSuccess");
+#endif
     ViewController *vc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"ViewController"];
     
-    UINavigationController * navi = [[UINavigationController alloc] initWithRootViewController:vc];
-    [self.window setRootViewController:navi];
+//    UINavigationController * navi = [[UINavigationController alloc] initWithRootViewController:vc];
+//    [self.window setRootViewController:navi];
+    
+    self.window = [[UIWindow alloc] initWithFrame: [[UIScreen mainScreen] bounds]];
+    UIViewController *viewController2 = [[ViewController2 alloc] init];
+    self.tabBarController = [[UITabBarController alloc] init];
+    self.tabBarController.viewControllers = @[vc, viewController2];
+    self.tabBarController.delegate = self;
+    self.window.rootViewController = self.tabBarController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
+- (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController
+{
+    //set up crossfade transition
+    CATransition *transition = [CATransition animation];
+    transition.type = kCATransitionFade;
+    //apply transition to tab bar controller's view
+    [self.tabBarController.view.layer addAnimation:transition forKey:nil];
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

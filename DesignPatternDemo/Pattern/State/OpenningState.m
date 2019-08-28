@@ -12,9 +12,9 @@
 @implementation OpenningState
 
 - (void)close{
-    StateContext * shareManager = [StateContext sharedManager];
-    [super.context setLiftState:shareManager.closingState];
-    [[[super context] liftState] close];
+    StateContext * _stateContext = [self getStateContext];
+    [_stateContext setLiftState:_stateContext.closingState];
+    [[_stateContext liftState] close];
 }
 
 - (void)open{

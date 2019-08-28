@@ -24,10 +24,11 @@
 }
 
 - (void)stop{
-    StateContext * shareManager = [StateContext sharedManager];
-    [super.context setLiftState:shareManager.stoppingState];
+    StateContext * _stateContext = [self getStateContext];
+    
+    [_stateContext setLiftState:_stateContext.stoppingState];
 
-    [[super.context liftState] stop];
+    [[_stateContext liftState] stop];
 }
 
 @end
