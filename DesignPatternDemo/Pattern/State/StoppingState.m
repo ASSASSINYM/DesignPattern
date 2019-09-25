@@ -17,17 +17,13 @@
 
 - (void)open{
     StateContext * _stateContext = [self getStateContext];
-    
     [_stateContext setLiftState:_stateContext.openingState];
-
     [[_stateContext liftState] open];
 }
 
 - (void)run{
     StateContext * _stateContext = [self getStateContext];
-    
     [_stateContext setLiftState:_stateContext.runningState];
-
     [[_stateContext liftState] run];
 }
 

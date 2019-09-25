@@ -40,9 +40,6 @@
 #import "SpecalMusicView.h"
 #import "AlertViewRequest.h"
 
-#import "MemoryCount.h"
-#import "Block.h"
-
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 {
     NSInteger alertCount;
@@ -175,11 +172,7 @@
         [apnsAlertView handleMessage:[[AlertViewRequest alloc] initWithType:type]];
         
     }else{
-        if (indexPath.row == 0) {
-            [MemoryCount printCount];
-        }else{
-            [Block main1];
-        }
+        
     }
     
     if (iMain) {

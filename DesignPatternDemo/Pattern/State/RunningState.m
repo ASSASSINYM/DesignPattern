@@ -25,9 +25,7 @@
 
 - (void)stop{
     StateContext * _stateContext = [self getStateContext];
-    
     [_stateContext setLiftState:_stateContext.stoppingState];
-
     [[_stateContext liftState] stop];
 }
 
