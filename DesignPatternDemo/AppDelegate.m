@@ -24,16 +24,16 @@
 #endif
     ViewController *vc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"ViewController"];
     
-//    UINavigationController * navi = [[UINavigationController alloc] initWithRootViewController:vc];
-//    [self.window setRootViewController:navi];
+    UINavigationController * navi = [[UINavigationController alloc] initWithRootViewController:vc];
+    [self.window setRootViewController:navi];
     
-    self.window = [[UIWindow alloc] initWithFrame: [[UIScreen mainScreen] bounds]];
-    UIViewController *viewController2 = [[ViewController2 alloc] init];
-    self.tabBarController = [[UITabBarController alloc] init];
-    self.tabBarController.viewControllers = @[vc, viewController2];
-    self.tabBarController.delegate = self;
-    self.window.rootViewController = self.tabBarController;
-    [self.window makeKeyAndVisible];
+//    self.window = [[UIWindow alloc] initWithFrame: [[UIScreen mainScreen] bounds]];
+//    UIViewController *viewController2 = [[ViewController2 alloc] init];
+//    self.tabBarController = [[UITabBarController alloc] init];
+//    self.tabBarController.viewControllers = @[vc, viewController2];
+//    self.tabBarController.delegate = self;
+//    self.window.rootViewController = self.tabBarController;
+//    [self.window makeKeyAndVisible];
     
     return YES;
 }

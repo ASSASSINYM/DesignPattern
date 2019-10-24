@@ -35,15 +35,11 @@
 #import "FlyweightMain.h"
 #import "BridgeMain.h"
 
-#import "CMApnsAlertView.h"
-#import "LiveFooterView.h"
-#import "SpecalMusicView.h"
-#import "AlertViewRequest.h"
+#import "ResponseAlertViewController.h"
+#import "SectionAdapterViewController.h"
+
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
-{
-    NSInteger alertCount;
-}
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic,strong) NSArray<NSArray *> * dataArr;
 
@@ -64,7 +60,7 @@
 #pragma mark - tableView
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
-    NSArray * titleSection = @[@"第1章 六大设计原则",@"第2章 23种设计模式",@"第3章 设计模式的应用",@"第4章 内存管理"];
+    NSArray * titleSection = @[@"第1章 六大设计原则",@"第2章 23种设计模式",@"第3章 设计模式的应用"];
     return titleSection[section];
 }
 
@@ -152,26 +148,14 @@
             iMain = [BridgeMain new];
         }
     }else if (indexPath.section == 2){
-        CMApnsAlertView * apnsAlertView = [[CMApnsAlertView alloc] init];
-        LiveFooterView * footerView = [LiveFooterView createLiveFooterView];
-        SpecalMusicView * specalMusicView = [SpecalMusicView createSpecalView];
-        
-        [apnsAlertView setNext:footerView];
-        [footerView setNext:specalMusicView];
-        
-        AlertViewType type = apnsAlertViewType;
-        
-        if (alertCount%3 == 0) {
-            type = apnsAlertViewType;
-        }else if (alertCount%3 == 1){
-            type = liveFooterViewType;
-        }else if (alertCount%3 == 2){
-            type = specalMusicViewType;
+        if (indexPath.row == 0) {
+            ResponseAlertViewController * alertVC = [ResponseAlertViewController new];
+            [self.navigationController pushViewController:alertVC animated:YES];
+        }else{
+            SectionAdapterViewController * adapterVC = [SectionAdapterViewController new];
+            [self.navigationController pushViewController:adapterVC animated:YES];
         }
-        alertCount++;
-        [apnsAlertView handleMessage:[[AlertViewRequest alloc] initWithType:type]];
         
-    }else{
         
     }
     
@@ -187,8 +171,8 @@
                      @[@"单一职责原则",@"里氏替换原则",@"依赖倒置原则",@"接口隔离原则",@"迪米特法则",@"开闭原则"],
                      @[@"单例模式",@"工厂模式",@"抽象工厂模式",@"模板模式",@"建造者模式",@"代理模式",@"原型模式",@"中介者模式",@"命令模式",@"责任链模式",@"装饰模式",@"策略模式",@"适配器模式",@"迭代器模式",@"组合模式",@"观察者模式",@"门面模式",@"备忘录模式",@"访问者模式",@"状态模式",@"解释器模式",@"享元模式",@"桥梁模式"
                        ],
-                     @[@"责任链模式实现逐个弹窗"],
-                     @[@"打印引用计数",@"block"]
+                     @[@"责任链模式实现逐个弹窗",
+                       @"适配器模式配置UITableView"]
                      ];
     }
     return _dataArr;

@@ -8,22 +8,20 @@
 
 #import "LiveFooterView.h"
 
-@interface LiveFooterView()<UITextFieldDelegate>
-@property (weak, nonatomic) IBOutlet UIButton *playOrPuaseBtn;
-@property (weak, nonatomic) IBOutlet UIButton *printBtn;
+@interface LiveFooterView()
 
 @end
 
 @implementation LiveFooterView
 
-- (void)awakeFromNib{
-    [super awakeFromNib];
-    self.frame = CGRectMake(0, [[UIScreen mainScreen] bounds].size.height, [[UIScreen mainScreen] bounds].size.width, [[UIScreen mainScreen] bounds].size.height);
-    self.backgroundColor = [UIColor redColor];
-    [self addTarget:self action:@selector(close) forControlEvents:UIControlEventTouchUpInside];
-
-    [self.playOrPuaseBtn setImage:[UIImage imageNamed:@"zb_btn_zt"] forState:UIControlStateNormal];
-    [self.playOrPuaseBtn setImage:[UIImage imageNamed:@"zb_btn_play1"] forState:UIControlStateSelected];
+- (instancetype)init{
+    self = [super init];
+    if (self) {
+        self.frame = CGRectMake(0, [[UIScreen mainScreen] bounds].size.height, [[UIScreen mainScreen] bounds].size.width, [[UIScreen mainScreen] bounds].size.height);
+        self.backgroundColor = [UIColor redColor];
+        [self addTarget:self action:@selector(close) forControlEvents:UIControlEventTouchUpInside];
+    }
+    return self;
 }
 
 #pragma mark - public method
@@ -68,7 +66,7 @@
 #pragma mark - static mthod
 
 + (LiveFooterView *)createLiveFooterView{
-    LiveFooterView * liveFooterView = [[[NSBundle mainBundle] loadNibNamed:@"LiveFooterView" owner:self options:nil] lastObject];
+    LiveFooterView * liveFooterView = [LiveFooterView new];
     return liveFooterView;
 }
 

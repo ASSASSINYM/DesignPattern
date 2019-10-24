@@ -20,6 +20,15 @@
 		4B46C6932282E8BC00A5FA1A /* Driver.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B46C6922282E8BC00A5FA1A /* Driver.m */; };
 		4B46C6962282E8E000A5FA1A /* Benz.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B46C6952282E8E000A5FA1A /* Benz.m */; };
 		4B46C6992282E9BB00A5FA1A /* BMW.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B46C6982282E9BB00A5FA1A /* BMW.m */; };
+		4B5D5991236189BB008607C0 /* BaseSectionAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5D598A236189BB008607C0 /* BaseSectionAdapter.m */; };
+		4B5D5992236189BB008607C0 /* BaseCellAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5D598B236189BB008607C0 /* BaseCellAdapter.m */; };
+		4B5D5993236189BB008607C0 /* BaseListAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5D598E236189BB008607C0 /* BaseListAdapter.m */; };
+		4B5D5998236189C8008607C0 /* GameCellAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5D5996236189C8008607C0 /* GameCellAdapter.m */; };
+		4B5D5999236189C8008607C0 /* SectionAdapterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5D5997236189C8008607C0 /* SectionAdapterViewController.m */; };
+		4B5D599C23618A48008607C0 /* GameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5D599A23618A48008607C0 /* GameModel.m */; };
+		4B5D599F23618ACB008607C0 /* GameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5D599E23618ACB008607C0 /* GameCell.m */; };
+		4B5D59A123618AF3008607C0 /* gamelist.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B5D59A023618AF3008607C0 /* gamelist.json */; };
+		4B5D59A823618D3C008607C0 /* ResponseAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5D59A723618D3C008607C0 /* ResponseAlertViewController.m */; };
 		4B6694B22285797100F17A56 /* AdvTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6694B12285797100F17A56 /* AdvTemplate.m */; };
 		4B6694B522857BD900F17A56 /* Mail.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6694B422857BD900F17A56 /* Mail.m */; };
 		4B6694B822857EA200F17A56 /* PrototypeMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6694B722857EA200F17A56 /* PrototypeMain.m */; };
@@ -218,9 +227,7 @@
 		761276DA22F5108700917BEF /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 761276D922F5108600917BEF /* ViewController2.m */; };
 		76AC418822DB17AB004312B7 /* CMApnsAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC418622DB17AA004312B7 /* CMApnsAlertView.m */; };
 		76AC41DD22DB3013004312B7 /* SpecalMusicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC41DB22DB3013004312B7 /* SpecalMusicView.m */; };
-		76AC41DE22DB3013004312B7 /* SpecalMusicView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76AC41DC22DB3013004312B7 /* SpecalMusicView.xib */; };
 		76AC41E222DB3062004312B7 /* LiveFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC41E022DB3061004312B7 /* LiveFooterView.m */; };
-		76AC41E322DB3062004312B7 /* LiveFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76AC41E122DB3061004312B7 /* LiveFooterView.xib */; };
 		76AC41EA22DB4CAD004312B7 /* AlertViewHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC41E922DB4CAD004312B7 /* AlertViewHandler.m */; };
 		76AC41EE22DB6054004312B7 /* AlertViewRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC41ED22DB6054004312B7 /* AlertViewRequest.m */; };
 		8FDAE3ED30E2F7FF2DEA8482 /* libPods-DesignPatternDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C8FD1781E6C7E44025747E /* libPods-DesignPatternDemo.a */; };
@@ -273,6 +280,26 @@
 		4B46C69E2282EC7500A5FA1A /* IDriver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDriver.h; sourceTree = "<group>"; };
 		4B46C6A12282EC8500A5FA1A /* ICar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICar.h; sourceTree = "<group>"; };
 		4B46C6A5228313AB00A5FA1A /* IBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBook.h; sourceTree = "<group>"; };
+		4B5D5988236189BB008607C0 /* BaseListAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseListAdapter.h; sourceTree = "<group>"; };
+		4B5D5989236189BB008607C0 /* CellAdapterProtocal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellAdapterProtocal.h; sourceTree = "<group>"; };
+		4B5D598A236189BB008607C0 /* BaseSectionAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseSectionAdapter.m; sourceTree = "<group>"; };
+		4B5D598B236189BB008607C0 /* BaseCellAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCellAdapter.m; sourceTree = "<group>"; };
+		4B5D598C236189BB008607C0 /* SectionHeaderFooterAdapterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionHeaderFooterAdapterProtocol.h; sourceTree = "<group>"; };
+		4B5D598D236189BB008607C0 /* BaseCellAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCellAdapter.h; sourceTree = "<group>"; };
+		4B5D598E236189BB008607C0 /* BaseListAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseListAdapter.m; sourceTree = "<group>"; };
+		4B5D598F236189BB008607C0 /* BaseSectionAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseSectionAdapter.h; sourceTree = "<group>"; };
+		4B5D5990236189BB008607C0 /* ListAdapterProtocal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListAdapterProtocal.h; sourceTree = "<group>"; };
+		4B5D5994236189C8008607C0 /* SectionAdapterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionAdapterViewController.h; sourceTree = "<group>"; };
+		4B5D5995236189C8008607C0 /* GameCellAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCellAdapter.h; sourceTree = "<group>"; };
+		4B5D5996236189C8008607C0 /* GameCellAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCellAdapter.m; sourceTree = "<group>"; };
+		4B5D5997236189C8008607C0 /* SectionAdapterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionAdapterViewController.m; sourceTree = "<group>"; };
+		4B5D599A23618A48008607C0 /* GameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameModel.m; sourceTree = "<group>"; };
+		4B5D599B23618A48008607C0 /* GameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameModel.h; sourceTree = "<group>"; };
+		4B5D599D23618ACB008607C0 /* GameCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCell.h; sourceTree = "<group>"; };
+		4B5D599E23618ACB008607C0 /* GameCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCell.m; sourceTree = "<group>"; };
+		4B5D59A023618AF3008607C0 /* gamelist.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gamelist.json; sourceTree = "<group>"; };
+		4B5D59A623618D3C008607C0 /* ResponseAlertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResponseAlertViewController.h; sourceTree = "<group>"; };
+		4B5D59A723618D3C008607C0 /* ResponseAlertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResponseAlertViewController.m; sourceTree = "<group>"; };
 		4B6694B02285797100F17A56 /* AdvTemplate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdvTemplate.h; sourceTree = "<group>"; };
 		4B6694B12285797100F17A56 /* AdvTemplate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdvTemplate.m; sourceTree = "<group>"; };
 		4B6694B322857BD900F17A56 /* Mail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mail.h; sourceTree = "<group>"; };
@@ -635,16 +662,16 @@
 		76AC418922DB1894004312B7 /* Headers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Headers.h; sourceTree = "<group>"; };
 		76AC41DA22DB3012004312B7 /* SpecalMusicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecalMusicView.h; sourceTree = "<group>"; };
 		76AC41DB22DB3013004312B7 /* SpecalMusicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecalMusicView.m; sourceTree = "<group>"; };
-		76AC41DC22DB3013004312B7 /* SpecalMusicView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpecalMusicView.xib; sourceTree = "<group>"; };
 		76AC41DF22DB3061004312B7 /* LiveFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveFooterView.h; sourceTree = "<group>"; };
 		76AC41E022DB3061004312B7 /* LiveFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveFooterView.m; sourceTree = "<group>"; };
-		76AC41E122DB3061004312B7 /* LiveFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LiveFooterView.xib; sourceTree = "<group>"; };
 		76AC41E822DB4CAD004312B7 /* AlertViewHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewHandler.h; sourceTree = "<group>"; };
 		76AC41E922DB4CAD004312B7 /* AlertViewHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewHandler.m; sourceTree = "<group>"; };
 		76AC41EB22DB4D50004312B7 /* AlertViewHandlerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertViewHandlerProtocol.h; sourceTree = "<group>"; };
 		76AC41EC22DB6054004312B7 /* AlertViewRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertViewRequest.h; sourceTree = "<group>"; };
 		76AC41ED22DB6054004312B7 /* AlertViewRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertViewRequest.m; sourceTree = "<group>"; };
 		76AC41EF22DB626D004312B7 /* AlertViewRequestProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertViewRequestProtocol.h; sourceTree = "<group>"; };
+		ACDCBEEA2669E53186A536DC /* Pods-DesignPatternDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignPatternDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DesignPatternDemo/Pods-DesignPatternDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E153FB0480545CE0C0E831E1 /* Pods-DesignPatternDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignPatternDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DesignPatternDemo/Pods-DesignPatternDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -709,6 +736,7 @@
 				4B46C65A2282E3D400A5FA1A /* ViewController.m */,
 				761276D822F5108600917BEF /* ViewController2.h */,
 				761276D922F5108600917BEF /* ViewController2.m */,
+				4B5D59A023618AF3008607C0 /* gamelist.json */,
 				4B46C65C2282E3D400A5FA1A /* Main.storyboard */,
 				4B46C65F2282E3D400A5FA1A /* Assets.xcassets */,
 				4B46C6612282E3D400A5FA1A /* LaunchScreen.storyboard */,
@@ -830,6 +858,62 @@
 				4B42524122831637009DF4B9 /* BookStore.m */,
 			);
 			path = OpenClose;
+			sourceTree = "<group>";
+		};
+		4B5D59862361894E008607C0 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				4B5D5987236189AE008607C0 /* BaseAdapter */,
+				4B5D59A523618B86008607C0 /* View */,
+				4B5D59A323618B5F008607C0 /* ViewController */,
+				4B5D59A223618B56008607C0 /* Model */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		4B5D5987236189AE008607C0 /* BaseAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				4B5D5989236189BB008607C0 /* CellAdapterProtocal.h */,
+				4B5D598D236189BB008607C0 /* BaseCellAdapter.h */,
+				4B5D598B236189BB008607C0 /* BaseCellAdapter.m */,
+				4B5D5990236189BB008607C0 /* ListAdapterProtocal.h */,
+				4B5D5988236189BB008607C0 /* BaseListAdapter.h */,
+				4B5D598E236189BB008607C0 /* BaseListAdapter.m */,
+				4B5D598C236189BB008607C0 /* SectionHeaderFooterAdapterProtocol.h */,
+				4B5D598F236189BB008607C0 /* BaseSectionAdapter.h */,
+				4B5D598A236189BB008607C0 /* BaseSectionAdapter.m */,
+			);
+			path = BaseAdapter;
+			sourceTree = "<group>";
+		};
+		4B5D59A223618B56008607C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4B5D599B23618A48008607C0 /* GameModel.h */,
+				4B5D599A23618A48008607C0 /* GameModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4B5D59A323618B5F008607C0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4B5D5994236189C8008607C0 /* SectionAdapterViewController.h */,
+				4B5D5997236189C8008607C0 /* SectionAdapterViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4B5D59A523618B86008607C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4B5D5995236189C8008607C0 /* GameCellAdapter.h */,
+				4B5D5996236189C8008607C0 /* GameCellAdapter.m */,
+				4B5D599D23618ACB008607C0 /* GameCell.h */,
+				4B5D599E23618ACB008607C0 /* GameCell.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		4B6694AF2285791600F17A56 /* Prototype */ = {
@@ -1365,10 +1449,8 @@
 				76AC418622DB17AA004312B7 /* CMApnsAlertView.m */,
 				76AC41DF22DB3061004312B7 /* LiveFooterView.h */,
 				76AC41E022DB3061004312B7 /* LiveFooterView.m */,
-				76AC41E122DB3061004312B7 /* LiveFooterView.xib */,
 				76AC41DA22DB3012004312B7 /* SpecalMusicView.h */,
 				76AC41DB22DB3013004312B7 /* SpecalMusicView.m */,
-				76AC41DC22DB3013004312B7 /* SpecalMusicView.xib */,
 				76AC41EC22DB6054004312B7 /* AlertViewRequest.h */,
 				76AC41ED22DB6054004312B7 /* AlertViewRequest.m */,
 			);
@@ -1379,6 +1461,7 @@
 			isa = PBXGroup;
 			children = (
 				76AC41F322DB7DDE004312B7 /* Response */,
+				4B5D59862361894E008607C0 /* Adapter */,
 			);
 			path = PatternApply;
 			sourceTree = "<group>";
@@ -1387,6 +1470,8 @@
 			isa = PBXGroup;
 			children = (
 				76AC41E722DB4C7D004312B7 /* ViewAlert */,
+				4B5D59A623618D3C008607C0 /* ResponseAlertViewController.h */,
+				4B5D59A723618D3C008607C0 /* ResponseAlertViewController.m */,
 			);
 			path = Response;
 			sourceTree = "<group>";
@@ -1404,8 +1489,10 @@
 			children = (
 				62D76F30719094CC7E78A742 /* Pods-DesignPatternDemo.debug.xcconfig */,
 				4DC7E07A664F2A67B5CE2926 /* Pods-DesignPatternDemo.release.xcconfig */,
+				E153FB0480545CE0C0E831E1 /* Pods-DesignPatternDemo.debug.xcconfig */,
+				ACDCBEEA2669E53186A536DC /* Pods-DesignPatternDemo.release.xcconfig */,
 			);
-			path = Pods;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1515,9 +1602,8 @@
 				4BA3B93E229BE8F7005B1295 /* TODO.md in Resources */,
 				4B46C6632282E3D400A5FA1A /* LaunchScreen.storyboard in Resources */,
 				4BA3B93F229BE8F7005B1295 /* README.md in Resources */,
+				4B5D59A123618AF3008607C0 /* gamelist.json in Resources */,
 				4B46C6602282E3D400A5FA1A /* Assets.xcassets in Resources */,
-				76AC41DE22DB3013004312B7 /* SpecalMusicView.xib in Resources */,
-				76AC41E322DB3062004312B7 /* LiveFooterView.xib in Resources */,
 				4B46C65E2282E3D400A5FA1A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1544,15 +1630,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-DesignPatternDemo-checkManifestLockResult.txt",
 			);
@@ -1605,17 +1687,20 @@
 				4BD8DA56228453D700B79C31 /* MaleBlackHuman.m in Sources */,
 				4BD8DA252284406500B79C31 /* ToyGun.m in Sources */,
 				4B6DBE762287B2FA008559EF /* OpenningState.m in Sources */,
+				4B5D59A823618D3C008607C0 /* ResponseAlertViewController.m in Sources */,
 				76AC41DD22DB3013004312B7 /* SpecalMusicView.m in Sources */,
 				4B6DBDAD22865289008559EF /* CodeGroup.m in Sources */,
 				4B6DBEB82289490F008559EF /* IPod.m in Sources */,
 				4B6DBE7F2288F638008559EF /* StoppingState.m in Sources */,
 				4BA3B96B229BE8F7005B1295 /* DeleteEmployeeTransaction.java in Sources */,
+				4B5D5991236189BB008607C0 /* BaseSectionAdapter.m in Sources */,
 				4BA3B96E229BE8F7005B1295 /* Transaction.java in Sources */,
 				4B6DBE5A228709E6008559EF /* Manager.m in Sources */,
 				4BD8DA002283F64F00B79C31 /* PettyGirl.m in Sources */,
 				4BD8DA372284439100B79C31 /* HumanFactory.m in Sources */,
 				4BA3B943229BE8F7005B1295 /* DirectMethod.java in Sources */,
 				4B6DBE4A2286FA11008559EF /* MemoMain.m in Sources */,
+				4B5D5998236189C8008607C0 /* GameCellAdapter.m in Sources */,
 				4BA3B954229BE8F7005B1295 /* AddCommissionedEmployee.java in Sources */,
 				4B46C6962282E8E000A5FA1A /* Benz.m in Sources */,
 				4BD8D9E62283B2C500B79C31 /* InstallSoftware.m in Sources */,
@@ -1629,9 +1714,11 @@
 				4BD8D9C722831FB900B79C31 /* OffNovelBook.m in Sources */,
 				4BA3B96C229BE8F7005B1295 /* Employee.java in Sources */,
 				4BD8D9E32283B21600B79C31 /* Wizard.m in Sources */,
+				4B5D599F23618ACB008607C0 /* GameCell.m in Sources */,
 				4B6DBE302286C333008559EF /* WangSi.m in Sources */,
 				4BD8DA0F228429D100B79C31 /* InterfaceMain.m in Sources */,
 				4BD8DA1622843E5E00B79C31 /* Handgun.m in Sources */,
+				4B5D5992236189BB008607C0 /* BaseCellAdapter.m in Sources */,
 				4B6DBE012286AC15008559EF /* AdapterMain.m in Sources */,
 				4BA3B94F229BE8F7005B1295 /* Paycheck.java in Sources */,
 				4B6DBDB622865519008559EF /* AddRequirementCommand.m in Sources */,
@@ -1666,6 +1753,7 @@
 				4B6DBDCD22865C64008559EF /* Son.m in Sources */,
 				4BD8DA1922843E8600B79C31 /* Rifle.m in Sources */,
 				4BD8DA2B2284425C00B79C31 /* BlackHuman.m in Sources */,
+				4B5D5993236189BB008607C0 /* BaseListAdapter.m in Sources */,
 				4B6DBDAA2286524B008559EF /* PageGroup.m in Sources */,
 				4B6DBE922288FF80008559EF /* Calculator.m in Sources */,
 				4BD8DA6622845C4200B79C31 /* HummerModel.m in Sources */,
@@ -1694,6 +1782,7 @@
 				4B6DBE8C2288FEC8008559EF /* AddExpression.m in Sources */,
 				4B6DBDE1228692CE008559EF /* SugarFouthGradeSchoolReport.m in Sources */,
 				4BA3B966229BE8F7005B1295 /* AddHourlyEmployee.java in Sources */,
+				4B5D5999236189C8008607C0 /* SectionAdapterViewController.m in Sources */,
 				4BD8DA7322846ADA00B79C31 /* CarModel.m in Sources */,
 				4B6DBEBB22894B4C008559EF /* Clothes.m in Sources */,
 				4B46C6582282E3D400A5FA1A /* AppDelegate.m in Sources */,
@@ -1723,6 +1812,7 @@
 				4BA3B957229BE8F7005B1295 /* MailMethod.java in Sources */,
 				4BD8DA2E228442AC00B79C31 /* YellowHuman.m in Sources */,
 				4BA3B959229BE8F7005B1295 /* MonthlySchedule.java in Sources */,
+				4B5D599C23618A48008607C0 /* GameModel.m in Sources */,
 				761276DA22F5108700917BEF /* ViewController2.m in Sources */,
 				4B6694B22285797100F17A56 /* AdvTemplate.m in Sources */,
 				4BD8DA2222843F4500B79C31 /* LSPMain.m in Sources */,
@@ -1943,7 +2033,7 @@
 		};
 		4B46C6802282E3D500A5FA1A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62D76F30719094CC7E78A742 /* Pods-DesignPatternDemo.debug.xcconfig */;
+			baseConfigurationReference = E153FB0480545CE0C0E831E1 /* Pods-DesignPatternDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -1961,7 +2051,7 @@
 		};
 		4B46C6812282E3D500A5FA1A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DC7E07A664F2A67B5CE2926 /* Pods-DesignPatternDemo.release.xcconfig */;
+			baseConfigurationReference = ACDCBEEA2669E53186A536DC /* Pods-DesignPatternDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

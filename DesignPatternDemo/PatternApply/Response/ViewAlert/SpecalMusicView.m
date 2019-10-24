@@ -14,13 +14,15 @@
 
 @implementation SpecalMusicView
 
-- (void)awakeFromNib{
-    [super awakeFromNib];
-    self.frame = CGRectMake(0, [[UIScreen mainScreen] bounds].size.height, [[UIScreen mainScreen] bounds].size.width, [[UIScreen mainScreen] bounds].size.height);
-    self.backgroundColor = [UIColor grayColor];
-
-    [self addTarget:self action:@selector(onTapBackground:) forControlEvents:UIControlEventTouchUpInside];
-    
+- (instancetype)init{
+    self = [super init];
+    if (self) {
+        self.frame = CGRectMake(0, [[UIScreen mainScreen] bounds].size.height, [[UIScreen mainScreen] bounds].size.width, [[UIScreen mainScreen] bounds].size.height);
+        self.backgroundColor = [UIColor grayColor];
+        
+        [self addTarget:self action:@selector(onTapBackground:) forControlEvents:UIControlEventTouchUpInside];
+    }
+    return self;
 }
 
 - (void)onTapBackground:(id)sender
@@ -76,7 +78,7 @@
 #pragma mark - static mthod
 
 + (SpecalMusicView *)createSpecalView{
-    SpecalMusicView * specalMusicView = [[[NSBundle mainBundle] loadNibNamed:@"SpecalMusicView" owner:self options:nil] lastObject];
+    SpecalMusicView * specalMusicView = [SpecalMusicView new];
     return specalMusicView;
 }
 
