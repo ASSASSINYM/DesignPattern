@@ -224,6 +224,10 @@
 		4BD8DA8F228506A900B79C31 /* GamePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD8DA8E228506A900B79C31 /* GamePlayer.m */; };
 		4BD8DA922285075D00B79C31 /* DelegateMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD8DA912285075D00B79C31 /* DelegateMain.m */; };
 		4BD8DA952285081500B79C31 /* GamePlayerProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD8DA942285081500B79C31 /* GamePlayerProxy.m */; };
+		7605506E2361D6710028139A /* MemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7605506D2361D6710028139A /* MemoViewController.m */; };
+		760550712361DC260028139A /* TextViewCaretaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 760550702361DC260028139A /* TextViewCaretaker.m */; };
+		760550742361DC450028139A /* TextViewChangeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 760550732361DC450028139A /* TextViewChangeModel.m */; };
+		760550772361E23A0028139A /* MemoTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 760550762361E23A0028139A /* MemoTextView.m */; };
 		761276DA22F5108700917BEF /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 761276D922F5108600917BEF /* ViewController2.m */; };
 		76AC418822DB17AB004312B7 /* CMApnsAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC418622DB17AA004312B7 /* CMApnsAlertView.m */; };
 		76AC41DD22DB3013004312B7 /* SpecalMusicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC41DB22DB3013004312B7 /* SpecalMusicView.m */; };
@@ -655,6 +659,14 @@
 		4DC7E07A664F2A67B5CE2926 /* Pods-DesignPatternDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignPatternDemo.release.xcconfig"; path = "Target Support Files/Pods-DesignPatternDemo/Pods-DesignPatternDemo.release.xcconfig"; sourceTree = "<group>"; };
 		62D76F30719094CC7E78A742 /* Pods-DesignPatternDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignPatternDemo.debug.xcconfig"; path = "Target Support Files/Pods-DesignPatternDemo/Pods-DesignPatternDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		71C8FD1781E6C7E44025747E /* libPods-DesignPatternDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DesignPatternDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7605506C2361D6710028139A /* MemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoViewController.h; sourceTree = "<group>"; };
+		7605506D2361D6710028139A /* MemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoViewController.m; sourceTree = "<group>"; };
+		7605506F2361DC260028139A /* TextViewCaretaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextViewCaretaker.h; sourceTree = "<group>"; };
+		760550702361DC260028139A /* TextViewCaretaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextViewCaretaker.m; sourceTree = "<group>"; };
+		760550722361DC450028139A /* TextViewChangeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextViewChangeModel.h; sourceTree = "<group>"; };
+		760550732361DC450028139A /* TextViewChangeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextViewChangeModel.m; sourceTree = "<group>"; };
+		760550752361E23A0028139A /* MemoTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoTextView.h; sourceTree = "<group>"; };
+		760550762361E23A0028139A /* MemoTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoTextView.m; sourceTree = "<group>"; };
 		761276D822F5108600917BEF /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
 		761276D922F5108600917BEF /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 		76AC418622DB17AA004312B7 /* CMApnsAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMApnsAlertView.m; sourceTree = "<group>"; };
@@ -1438,6 +1450,45 @@
 			path = Delegate;
 			sourceTree = "<group>";
 		};
+		7605506B2361D6440028139A /* Memo */ = {
+			isa = PBXGroup;
+			children = (
+				760550782361E2690028139A /* ViewController */,
+				760550792361E2730028139A /* View */,
+				7605506F2361DC260028139A /* TextViewCaretaker.h */,
+				760550702361DC260028139A /* TextViewCaretaker.m */,
+				7605507A2361E31B0028139A /* Model */,
+			);
+			path = Memo;
+			sourceTree = "<group>";
+		};
+		760550782361E2690028139A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7605506C2361D6710028139A /* MemoViewController.h */,
+				7605506D2361D6710028139A /* MemoViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		760550792361E2730028139A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				760550752361E23A0028139A /* MemoTextView.h */,
+				760550762361E23A0028139A /* MemoTextView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7605507A2361E31B0028139A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				760550722361DC450028139A /* TextViewChangeModel.h */,
+				760550732361DC450028139A /* TextViewChangeModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		76AC41E722DB4C7D004312B7 /* ViewAlert */ = {
 			isa = PBXGroup;
 			children = (
@@ -1460,6 +1511,7 @@
 		76AC41F222DB7DCC004312B7 /* PatternApply */ = {
 			isa = PBXGroup;
 			children = (
+				7605506B2361D6440028139A /* Memo */,
 				76AC41F322DB7DDE004312B7 /* Response */,
 				4B5D59862361894E008607C0 /* Adapter */,
 			);
@@ -1726,6 +1778,7 @@
 				4B6DBE202286B9D5008559EF /* CombineMain.m in Sources */,
 				4BA3B93C229BE8F7005B1295 /* UtilTest.java in Sources */,
 				4B6694C5228589E800F17A56 /* MediatorMain.m in Sources */,
+				760550712361DC260028139A /* TextViewCaretaker.m in Sources */,
 				4B6DBE9922893F10008559EF /* FlyweightMain.m in Sources */,
 				76AC418822DB17AB004312B7 /* CMApnsAlertView.m in Sources */,
 				4BA3B961229BE8F7005B1295 /* SalariedClassification.java in Sources */,
@@ -1760,6 +1813,7 @@
 				4B6DBDF12286A7B5008559EF /* BackDoor.m in Sources */,
 				4BA3B952229BE8F7005B1295 /* PaymentClassification.java in Sources */,
 				4B6DBE1A2286B8D6008559EF /* Branch.m in Sources */,
+				760550742361DC450028139A /* TextViewChangeModel.m in Sources */,
 				4BA3B960229BE8F7005B1295 /* ChangeCommissionedClassification.java in Sources */,
 				4BA3B964229BE8F7005B1295 /* ChangeUnffiliatedTransaction.java in Sources */,
 				4BD8DA50228452FE00B79C31 /* FemaleFactory.m in Sources */,
@@ -1806,6 +1860,7 @@
 				4BA3B944229BE8F7005B1295 /* ChangeMethodTransaction.java in Sources */,
 				4B6DBDD022865CB8008559EF /* ResponseMain.m in Sources */,
 				4B6DBEB5228948C8008559EF /* House.m in Sources */,
+				7605506E2361D6710028139A /* MemoViewController.m in Sources */,
 				4BD8DA822284704400B79C31 /* BenzBuilder.m in Sources */,
 				4BD8DA7622846C4B00B79C31 /* BenzModel.m in Sources */,
 				4B6DBDC722865BAE008559EF /* Father.m in Sources */,
@@ -1849,6 +1904,7 @@
 				4BA3B95D229BE8F7005B1295 /* WeeklySchedule.java in Sources */,
 				4B6DBDB322865458008559EF /* Command.m in Sources */,
 				76AC41EE22DB6054004312B7 /* AlertViewRequest.m in Sources */,
+				760550772361E23A0028139A /* MemoTextView.m in Sources */,
 				4B6DBEA92289475D008559EF /* ClothesCrop.m in Sources */,
 				4B46C6932282E8BC00A5FA1A /* Driver.m in Sources */,
 				4BD8DA1322843D4E00B79C31 /* AbstractGun.m in Sources */,
