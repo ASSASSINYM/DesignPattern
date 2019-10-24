@@ -15,22 +15,28 @@
 #import "Clothes.h"
 
 @implementation BridgeMain
-
+/*
+ 产品有:衣服、ipod、房子
+ 生产产品公司有:服装厂、电子厂、房地产商
+ 现在要求是:服装厂能生产各种产品，电子厂能生产各种产品，房地产商能生产各种产品
+ 
+ 绘制:
+ 绘制矩形、圆形、椭圆、正方形
+ 不同的颜色，如红色、绿色、蓝色
+ 要求:各种图形需要不同的颜色
+ */
 - (void)main{
-//    HouseCrop * houseCrop = [HouseCrop new];
-//    [houseCrop makeMoney];
-//
-//    ClothesCrop * clothesCrop = [ClothesCrop new];
-//    [clothesCrop makeMoney];
+
     House * house = [House new];
-    HouseCrop * houseCrop = [[HouseCrop alloc] initWithProduct:house];
+    IPod * ipod = [IPod new];
+    Clothes * clothes = [Clothes new];
+
+    HouseCrop * houseCrop = [[HouseCrop alloc] initWithProduct:ipod];
     [houseCrop makeMoney];
     
-    IPod * ipod = [IPod new];
-    IPodCrop * ipodCrop = [[IPodCrop alloc] initWithProduct:ipod];
+    IPodCrop * ipodCrop = [[IPodCrop alloc] initWithProduct:house];
     [ipodCrop makeMoney];
     
-    Clothes * clothes = [Clothes new];
     ClothesCrop * clothesCrop = [[ClothesCrop alloc] initWithProduct:clothes];
     [clothesCrop makeMoney];
 }

@@ -736,7 +736,6 @@
 				4B46C65A2282E3D400A5FA1A /* ViewController.m */,
 				761276D822F5108600917BEF /* ViewController2.h */,
 				761276D922F5108600917BEF /* ViewController2.m */,
-				4B5D59A023618AF3008607C0 /* gamelist.json */,
 				4B46C65C2282E3D400A5FA1A /* Main.storyboard */,
 				4B46C65F2282E3D400A5FA1A /* Assets.xcassets */,
 				4B46C6612282E3D400A5FA1A /* LaunchScreen.storyboard */,
@@ -890,6 +889,7 @@
 		4B5D59A223618B56008607C0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4B5D59A023618AF3008607C0 /* gamelist.json */,
 				4B5D599B23618A48008607C0 /* GameModel.h */,
 				4B5D599A23618A48008607C0 /* GameModel.m */,
 			);
