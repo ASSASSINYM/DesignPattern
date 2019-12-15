@@ -6,15 +6,14 @@
 //  Copyright © 2019 wupeng. All rights reserved.
 //
 
-#import "TextViewChangeModel.h"
+#import "WPTextViewChangeModel.h"
 
-@implementation TextViewChangeModel
+@implementation WPTextViewChangeModel
 
-- (id)initWithText:(NSString *)text replaceText:(NSString *)replaceText{
+- (id)initWithText:(NSString *)text{
     self = [super init];
     if (self) {
         _text = text;
-        _replaceText = text;
     }
     return self;
 }

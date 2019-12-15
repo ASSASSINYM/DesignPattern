@@ -225,8 +225,8 @@
 		4BD8DA922285075D00B79C31 /* DelegateMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD8DA912285075D00B79C31 /* DelegateMain.m */; };
 		4BD8DA952285081500B79C31 /* GamePlayerProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD8DA942285081500B79C31 /* GamePlayerProxy.m */; };
 		7605506E2361D6710028139A /* MemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7605506D2361D6710028139A /* MemoViewController.m */; };
-		760550712361DC260028139A /* TextViewCaretaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 760550702361DC260028139A /* TextViewCaretaker.m */; };
-		760550742361DC450028139A /* TextViewChangeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 760550732361DC450028139A /* TextViewChangeModel.m */; };
+		760550712361DC260028139A /* WPTextViewBackoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 760550702361DC260028139A /* WPTextViewBackoutManager.m */; };
+		760550742361DC450028139A /* WPTextViewChangeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 760550732361DC450028139A /* WPTextViewChangeModel.m */; };
 		760550772361E23A0028139A /* MemoTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 760550762361E23A0028139A /* MemoTextView.m */; };
 		761276DA22F5108700917BEF /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 761276D922F5108600917BEF /* ViewController2.m */; };
 		76AC418822DB17AB004312B7 /* CMApnsAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC418622DB17AA004312B7 /* CMApnsAlertView.m */; };
@@ -661,10 +661,10 @@
 		71C8FD1781E6C7E44025747E /* libPods-DesignPatternDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DesignPatternDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7605506C2361D6710028139A /* MemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoViewController.h; sourceTree = "<group>"; };
 		7605506D2361D6710028139A /* MemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoViewController.m; sourceTree = "<group>"; };
-		7605506F2361DC260028139A /* TextViewCaretaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextViewCaretaker.h; sourceTree = "<group>"; };
-		760550702361DC260028139A /* TextViewCaretaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextViewCaretaker.m; sourceTree = "<group>"; };
-		760550722361DC450028139A /* TextViewChangeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextViewChangeModel.h; sourceTree = "<group>"; };
-		760550732361DC450028139A /* TextViewChangeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextViewChangeModel.m; sourceTree = "<group>"; };
+		7605506F2361DC260028139A /* WPTextViewBackoutManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPTextViewBackoutManager.h; sourceTree = "<group>"; };
+		760550702361DC260028139A /* WPTextViewBackoutManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPTextViewBackoutManager.m; sourceTree = "<group>"; };
+		760550722361DC450028139A /* WPTextViewChangeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPTextViewChangeModel.h; sourceTree = "<group>"; };
+		760550732361DC450028139A /* WPTextViewChangeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPTextViewChangeModel.m; sourceTree = "<group>"; };
 		760550752361E23A0028139A /* MemoTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoTextView.h; sourceTree = "<group>"; };
 		760550762361E23A0028139A /* MemoTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoTextView.m; sourceTree = "<group>"; };
 		761276D822F5108600917BEF /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
@@ -1455,8 +1455,8 @@
 			children = (
 				760550782361E2690028139A /* ViewController */,
 				760550792361E2730028139A /* View */,
-				7605506F2361DC260028139A /* TextViewCaretaker.h */,
-				760550702361DC260028139A /* TextViewCaretaker.m */,
+				7605506F2361DC260028139A /* WPTextViewBackoutManager.h */,
+				760550702361DC260028139A /* WPTextViewBackoutManager.m */,
 				7605507A2361E31B0028139A /* Model */,
 			);
 			path = Memo;
@@ -1483,8 +1483,8 @@
 		7605507A2361E31B0028139A /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				760550722361DC450028139A /* TextViewChangeModel.h */,
-				760550732361DC450028139A /* TextViewChangeModel.m */,
+				760550722361DC450028139A /* WPTextViewChangeModel.h */,
+				760550732361DC450028139A /* WPTextViewChangeModel.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -1778,7 +1778,7 @@
 				4B6DBE202286B9D5008559EF /* CombineMain.m in Sources */,
 				4BA3B93C229BE8F7005B1295 /* UtilTest.java in Sources */,
 				4B6694C5228589E800F17A56 /* MediatorMain.m in Sources */,
-				760550712361DC260028139A /* TextViewCaretaker.m in Sources */,
+				760550712361DC260028139A /* WPTextViewBackoutManager.m in Sources */,
 				4B6DBE9922893F10008559EF /* FlyweightMain.m in Sources */,
 				76AC418822DB17AB004312B7 /* CMApnsAlertView.m in Sources */,
 				4BA3B961229BE8F7005B1295 /* SalariedClassification.java in Sources */,
@@ -1813,7 +1813,7 @@
 				4B6DBDF12286A7B5008559EF /* BackDoor.m in Sources */,
 				4BA3B952229BE8F7005B1295 /* PaymentClassification.java in Sources */,
 				4B6DBE1A2286B8D6008559EF /* Branch.m in Sources */,
-				760550742361DC450028139A /* TextViewChangeModel.m in Sources */,
+				760550742361DC450028139A /* WPTextViewChangeModel.m in Sources */,
 				4BA3B960229BE8F7005B1295 /* ChangeCommissionedClassification.java in Sources */,
 				4BA3B964229BE8F7005B1295 /* ChangeUnffiliatedTransaction.java in Sources */,
 				4BD8DA50228452FE00B79C31 /* FemaleFactory.m in Sources */,

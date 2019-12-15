@@ -10,10 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TextViewChangeModel : NSObject
+@interface WPTextViewChangeModel : NSObject
 @property (nonatomic,strong,readonly) NSString * text;//保存变化前的字符
-@property (nonatomic,strong,readonly) NSString * replaceText;//保存变化的字符
-- (id)initWithText:(NSString *)text replaceText:(NSString *)replaceText;
+- (id)initWithText:(NSString *)text;
 @end
 
 NS_ASSUME_NONNULL_END
