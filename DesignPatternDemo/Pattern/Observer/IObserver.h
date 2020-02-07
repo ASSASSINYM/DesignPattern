@@ -14,22 +14,5 @@
 - (void)update:(NSString *)context;
 @end
 
-//被观察者接口
-@protocol Observable <NSObject>
-
-@required
-- (void)addObserver:(id<Observer>)server;
-- (void)deleteObserver:(id<Observer>)server;
-- (void)notifyObservers:(NSString *)context;
-
-@end
-
-@protocol IHanFeiZi <NSObject>
-
-@required
-- (void)haveBreakfast;
-- (void)haveFun;
-
-@end
 
 

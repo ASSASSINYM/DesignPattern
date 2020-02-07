@@ -229,6 +229,7 @@
 		760550742361DC450028139A /* WPTextViewChangeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 760550732361DC450028139A /* WPTextViewChangeModel.m */; };
 		760550772361E23A0028139A /* MemoTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 760550762361E23A0028139A /* MemoTextView.m */; };
 		761276DA22F5108700917BEF /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 761276D922F5108600917BEF /* ViewController2.m */; };
+		76162F0E23A633C10014382D /* UITextView+WPBackout.m in Sources */ = {isa = PBXBuildFile; fileRef = 76162F0D23A633C10014382D /* UITextView+WPBackout.m */; };
 		76AC418822DB17AB004312B7 /* CMApnsAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC418622DB17AA004312B7 /* CMApnsAlertView.m */; };
 		76AC41DD22DB3013004312B7 /* SpecalMusicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC41DB22DB3013004312B7 /* SpecalMusicView.m */; };
 		76AC41E222DB3062004312B7 /* LiveFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC41E022DB3061004312B7 /* LiveFooterView.m */; };
@@ -669,6 +670,8 @@
 		760550762361E23A0028139A /* MemoTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoTextView.m; sourceTree = "<group>"; };
 		761276D822F5108600917BEF /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
 		761276D922F5108600917BEF /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		76162F0C23A633C10014382D /* UITextView+WPBackout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+WPBackout.h"; sourceTree = "<group>"; };
+		76162F0D23A633C10014382D /* UITextView+WPBackout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+WPBackout.m"; sourceTree = "<group>"; };
 		76AC418622DB17AA004312B7 /* CMApnsAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMApnsAlertView.m; sourceTree = "<group>"; };
 		76AC418722DB17AB004312B7 /* CMApnsAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMApnsAlertView.h; sourceTree = "<group>"; };
 		76AC418922DB1894004312B7 /* Headers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Headers.h; sourceTree = "<group>"; };
@@ -682,6 +685,8 @@
 		76AC41EC22DB6054004312B7 /* AlertViewRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertViewRequest.h; sourceTree = "<group>"; };
 		76AC41ED22DB6054004312B7 /* AlertViewRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertViewRequest.m; sourceTree = "<group>"; };
 		76AC41EF22DB626D004312B7 /* AlertViewRequestProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertViewRequestProtocol.h; sourceTree = "<group>"; };
+		76E8297523ED44E400143D00 /* IObservable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IObservable.h; sourceTree = "<group>"; };
+		76E8297623ED455000143D00 /* IHanFeiZi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IHanFeiZi.h; sourceTree = "<group>"; };
 		ACDCBEEA2669E53186A536DC /* Pods-DesignPatternDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignPatternDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DesignPatternDemo/Pods-DesignPatternDemo.release.xcconfig"; sourceTree = "<group>"; };
 		E153FB0480545CE0C0E831E1 /* Pods-DesignPatternDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignPatternDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DesignPatternDemo/Pods-DesignPatternDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1082,9 +1087,11 @@
 		4B6DBE212286BD64008559EF /* Observer */ = {
 			isa = PBXGroup;
 			children = (
-				4B6DBE222286BDD9008559EF /* IObserver.h */,
+				76E8297523ED44E400143D00 /* IObservable.h */,
+				76E8297623ED455000143D00 /* IHanFeiZi.h */,
 				4B6DBE252286BE18008559EF /* HanFeiZi.h */,
 				4B6DBE262286BE18008559EF /* HanFeiZi.m */,
+				4B6DBE222286BDD9008559EF /* IObserver.h */,
 				4B6DBE282286BF15008559EF /* Lisi.h */,
 				4B6DBE292286BF15008559EF /* Lisi.m */,
 				4B6DBE2E2286C333008559EF /* WangSi.h */,
@@ -1476,6 +1483,8 @@
 			children = (
 				760550752361E23A0028139A /* MemoTextView.h */,
 				760550762361E23A0028139A /* MemoTextView.m */,
+				76162F0C23A633C10014382D /* UITextView+WPBackout.h */,
+				76162F0D23A633C10014382D /* UITextView+WPBackout.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -1834,6 +1843,7 @@
 				4B6DBE7C2288F5E0008559EF /* RunningState.m in Sources */,
 				4BD8DA59228453FC00B79C31 /* FemaleWhiteHuman.m in Sources */,
 				4B6DBE8C2288FEC8008559EF /* AddExpression.m in Sources */,
+				76162F0E23A633C10014382D /* UITextView+WPBackout.m in Sources */,
 				4B6DBDE1228692CE008559EF /* SugarFouthGradeSchoolReport.m in Sources */,
 				4BA3B966229BE8F7005B1295 /* AddHourlyEmployee.java in Sources */,
 				4B5D5999236189C8008607C0 /* SectionAdapterViewController.m in Sources */,

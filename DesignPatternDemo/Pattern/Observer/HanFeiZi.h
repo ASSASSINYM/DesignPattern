@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "IObserver.h"
+#import "IObservable.h"
+#import "IHanFeiZi.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface HanFeiZi : NSObject<IHanFeiZi,Observable>
