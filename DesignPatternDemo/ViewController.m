@@ -38,7 +38,7 @@
 #import "ResponseAlertViewController.h"
 #import "SectionAdapterViewController.h"
 #import "MemoViewController.h"
-
+#import "ImageViewDecorationMain.h"
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic,strong) NSArray<NSArray *> * dataArr;
@@ -153,8 +153,10 @@
             viewController = [ResponseAlertViewController new];
         }else if(indexPath.row == 1){
             viewController = [SectionAdapterViewController new];
-        }else{
+        }else if(indexPath.row == 2){
             viewController = [MemoViewController new];
+        }else if(indexPath.row == 3){
+            [ImageViewDecorationMain main];
         }
         if (viewController) {
             [self.navigationController pushViewController:viewController animated:YES];
@@ -175,7 +177,8 @@
                        ],
                      @[@"责任链模式实现逐个弹窗",
                        @"适配器模式配置UITableView",
-                       @"备忘录模式实现恢复编辑框的历史记录"]
+                       @"备忘录模式实现恢复编辑框的历史记录",
+                       @"装饰模式替换多继承"]
                      ];
     }
     return _dataArr;

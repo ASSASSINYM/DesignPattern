@@ -29,7 +29,7 @@
         result = self.pool[key];
         NSLog(@"%@---直接从池中取得",key);
     }
-    return [SignInfo new];
+    return result;
 }
 
 - (NSMutableDictionary<NSString *,SignInfo *> *)pool{

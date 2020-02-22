@@ -7,7 +7,7 @@
 //
 
 #import "FouthGradeSchoolReport.h"
-
+//使用装饰模式没用到继承了
 NS_ASSUME_NONNULL_BEGIN
 
 @interface SugarFouthGradeSchoolReport : FouthGradeSchoolReport

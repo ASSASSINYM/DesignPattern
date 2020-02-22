@@ -230,6 +230,10 @@
 		760550772361E23A0028139A /* MemoTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 760550762361E23A0028139A /* MemoTextView.m */; };
 		761276DA22F5108700917BEF /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 761276D922F5108600917BEF /* ViewController2.m */; };
 		76162F0E23A633C10014382D /* UITextView+WPBackout.m in Sources */ = {isa = PBXBuildFile; fileRef = 76162F0D23A633C10014382D /* UITextView+WPBackout.m */; };
+		76903D162400026200F29F08 /* ImageViewBaseDecoration.m in Sources */ = {isa = PBXBuildFile; fileRef = 76903D152400026200F29F08 /* ImageViewBaseDecoration.m */; };
+		76903D1924000ADF00F29F08 /* ImageView2Decoration.m in Sources */ = {isa = PBXBuildFile; fileRef = 76903D1824000ADF00F29F08 /* ImageView2Decoration.m */; };
+		76903D1C24000C2F00F29F08 /* ImageViewDecorationMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 76903D1B24000C2F00F29F08 /* ImageViewDecorationMain.m */; };
+		76903D1F24000CD100F29F08 /* ImageView1Decoration.m in Sources */ = {isa = PBXBuildFile; fileRef = 76903D1E24000CD100F29F08 /* ImageView1Decoration.m */; };
 		76AC418822DB17AB004312B7 /* CMApnsAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC418622DB17AA004312B7 /* CMApnsAlertView.m */; };
 		76AC41DD22DB3013004312B7 /* SpecalMusicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC41DB22DB3013004312B7 /* SpecalMusicView.m */; };
 		76AC41E222DB3062004312B7 /* LiveFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC41E022DB3061004312B7 /* LiveFooterView.m */; };
@@ -672,6 +676,14 @@
 		761276D922F5108600917BEF /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 		76162F0C23A633C10014382D /* UITextView+WPBackout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+WPBackout.h"; sourceTree = "<group>"; };
 		76162F0D23A633C10014382D /* UITextView+WPBackout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+WPBackout.m"; sourceTree = "<group>"; };
+		76903D142400026200F29F08 /* ImageViewBaseDecoration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewBaseDecoration.h; sourceTree = "<group>"; };
+		76903D152400026200F29F08 /* ImageViewBaseDecoration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewBaseDecoration.m; sourceTree = "<group>"; };
+		76903D1724000ADF00F29F08 /* ImageView2Decoration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageView2Decoration.h; sourceTree = "<group>"; };
+		76903D1824000ADF00F29F08 /* ImageView2Decoration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageView2Decoration.m; sourceTree = "<group>"; };
+		76903D1A24000C2F00F29F08 /* ImageViewDecorationMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewDecorationMain.h; sourceTree = "<group>"; };
+		76903D1B24000C2F00F29F08 /* ImageViewDecorationMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewDecorationMain.m; sourceTree = "<group>"; };
+		76903D1D24000CD100F29F08 /* ImageView1Decoration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageView1Decoration.h; sourceTree = "<group>"; };
+		76903D1E24000CD100F29F08 /* ImageView1Decoration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageView1Decoration.m; sourceTree = "<group>"; };
 		76AC418622DB17AA004312B7 /* CMApnsAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMApnsAlertView.m; sourceTree = "<group>"; };
 		76AC418722DB17AB004312B7 /* CMApnsAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMApnsAlertView.h; sourceTree = "<group>"; };
 		76AC418922DB1894004312B7 /* Headers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Headers.h; sourceTree = "<group>"; };
@@ -1498,6 +1510,21 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		76903D102400012400F29F08 /* Decoration */ = {
+			isa = PBXGroup;
+			children = (
+				76903D142400026200F29F08 /* ImageViewBaseDecoration.h */,
+				76903D152400026200F29F08 /* ImageViewBaseDecoration.m */,
+				76903D1D24000CD100F29F08 /* ImageView1Decoration.h */,
+				76903D1E24000CD100F29F08 /* ImageView1Decoration.m */,
+				76903D1724000ADF00F29F08 /* ImageView2Decoration.h */,
+				76903D1824000ADF00F29F08 /* ImageView2Decoration.m */,
+				76903D1A24000C2F00F29F08 /* ImageViewDecorationMain.h */,
+				76903D1B24000C2F00F29F08 /* ImageViewDecorationMain.m */,
+			);
+			path = Decoration;
+			sourceTree = "<group>";
+		};
 		76AC41E722DB4C7D004312B7 /* ViewAlert */ = {
 			isa = PBXGroup;
 			children = (
@@ -1520,6 +1547,7 @@
 		76AC41F222DB7DCC004312B7 /* PatternApply */ = {
 			isa = PBXGroup;
 			children = (
+				76903D102400012400F29F08 /* Decoration */,
 				7605506B2361D6440028139A /* Memo */,
 				76AC41F322DB7DDE004312B7 /* Response */,
 				4B5D59862361894E008607C0 /* Adapter */,
@@ -1737,6 +1765,7 @@
 				4B6DBE4D2286FB7E008559EF /* Menento.m in Sources */,
 				4B6DBE5D22870A26008559EF /* VisitorMain.m in Sources */,
 				4BD8D9E92283B34200B79C31 /* LKPMain2.m in Sources */,
+				76903D1F24000CD100F29F08 /* ImageView1Decoration.m in Sources */,
 				4BA3B955229BE8F7005B1295 /* ChangeHourlyTransaction.java in Sources */,
 				4BA3B947229BE8F7005B1295 /* Util.java in Sources */,
 				4B6DBE8F2288FF63008559EF /* SubExpression.m in Sources */,
@@ -1784,6 +1813,7 @@
 				4BA3B94F229BE8F7005B1295 /* Paycheck.java in Sources */,
 				4B6DBDB622865519008559EF /* AddRequirementCommand.m in Sources */,
 				4BA3B956229BE8F7005B1295 /* PaymentMethod.java in Sources */,
+				76903D1C24000C2F00F29F08 /* ImageViewDecorationMain.m in Sources */,
 				4B6DBE202286B9D5008559EF /* CombineMain.m in Sources */,
 				4BA3B93C229BE8F7005B1295 /* UtilTest.java in Sources */,
 				4B6694C5228589E800F17A56 /* MediatorMain.m in Sources */,
@@ -1793,6 +1823,7 @@
 				4BA3B961229BE8F7005B1295 /* SalariedClassification.java in Sources */,
 				4B6DBE272286BE18008559EF /* HanFeiZi.m in Sources */,
 				4BA3B95E229BE8F7005B1295 /* ChangeEmployeeTransaction.java in Sources */,
+				76903D162400026200F29F08 /* ImageViewBaseDecoration.m in Sources */,
 				4B6DBE792287BA27008559EF /* ClosingState.m in Sources */,
 				4BA3B967229BE8F7005B1295 /* Affiliation.java in Sources */,
 				4BD8DA3E22844B4500B79C31 /* AbstractWhiteHuman.m in Sources */,
@@ -1887,6 +1918,7 @@
 				4B6DBE332286C3B8008559EF /* LiuSi.m in Sources */,
 				4B6DBE2D2286C047008559EF /* ObserverMain.m in Sources */,
 				4B6DBDA42286516C008559EF /* Group.m in Sources */,
+				76903D1924000ADF00F29F08 /* ImageView2Decoration.m in Sources */,
 				4BA3B941229BE8F7005B1295 /* AddEmployee.java in Sources */,
 				4BA3B93D229BE8F7005B1295 /* TestAddSalariedEmployee.java in Sources */,
 				4B6DBEA622894702008559EF /* HouseCrop.m in Sources */,

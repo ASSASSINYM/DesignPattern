@@ -14,14 +14,14 @@
 @implementation AdapterMain
 
 - (void)main{
-    id<IUserInfo> youngGirl = [UserInfo new];
+    id<IUserInfo> youngGirl = [OuterUserInfo new];
     for (int i = 0; i<10; i++) {
         [youngGirl getMobileNumber];
     }
     
     id<IUserInfo> youngGirl2 = [OuterUserInfo new];
     for (int i = 0; i<10; i++) {
-        [youngGirl2 getMobileNumber];
+        [youngGirl2 getOfficeTelNumber];
     }
 }
 

@@ -19,6 +19,7 @@
     sr= [[SortDecorator alloc] initWithSr:sr];
     [sr report];
     [sr sign:@"老三"];
+
 }
 
 @end

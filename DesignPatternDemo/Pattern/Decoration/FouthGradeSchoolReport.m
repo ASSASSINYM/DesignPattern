@@ -13,7 +13,7 @@
 - (void)report{
     NSLog(@"尊敬的XXX家长:");
     NSLog(@"语文62数学65体育98自然63");
-    NSLog(@"家长签名");
+    NSLog(@"家长签名:");
 }
 
 - (void)sign:(NSString *)name{
