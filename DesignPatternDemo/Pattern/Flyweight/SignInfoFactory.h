@@ -11,7 +11,6 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface SignInfoFactory : NSObject
-+ (SignInfo *)getSignInfo;
 - (SignInfo *)getSignInfo:(NSString *)key;
 @end
 

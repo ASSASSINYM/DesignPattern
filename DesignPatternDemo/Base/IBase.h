@@ -8,6 +8,7 @@
 
 #ifndef IBase_h
 #define IBase_h
+#import <Foundation/Foundation.h>
 //依赖倒置原则，对外仅暴露接口
 @protocol IMain <NSObject>
 

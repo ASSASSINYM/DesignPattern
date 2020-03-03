@@ -15,13 +15,10 @@
 
 @implementation SignInfoFactory
 
-+ (SignInfo *)getSignInfo{
-    return [SignInfo new];
-}
-
+//原理:把科目与考试地点共享
 - (SignInfo *)getSignInfo:(NSString *)key{
     SignInfo * result;
-    if (![self.pool.allKeys containsObject:key]) {
+    if (![self.pool objectForKey:key]) {
         NSLog(@"%@---建立对象，并放置到池中",key);
         result = [[SignInfo4Pool alloc] initWithKey:key];
         [self.pool setObject:result forKey:key];

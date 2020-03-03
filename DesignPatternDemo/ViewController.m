@@ -34,11 +34,12 @@
 #import "StateMain.h"
 #import "FlyweightMain.h"
 #import "BridgeMain.h"
-
 #import "ResponseAlertViewController.h"
 #import "SectionAdapterViewController.h"
 #import "MemoViewController.h"
 #import "ImageViewDecorationMain.h"
+#import "DesignPatternDemo-Swift.h"
+
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic,strong) NSArray<NSArray *> * dataArr;
@@ -157,6 +158,8 @@
             viewController = [MemoViewController new];
         }else if(indexPath.row == 3){
             [ImageViewDecorationMain main];
+        }else if (indexPath.row == 4){
+            [[BridgeMain2 new] main];
         }
         if (viewController) {
             [self.navigationController pushViewController:viewController animated:YES];
@@ -178,7 +181,8 @@
                      @[@"责任链模式实现逐个弹窗",
                        @"适配器模式配置UITableView",
                        @"备忘录模式实现恢复编辑框的历史记录",
-                       @"装饰模式替换多继承"]
+                       @"装饰模式替换多继承",
+                       @"桥梁模式实现不同形状绘制不同颜色"]
                      ];
     }
     return _dataArr;

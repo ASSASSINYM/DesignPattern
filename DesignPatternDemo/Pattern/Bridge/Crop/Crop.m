@@ -27,7 +27,7 @@
 
 - (void)makeMoney{
     [_product beProducted];
-    [_product beProducted];
+    [_product beSelled];
 }
 
 @end
