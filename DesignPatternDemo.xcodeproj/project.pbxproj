@@ -51,13 +51,6 @@
 		4B6DBDCD22865C64008559EF /* Son.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDCC22865C64008559EF /* Son.m */; };
 		4B6DBDD022865CB8008559EF /* ResponseMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDCF22865CB8008559EF /* ResponseMain.m */; };
 		4B6DBDD322865E89008559EF /* Handler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDD222865E89008559EF /* Handler.m */; };
-		4B6DBDD82286917C008559EF /* SchoolReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDD72286917C008559EF /* SchoolReport.m */; };
-		4B6DBDDB228691B9008559EF /* FouthGradeSchoolReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDDA228691B9008559EF /* FouthGradeSchoolReport.m */; };
-		4B6DBDDE22869234008559EF /* DrcorationMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDDD22869234008559EF /* DrcorationMain.m */; };
-		4B6DBDE1228692CE008559EF /* SugarFouthGradeSchoolReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDE0228692CE008559EF /* SugarFouthGradeSchoolReport.m */; };
-		4B6DBDE4228693B8008559EF /* Decorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDE3228693B8008559EF /* Decorator.m */; };
-		4B6DBDE72286945C008559EF /* HighScoreDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDE62286945C008559EF /* HighScoreDecorator.m */; };
-		4B6DBDEA228694D0008559EF /* SortDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDE9228694D0008559EF /* SortDecorator.m */; };
 		4B6DBDF12286A7B5008559EF /* BackDoor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDF02286A7B5008559EF /* BackDoor.m */; };
 		4B6DBDF42286A80C008559EF /* GivenGreenLight.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDF32286A80C008559EF /* GivenGreenLight.m */; };
 		4B6DBDF72286A843008559EF /* BlockEnemy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDF62286A843008559EF /* BlockEnemy.m */; };
@@ -84,11 +77,6 @@
 		4B6DBE4A2286FA11008559EF /* MemoMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE492286FA11008559EF /* MemoMain.m */; };
 		4B6DBE4D2286FB7E008559EF /* Menento.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE4C2286FB7E008559EF /* Menento.m */; };
 		4B6DBE502286FDE7008559EF /* Caretaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE4F2286FDE7008559EF /* Caretaker.m */; };
-		4B6DBE54228702D0008559EF /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE53228702D0008559EF /* Employee.m */; };
-		4B6DBE57228703F1008559EF /* CommonEmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE56228703F1008559EF /* CommonEmployee.m */; };
-		4B6DBE5A228709E6008559EF /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE59228709E6008559EF /* Manager.m */; };
-		4B6DBE5D22870A26008559EF /* VisitorMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE5C22870A26008559EF /* VisitorMain.m */; };
-		4B6DBE6322871146008559EF /* Visitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE6222871146008559EF /* Visitor.m */; };
 		4B6DBE6D2287ADE4008559EF /* StateMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE6C2287ADE4008559EF /* StateMain.m */; };
 		4B6DBE702287B261008559EF /* LiftState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE6F2287B261008559EF /* LiftState.m */; };
 		4B6DBE732287B29C008559EF /* StateContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBE722287B29C008559EF /* StateContext.m */; };
@@ -242,6 +230,12 @@
 		76D09445240DD928007733C7 /* Graphing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D09444240DD928007733C7 /* Graphing.swift */; };
 		76D09447240DDA95007733C7 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D09446240DDA95007733C7 /* Colors.swift */; };
 		76D09449240DDCFB007733C7 /* BridgeMain2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D09448240DDCFB007733C7 /* BridgeMain2.swift */; };
+		76D09467240F2DF7007733C7 /* Visitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D09466240F2DF7007733C7 /* Visitor.swift */; };
+		76D09469240F2E05007733C7 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D09468240F2E05007733C7 /* Employee.swift */; };
+		76D0946B240F3314007733C7 /* VisitorMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D0946A240F3314007733C7 /* VisitorMain.swift */; };
+		76D0946D240F3C05007733C7 /* SchoolReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D0946C240F3C05007733C7 /* SchoolReport.swift */; };
+		76D0946F240F3CB8007733C7 /* Decorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D0946E240F3CB8007733C7 /* Decorator.swift */; };
+		76D09471240F4137007733C7 /* DrcorationMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D09470240F4137007733C7 /* DrcorationMain.swift */; };
 		8FDAE3ED30E2F7FF2DEA8482 /* libPods-DesignPatternDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C8FD1781E6C7E44025747E /* libPods-DesignPatternDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -357,20 +351,6 @@
 		4B6DBDCF22865CB8008559EF /* ResponseMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResponseMain.m; sourceTree = "<group>"; };
 		4B6DBDD122865E89008559EF /* Handler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Handler.h; sourceTree = "<group>"; };
 		4B6DBDD222865E89008559EF /* Handler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Handler.m; sourceTree = "<group>"; };
-		4B6DBDD62286917C008559EF /* SchoolReport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SchoolReport.h; sourceTree = "<group>"; };
-		4B6DBDD72286917C008559EF /* SchoolReport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchoolReport.m; sourceTree = "<group>"; };
-		4B6DBDD9228691B9008559EF /* FouthGradeSchoolReport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FouthGradeSchoolReport.h; sourceTree = "<group>"; };
-		4B6DBDDA228691B9008559EF /* FouthGradeSchoolReport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FouthGradeSchoolReport.m; sourceTree = "<group>"; };
-		4B6DBDDC22869234008559EF /* DrcorationMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrcorationMain.h; sourceTree = "<group>"; };
-		4B6DBDDD22869234008559EF /* DrcorationMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrcorationMain.m; sourceTree = "<group>"; };
-		4B6DBDDF228692CE008559EF /* SugarFouthGradeSchoolReport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SugarFouthGradeSchoolReport.h; sourceTree = "<group>"; };
-		4B6DBDE0228692CE008559EF /* SugarFouthGradeSchoolReport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SugarFouthGradeSchoolReport.m; sourceTree = "<group>"; };
-		4B6DBDE2228693B8008559EF /* Decorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Decorator.h; sourceTree = "<group>"; };
-		4B6DBDE3228693B8008559EF /* Decorator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Decorator.m; sourceTree = "<group>"; };
-		4B6DBDE52286945C008559EF /* HighScoreDecorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HighScoreDecorator.h; sourceTree = "<group>"; };
-		4B6DBDE62286945C008559EF /* HighScoreDecorator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HighScoreDecorator.m; sourceTree = "<group>"; };
-		4B6DBDE8228694D0008559EF /* SortDecorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortDecorator.h; sourceTree = "<group>"; };
-		4B6DBDE9228694D0008559EF /* SortDecorator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SortDecorator.m; sourceTree = "<group>"; };
 		4B6DBDEC2286A786008559EF /* IStrategy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IStrategy.h; sourceTree = "<group>"; };
 		4B6DBDEF2286A7B5008559EF /* BackDoor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackDoor.h; sourceTree = "<group>"; };
 		4B6DBDF02286A7B5008559EF /* BackDoor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackDoor.m; sourceTree = "<group>"; };
@@ -429,17 +409,6 @@
 		4B6DBE4C2286FB7E008559EF /* Menento.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Menento.m; sourceTree = "<group>"; };
 		4B6DBE4E2286FDE7008559EF /* Caretaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Caretaker.h; sourceTree = "<group>"; };
 		4B6DBE4F2286FDE7008559EF /* Caretaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Caretaker.m; sourceTree = "<group>"; };
-		4B6DBE52228702D0008559EF /* Employee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
-		4B6DBE53228702D0008559EF /* Employee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
-		4B6DBE55228703F1008559EF /* CommonEmployee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonEmployee.h; sourceTree = "<group>"; };
-		4B6DBE56228703F1008559EF /* CommonEmployee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonEmployee.m; sourceTree = "<group>"; };
-		4B6DBE58228709E6008559EF /* Manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
-		4B6DBE59228709E6008559EF /* Manager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
-		4B6DBE5B22870A26008559EF /* VisitorMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VisitorMain.h; sourceTree = "<group>"; };
-		4B6DBE5C22870A26008559EF /* VisitorMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisitorMain.m; sourceTree = "<group>"; };
-		4B6DBE5E228710A3008559EF /* IVisitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVisitor.h; sourceTree = "<group>"; };
-		4B6DBE6122871146008559EF /* Visitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Visitor.h; sourceTree = "<group>"; };
-		4B6DBE6222871146008559EF /* Visitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Visitor.m; sourceTree = "<group>"; };
 		4B6DBE6B2287ADE4008559EF /* StateMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateMain.h; sourceTree = "<group>"; };
 		4B6DBE6C2287ADE4008559EF /* StateMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateMain.m; sourceTree = "<group>"; };
 		4B6DBE6E2287B261008559EF /* LiftState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiftState.h; sourceTree = "<group>"; };
@@ -704,6 +673,12 @@
 		76D09446240DDA95007733C7 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		76D09448240DDCFB007733C7 /* BridgeMain2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeMain2.swift; sourceTree = "<group>"; };
 		76D0944C240DDE1C007733C7 /* DesignPatternDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DesignPatternDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		76D09466240F2DF7007733C7 /* Visitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visitor.swift; sourceTree = "<group>"; };
+		76D09468240F2E05007733C7 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		76D0946A240F3314007733C7 /* VisitorMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorMain.swift; sourceTree = "<group>"; };
+		76D0946C240F3C05007733C7 /* SchoolReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolReport.swift; sourceTree = "<group>"; };
+		76D0946E240F3CB8007733C7 /* Decorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decorator.swift; sourceTree = "<group>"; };
+		76D09470240F4137007733C7 /* DrcorationMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrcorationMain.swift; sourceTree = "<group>"; };
 		76E8297523ED44E400143D00 /* IObservable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IObservable.h; sourceTree = "<group>"; };
 		76E8297623ED455000143D00 /* IHanFeiZi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IHanFeiZi.h; sourceTree = "<group>"; };
 		ACDCBEEA2669E53186A536DC /* Pods-DesignPatternDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignPatternDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DesignPatternDemo/Pods-DesignPatternDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -1035,20 +1010,9 @@
 		4B6DBDD422869112008559EF /* Decoration */ = {
 			isa = PBXGroup;
 			children = (
-				4B6DBDD62286917C008559EF /* SchoolReport.h */,
-				4B6DBDD72286917C008559EF /* SchoolReport.m */,
-				4B6DBDD9228691B9008559EF /* FouthGradeSchoolReport.h */,
-				4B6DBDDA228691B9008559EF /* FouthGradeSchoolReport.m */,
-				4B6DBDDF228692CE008559EF /* SugarFouthGradeSchoolReport.h */,
-				4B6DBDE0228692CE008559EF /* SugarFouthGradeSchoolReport.m */,
-				4B6DBDDC22869234008559EF /* DrcorationMain.h */,
-				4B6DBDDD22869234008559EF /* DrcorationMain.m */,
-				4B6DBDE2228693B8008559EF /* Decorator.h */,
-				4B6DBDE3228693B8008559EF /* Decorator.m */,
-				4B6DBDE52286945C008559EF /* HighScoreDecorator.h */,
-				4B6DBDE62286945C008559EF /* HighScoreDecorator.m */,
-				4B6DBDE8228694D0008559EF /* SortDecorator.h */,
-				4B6DBDE9228694D0008559EF /* SortDecorator.m */,
+				76D0946C240F3C05007733C7 /* SchoolReport.swift */,
+				76D0946E240F3CB8007733C7 /* Decorator.swift */,
+				76D09470240F4137007733C7 /* DrcorationMain.swift */,
 			);
 			path = Decoration;
 			sourceTree = "<group>";
@@ -1158,17 +1122,9 @@
 		4B6DBE51228702A3008559EF /* Visitor */ = {
 			isa = PBXGroup;
 			children = (
-				4B6DBE52228702D0008559EF /* Employee.h */,
-				4B6DBE53228702D0008559EF /* Employee.m */,
-				4B6DBE55228703F1008559EF /* CommonEmployee.h */,
-				4B6DBE56228703F1008559EF /* CommonEmployee.m */,
-				4B6DBE58228709E6008559EF /* Manager.h */,
-				4B6DBE59228709E6008559EF /* Manager.m */,
-				4B6DBE5B22870A26008559EF /* VisitorMain.h */,
-				4B6DBE5C22870A26008559EF /* VisitorMain.m */,
-				4B6DBE5E228710A3008559EF /* IVisitor.h */,
-				4B6DBE6122871146008559EF /* Visitor.h */,
-				4B6DBE6222871146008559EF /* Visitor.m */,
+				76D09468240F2E05007733C7 /* Employee.swift */,
+				76D09466240F2DF7007733C7 /* Visitor.swift */,
+				76D0946A240F3314007733C7 /* VisitorMain.swift */,
 			);
 			path = Visitor;
 			sourceTree = "<group>";
@@ -1799,13 +1755,11 @@
 				4BD8DA31228442EE00B79C31 /* WhiteHuman.m in Sources */,
 				4BA3B95F229BE8F7005B1295 /* EmployeeRepositoryImpl.java in Sources */,
 				4B6DBE4D2286FB7E008559EF /* Menento.m in Sources */,
-				4B6DBE5D22870A26008559EF /* VisitorMain.m in Sources */,
 				4BD8D9E92283B34200B79C31 /* LKPMain2.m in Sources */,
 				76903D1F24000CD100F29F08 /* ImageView1Decoration.m in Sources */,
 				4BA3B955229BE8F7005B1295 /* ChangeHourlyTransaction.java in Sources */,
 				4BA3B947229BE8F7005B1295 /* Util.java in Sources */,
 				4B6DBE8F2288FF63008559EF /* SubExpression.m in Sources */,
-				4B6DBE6322871146008559EF /* Visitor.m in Sources */,
 				76AC41EA22DB4CAD004312B7 /* AlertViewHandler.m in Sources */,
 				4B6694BC2285865000F17A56 /* Purchase.m in Sources */,
 				4B6DBEB22289489C008559EF /* Product.m in Sources */,
@@ -1814,6 +1768,7 @@
 				4BD8DA56228453D700B79C31 /* MaleBlackHuman.m in Sources */,
 				4BD8DA252284406500B79C31 /* ToyGun.m in Sources */,
 				4B6DBE762287B2FA008559EF /* OpenningState.m in Sources */,
+				76D09471240F4137007733C7 /* DrcorationMain.swift in Sources */,
 				4B5D59A823618D3C008607C0 /* ResponseAlertViewController.m in Sources */,
 				76AC41DD22DB3013004312B7 /* SpecalMusicView.m in Sources */,
 				4B6DBDAD22865289008559EF /* CodeGroup.m in Sources */,
@@ -1822,7 +1777,6 @@
 				4BA3B96B229BE8F7005B1295 /* DeleteEmployeeTransaction.java in Sources */,
 				4B5D5991236189BB008607C0 /* BaseSectionAdapter.m in Sources */,
 				4BA3B96E229BE8F7005B1295 /* Transaction.java in Sources */,
-				4B6DBE5A228709E6008559EF /* Manager.m in Sources */,
 				4BD8DA002283F64F00B79C31 /* PettyGirl.m in Sources */,
 				4BD8DA372284439100B79C31 /* HumanFactory.m in Sources */,
 				4BA3B943229BE8F7005B1295 /* DirectMethod.java in Sources */,
@@ -1837,7 +1791,6 @@
 				4BD8DA85228470AF00B79C31 /* BMWBuilder.m in Sources */,
 				4BA3B968229BE8F7005B1295 /* HourlyClassification.java in Sources */,
 				4B6DBE832288FD77008559EF /* Expression.m in Sources */,
-				4B6DBE57228703F1008559EF /* CommonEmployee.m in Sources */,
 				4BD8D9C722831FB900B79C31 /* OffNovelBook.m in Sources */,
 				4BA3B96C229BE8F7005B1295 /* Employee.java in Sources */,
 				4BD8D9E32283B21600B79C31 /* Wizard.m in Sources */,
@@ -1866,14 +1819,12 @@
 				4BD8DA3E22844B4500B79C31 /* AbstractWhiteHuman.m in Sources */,
 				4BD8DA53228453A200B79C31 /* FemaleBlackHuman.m in Sources */,
 				4B6DBDCA22865C2B008559EF /* Husband.m in Sources */,
-				4B6DBE54228702D0008559EF /* Employee.m in Sources */,
 				4BA3B95C229BE8F7005B1295 /* ChangeSalariedTransaction.java in Sources */,
 				4BA3B963229BE8F7005B1295 /* ServiceChargeTransaction.java in Sources */,
 				4BD8DA882285015500B79C31 /* Director.m in Sources */,
 				4B6DBE1D2286B94A008559EF /* Leaf.m in Sources */,
 				4BD8DA7C22846D2C00B79C31 /* BuilderMain.m in Sources */,
 				4BA3B94E229BE8F7005B1295 /* UnionAffiliation.java in Sources */,
-				4B6DBDE72286945C008559EF /* HighScoreDecorator.m in Sources */,
 				4BA3B94D229BE8F7005B1295 /* ChangeMemberTransaction.java in Sources */,
 				4B46C65B2282E3D400A5FA1A /* ViewController.m in Sources */,
 				4B8DE4A522858FAD00667D86 /* Mediator.m in Sources */,
@@ -1911,9 +1862,9 @@
 				4B6DBE3D2286D19C008559EF /* FacadeMain.m in Sources */,
 				4B6DBE7C2288F5E0008559EF /* RunningState.m in Sources */,
 				4BD8DA59228453FC00B79C31 /* FemaleWhiteHuman.m in Sources */,
+				76D09467240F2DF7007733C7 /* Visitor.swift in Sources */,
 				4B6DBE8C2288FEC8008559EF /* AddExpression.m in Sources */,
 				76162F0E23A633C10014382D /* UITextView+WPBackout.m in Sources */,
-				4B6DBDE1228692CE008559EF /* SugarFouthGradeSchoolReport.m in Sources */,
 				4BA3B966229BE8F7005B1295 /* AddHourlyEmployee.java in Sources */,
 				4B5D5999236189C8008607C0 /* SectionAdapterViewController.m in Sources */,
 				4BD8DA7322846ADA00B79C31 /* CarModel.m in Sources */,
@@ -1922,7 +1873,6 @@
 				4BA3B95A229BE8F7005B1295 /* ChangeHoldTransaction.java in Sources */,
 				4BD8DA7F22846FEF00B79C31 /* CarBuilder.m in Sources */,
 				4BD8D9DA2283AECE00B79C31 /* GroupLeader.m in Sources */,
-				4B6DBDE4228693B8008559EF /* Decorator.m in Sources */,
 				4BA3B950229BE8F7005B1295 /* AddSalariedEmployee.java in Sources */,
 				4BD8DA062283F91700B79C31 /* Searcher.m in Sources */,
 				4B6DBEAF22894844008559EF /* IPodCrop.m in Sources */,
@@ -1942,6 +1892,7 @@
 				7605506E2361D6710028139A /* MemoViewController.m in Sources */,
 				4BD8DA822284704400B79C31 /* BenzBuilder.m in Sources */,
 				4BD8DA7622846C4B00B79C31 /* BenzModel.m in Sources */,
+				76D09469240F2E05007733C7 /* Employee.swift in Sources */,
 				4B6DBDC722865BAE008559EF /* Father.m in Sources */,
 				4BA3B957229BE8F7005B1295 /* MailMethod.java in Sources */,
 				4BD8DA2E228442AC00B79C31 /* YellowHuman.m in Sources */,
@@ -1954,6 +1905,7 @@
 				4BD8DA3A228445D400B79C31 /* NvWaMain.m in Sources */,
 				4BA3B969229BE8F7005B1295 /* ServiceCharge.java in Sources */,
 				4B6DBE332286C3B8008559EF /* LiuSi.m in Sources */,
+				76D0946F240F3CB8007733C7 /* Decorator.swift in Sources */,
 				4B6DBE2D2286C047008559EF /* ObserverMain.m in Sources */,
 				4B6DBDA42286516C008559EF /* Group.m in Sources */,
 				76903D1924000ADF00F29F08 /* ImageView2Decoration.m in Sources */,
@@ -1968,18 +1920,17 @@
 				4B6DBE072286ADB8008559EF /* UserInfo.m in Sources */,
 				4BA3B949229BE8F7005B1295 /* BlweeklySchedule.java in Sources */,
 				4BD8DA4722844C1400B79C31 /* FemaleYellowHuman.m in Sources */,
+				76D0946B240F3314007733C7 /* VisitorMain.swift in Sources */,
 				4B6DBDA7228651D0008559EF /* RequirementGroup.m in Sources */,
-				4B6DBDD82286917C008559EF /* SchoolReport.m in Sources */,
 				4BD8D9D32283AC7000B79C31 /* DependencyInversionMain.m in Sources */,
 				4B6DBDD322865E89008559EF /* Handler.m in Sources */,
 				4BA3B953229BE8F7005B1295 /* SalesReceiptTransaction.java in Sources */,
+				76D0946D240F3C05007733C7 /* SchoolReport.swift in Sources */,
 				4B6DBE9F2289401A008559EF /* SignInfoFactory.m in Sources */,
 				4B6694C22285873500F17A56 /* Sale.m in Sources */,
 				4BD8DA342284433100B79C31 /* AbstractHumanFactory.m in Sources */,
-				4B6DBDDB228691B9008559EF /* FouthGradeSchoolReport.m in Sources */,
 				4B6DBE472286F99D008559EF /* Boy.m in Sources */,
 				4B8DE4A8228598A400667D86 /* AbstractColleague.m in Sources */,
-				4B6DBDEA228694D0008559EF /* SortDecorator.m in Sources */,
 				4BA3B942229BE8F7005B1295 /* PaymentSchedule.java in Sources */,
 				4B6DBE432286D361008559EF /* Police.m in Sources */,
 				4BA3B95D229BE8F7005B1295 /* WeeklySchedule.java in Sources */,
@@ -1992,7 +1943,6 @@
 				4BA3B96A229BE8F7005B1295 /* TimeCardTransaction.java in Sources */,
 				4BA3B948229BE8F7005B1295 /* NoAffiliation.java in Sources */,
 				76AC41E222DB3062004312B7 /* LiveFooterView.m in Sources */,
-				4B6DBDDE22869234008559EF /* DrcorationMain.m in Sources */,
 				4BD8DA032283F82600B79C31 /* AbstractSearcher.m in Sources */,
 				4B6DBE2A2286BF15008559EF /* Lisi.m in Sources */,
 				4B6DBDFD2286A932008559EF /* StrategyMain.m in Sources */,
