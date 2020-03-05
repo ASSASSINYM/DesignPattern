@@ -14,13 +14,9 @@ protocol ISchoolReport {
 }
 
 class SchoolReport: NSObject,ISchoolReport {
-    func report(){
-        
-    }
+    func report(){}
     
-    func sign(name:NSString){
-        
-    }
+    func sign(name:NSString){}
 
 }
 

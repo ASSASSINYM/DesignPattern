@@ -34,6 +34,11 @@ class HighScoreDecorator: Decorator {
     func reportHighScore(){
         print("这次考试语文最高是75，数学78，自然是80")
     }
+    
+    override func sign(name: NSString) {
+        super.sign(name: name)
+        print("我是高分修饰签名")
+    }
 }
 
 class SortDecorator: Decorator {
@@ -45,5 +50,10 @@ class SortDecorator: Decorator {
     
     func reportSort(){
         print("我的排名第38名")
+    }
+    
+    override func sign(name: NSString) {
+        super.sign(name: name)
+        print("我是排名修饰签名")
     }
 }

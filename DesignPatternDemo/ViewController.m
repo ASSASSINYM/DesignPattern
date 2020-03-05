@@ -21,7 +21,6 @@
 #import "DelegateMain.h"
 #import "PrototypeMain.h"
 #import "MediatorMain.h"
-#import "CommandMain.h"
 #import "ResponseMain.h"
 #import "StrategyMain.h"
 #import "AdapterMain.h"
@@ -155,7 +154,9 @@
         }else if(indexPath.row == 2){
             viewController = [MemoViewController new];
         }else if(indexPath.row == 3){
-            [ImageViewDecorationMain main];
+            UIViewControllerDecorationMain * main = [UIViewControllerDecorationMain new];
+            viewController = [main getDecorationVC];
+//            [ImageViewDecorationMain main];
         }else if (indexPath.row == 4){
             [[BridgeMain2 new] main];
         }
