@@ -93,56 +93,6 @@
 		4B8DE4A8228598A400667D86 /* AbstractColleague.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DE4A7228598A400667D86 /* AbstractColleague.m */; };
 		4B98705B228A5C7B00630C23 /* DelegateUITest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B98705A228A5C7B00630C23 /* DelegateUITest.m */; };
 		4B98705D228A5C9F00630C23 /* DelegateUnitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B98705C228A5C9F00630C23 /* DelegateUnitTest.m */; };
-		4BA3B93C229BE8F7005B1295 /* UtilTest.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B908229BE8F7005B1295 /* UtilTest.java */; };
-		4BA3B93D229BE8F7005B1295 /* TestAddSalariedEmployee.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B909229BE8F7005B1295 /* TestAddSalariedEmployee.java */; };
-		4BA3B93E229BE8F7005B1295 /* TODO.md in Resources */ = {isa = PBXBuildFile; fileRef = 4BA3B90A229BE8F7005B1295 /* TODO.md */; };
-		4BA3B93F229BE8F7005B1295 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4BA3B90B229BE8F7005B1295 /* README.md */; };
-		4BA3B941229BE8F7005B1295 /* AddEmployee.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B90E229BE8F7005B1295 /* AddEmployee.java */; };
-		4BA3B942229BE8F7005B1295 /* PaymentSchedule.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B90F229BE8F7005B1295 /* PaymentSchedule.java */; };
-		4BA3B943229BE8F7005B1295 /* DirectMethod.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B910229BE8F7005B1295 /* DirectMethod.java */; };
-		4BA3B944229BE8F7005B1295 /* ChangeMethodTransaction.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B911229BE8F7005B1295 /* ChangeMethodTransaction.java */; };
-		4BA3B945229BE8F7005B1295 /* ChangeMailTransaction.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B912229BE8F7005B1295 /* ChangeMailTransaction.java */; };
-		4BA3B946229BE8F7005B1295 /* PaydayTransaction.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B913229BE8F7005B1295 /* PaydayTransaction.java */; };
-		4BA3B947229BE8F7005B1295 /* Util.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B914229BE8F7005B1295 /* Util.java */; };
-		4BA3B948229BE8F7005B1295 /* NoAffiliation.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B915229BE8F7005B1295 /* NoAffiliation.java */; };
-		4BA3B949229BE8F7005B1295 /* BlweeklySchedule.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B916229BE8F7005B1295 /* BlweeklySchedule.java */; };
-		4BA3B94A229BE8F7005B1295 /* ChangeAffiliationTransaction.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B917229BE8F7005B1295 /* ChangeAffiliationTransaction.java */; };
-		4BA3B94B229BE8F7005B1295 /* ChangeDirectTransaction.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B918229BE8F7005B1295 /* ChangeDirectTransaction.java */; };
-		4BA3B94C229BE8F7005B1295 /* ChangeClassificationTransaction.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B919229BE8F7005B1295 /* ChangeClassificationTransaction.java */; };
-		4BA3B94D229BE8F7005B1295 /* ChangeMemberTransaction.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B91A229BE8F7005B1295 /* ChangeMemberTransaction.java */; };
-		4BA3B94E229BE8F7005B1295 /* UnionAffiliation.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B91B229BE8F7005B1295 /* UnionAffiliation.java */; };
-		4BA3B94F229BE8F7005B1295 /* Paycheck.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B91C229BE8F7005B1295 /* Paycheck.java */; };
-		4BA3B950229BE8F7005B1295 /* AddSalariedEmployee.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B91D229BE8F7005B1295 /* AddSalariedEmployee.java */; };
-		4BA3B951229BE8F7005B1295 /* ChangeNameTransaction.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B91E229BE8F7005B1295 /* ChangeNameTransaction.java */; };
-		4BA3B952229BE8F7005B1295 /* PaymentClassification.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B91F229BE8F7005B1295 /* PaymentClassification.java */; };
-		4BA3B953229BE8F7005B1295 /* SalesReceiptTransaction.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B920229BE8F7005B1295 /* SalesReceiptTransaction.java */; };
-		4BA3B954229BE8F7005B1295 /* AddCommissionedEmployee.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B921229BE8F7005B1295 /* AddCommissionedEmployee.java */; };
-		4BA3B955229BE8F7005B1295 /* ChangeHourlyTransaction.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B922229BE8F7005B1295 /* ChangeHourlyTransaction.java */; };
-		4BA3B956229BE8F7005B1295 /* PaymentMethod.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B923229BE8F7005B1295 /* PaymentMethod.java */; };
-		4BA3B957229BE8F7005B1295 /* MailMethod.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B924229BE8F7005B1295 /* MailMethod.java */; };
-		4BA3B958229BE8F7005B1295 /* SalesReceipt.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B925229BE8F7005B1295 /* SalesReceipt.java */; };
-		4BA3B959229BE8F7005B1295 /* MonthlySchedule.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B926229BE8F7005B1295 /* MonthlySchedule.java */; };
-		4BA3B95A229BE8F7005B1295 /* ChangeHoldTransaction.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B927229BE8F7005B1295 /* ChangeHoldTransaction.java */; };
-		4BA3B95B229BE8F7005B1295 /* CommissionedClassification.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B928229BE8F7005B1295 /* CommissionedClassification.java */; };
-		4BA3B95C229BE8F7005B1295 /* ChangeSalariedTransaction.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B929229BE8F7005B1295 /* ChangeSalariedTransaction.java */; };
-		4BA3B95D229BE8F7005B1295 /* WeeklySchedule.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B92A229BE8F7005B1295 /* WeeklySchedule.java */; };
-		4BA3B95E229BE8F7005B1295 /* ChangeEmployeeTransaction.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B92B229BE8F7005B1295 /* ChangeEmployeeTransaction.java */; };
-		4BA3B95F229BE8F7005B1295 /* EmployeeRepositoryImpl.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B92C229BE8F7005B1295 /* EmployeeRepositoryImpl.java */; };
-		4BA3B960229BE8F7005B1295 /* ChangeCommissionedClassification.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B92D229BE8F7005B1295 /* ChangeCommissionedClassification.java */; };
-		4BA3B961229BE8F7005B1295 /* SalariedClassification.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B92E229BE8F7005B1295 /* SalariedClassification.java */; };
-		4BA3B962229BE8F7005B1295 /* EmployeeRepository.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B92F229BE8F7005B1295 /* EmployeeRepository.java */; };
-		4BA3B963229BE8F7005B1295 /* ServiceChargeTransaction.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B930229BE8F7005B1295 /* ServiceChargeTransaction.java */; };
-		4BA3B964229BE8F7005B1295 /* ChangeUnffiliatedTransaction.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B931229BE8F7005B1295 /* ChangeUnffiliatedTransaction.java */; };
-		4BA3B965229BE8F7005B1295 /* HoldMethod.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B932229BE8F7005B1295 /* HoldMethod.java */; };
-		4BA3B966229BE8F7005B1295 /* AddHourlyEmployee.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B933229BE8F7005B1295 /* AddHourlyEmployee.java */; };
-		4BA3B967229BE8F7005B1295 /* Affiliation.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B934229BE8F7005B1295 /* Affiliation.java */; };
-		4BA3B968229BE8F7005B1295 /* HourlyClassification.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B935229BE8F7005B1295 /* HourlyClassification.java */; };
-		4BA3B969229BE8F7005B1295 /* ServiceCharge.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B936229BE8F7005B1295 /* ServiceCharge.java */; };
-		4BA3B96A229BE8F7005B1295 /* TimeCardTransaction.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B937229BE8F7005B1295 /* TimeCardTransaction.java */; };
-		4BA3B96B229BE8F7005B1295 /* DeleteEmployeeTransaction.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B938229BE8F7005B1295 /* DeleteEmployeeTransaction.java */; };
-		4BA3B96C229BE8F7005B1295 /* Employee.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B939229BE8F7005B1295 /* Employee.java */; };
-		4BA3B96D229BE8F7005B1295 /* TimeCard.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B93A229BE8F7005B1295 /* TimeCard.java */; };
-		4BA3B96E229BE8F7005B1295 /* Transaction.java in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3B93B229BE8F7005B1295 /* Transaction.java */; };
 		4BD8D9C722831FB900B79C31 /* OffNovelBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD8D9C622831FB900B79C31 /* OffNovelBook.m */; };
 		4BD8D9CD228328CE00B79C31 /* ComputerBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD8D9CC228328CE00B79C31 /* ComputerBook.m */; };
 		4BD8D9D32283AC7000B79C31 /* DependencyInversionMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD8D9D22283AC7000B79C31 /* DependencyInversionMain.m */; };
@@ -432,56 +382,6 @@
 		4B8DE4A7228598A400667D86 /* AbstractColleague.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractColleague.m; sourceTree = "<group>"; };
 		4B98705A228A5C7B00630C23 /* DelegateUITest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegateUITest.m; sourceTree = "<group>"; };
 		4B98705C228A5C9F00630C23 /* DelegateUnitTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegateUnitTest.m; sourceTree = "<group>"; };
-		4BA3B908229BE8F7005B1295 /* UtilTest.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UtilTest.java; sourceTree = "<group>"; };
-		4BA3B909229BE8F7005B1295 /* TestAddSalariedEmployee.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = TestAddSalariedEmployee.java; sourceTree = "<group>"; };
-		4BA3B90A229BE8F7005B1295 /* TODO.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = TODO.md; sourceTree = "<group>"; };
-		4BA3B90B229BE8F7005B1295 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		4BA3B90E229BE8F7005B1295 /* AddEmployee.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = AddEmployee.java; sourceTree = "<group>"; };
-		4BA3B90F229BE8F7005B1295 /* PaymentSchedule.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PaymentSchedule.java; sourceTree = "<group>"; };
-		4BA3B910229BE8F7005B1295 /* DirectMethod.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = DirectMethod.java; sourceTree = "<group>"; };
-		4BA3B911229BE8F7005B1295 /* ChangeMethodTransaction.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ChangeMethodTransaction.java; sourceTree = "<group>"; };
-		4BA3B912229BE8F7005B1295 /* ChangeMailTransaction.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ChangeMailTransaction.java; sourceTree = "<group>"; };
-		4BA3B913229BE8F7005B1295 /* PaydayTransaction.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PaydayTransaction.java; sourceTree = "<group>"; };
-		4BA3B914229BE8F7005B1295 /* Util.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Util.java; sourceTree = "<group>"; };
-		4BA3B915229BE8F7005B1295 /* NoAffiliation.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NoAffiliation.java; sourceTree = "<group>"; };
-		4BA3B916229BE8F7005B1295 /* BlweeklySchedule.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = BlweeklySchedule.java; sourceTree = "<group>"; };
-		4BA3B917229BE8F7005B1295 /* ChangeAffiliationTransaction.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ChangeAffiliationTransaction.java; sourceTree = "<group>"; };
-		4BA3B918229BE8F7005B1295 /* ChangeDirectTransaction.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ChangeDirectTransaction.java; sourceTree = "<group>"; };
-		4BA3B919229BE8F7005B1295 /* ChangeClassificationTransaction.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ChangeClassificationTransaction.java; sourceTree = "<group>"; };
-		4BA3B91A229BE8F7005B1295 /* ChangeMemberTransaction.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ChangeMemberTransaction.java; sourceTree = "<group>"; };
-		4BA3B91B229BE8F7005B1295 /* UnionAffiliation.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UnionAffiliation.java; sourceTree = "<group>"; };
-		4BA3B91C229BE8F7005B1295 /* Paycheck.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Paycheck.java; sourceTree = "<group>"; };
-		4BA3B91D229BE8F7005B1295 /* AddSalariedEmployee.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = AddSalariedEmployee.java; sourceTree = "<group>"; };
-		4BA3B91E229BE8F7005B1295 /* ChangeNameTransaction.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ChangeNameTransaction.java; sourceTree = "<group>"; };
-		4BA3B91F229BE8F7005B1295 /* PaymentClassification.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PaymentClassification.java; sourceTree = "<group>"; };
-		4BA3B920229BE8F7005B1295 /* SalesReceiptTransaction.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = SalesReceiptTransaction.java; sourceTree = "<group>"; };
-		4BA3B921229BE8F7005B1295 /* AddCommissionedEmployee.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = AddCommissionedEmployee.java; sourceTree = "<group>"; };
-		4BA3B922229BE8F7005B1295 /* ChangeHourlyTransaction.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ChangeHourlyTransaction.java; sourceTree = "<group>"; };
-		4BA3B923229BE8F7005B1295 /* PaymentMethod.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PaymentMethod.java; sourceTree = "<group>"; };
-		4BA3B924229BE8F7005B1295 /* MailMethod.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = MailMethod.java; sourceTree = "<group>"; };
-		4BA3B925229BE8F7005B1295 /* SalesReceipt.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = SalesReceipt.java; sourceTree = "<group>"; };
-		4BA3B926229BE8F7005B1295 /* MonthlySchedule.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = MonthlySchedule.java; sourceTree = "<group>"; };
-		4BA3B927229BE8F7005B1295 /* ChangeHoldTransaction.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ChangeHoldTransaction.java; sourceTree = "<group>"; };
-		4BA3B928229BE8F7005B1295 /* CommissionedClassification.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CommissionedClassification.java; sourceTree = "<group>"; };
-		4BA3B929229BE8F7005B1295 /* ChangeSalariedTransaction.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ChangeSalariedTransaction.java; sourceTree = "<group>"; };
-		4BA3B92A229BE8F7005B1295 /* WeeklySchedule.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WeeklySchedule.java; sourceTree = "<group>"; };
-		4BA3B92B229BE8F7005B1295 /* ChangeEmployeeTransaction.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ChangeEmployeeTransaction.java; sourceTree = "<group>"; };
-		4BA3B92C229BE8F7005B1295 /* EmployeeRepositoryImpl.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = EmployeeRepositoryImpl.java; sourceTree = "<group>"; };
-		4BA3B92D229BE8F7005B1295 /* ChangeCommissionedClassification.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ChangeCommissionedClassification.java; sourceTree = "<group>"; };
-		4BA3B92E229BE8F7005B1295 /* SalariedClassification.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = SalariedClassification.java; sourceTree = "<group>"; };
-		4BA3B92F229BE8F7005B1295 /* EmployeeRepository.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = EmployeeRepository.java; sourceTree = "<group>"; };
-		4BA3B930229BE8F7005B1295 /* ServiceChargeTransaction.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ServiceChargeTransaction.java; sourceTree = "<group>"; };
-		4BA3B931229BE8F7005B1295 /* ChangeUnffiliatedTransaction.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ChangeUnffiliatedTransaction.java; sourceTree = "<group>"; };
-		4BA3B932229BE8F7005B1295 /* HoldMethod.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = HoldMethod.java; sourceTree = "<group>"; };
-		4BA3B933229BE8F7005B1295 /* AddHourlyEmployee.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = AddHourlyEmployee.java; sourceTree = "<group>"; };
-		4BA3B934229BE8F7005B1295 /* Affiliation.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Affiliation.java; sourceTree = "<group>"; };
-		4BA3B935229BE8F7005B1295 /* HourlyClassification.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = HourlyClassification.java; sourceTree = "<group>"; };
-		4BA3B936229BE8F7005B1295 /* ServiceCharge.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ServiceCharge.java; sourceTree = "<group>"; };
-		4BA3B937229BE8F7005B1295 /* TimeCardTransaction.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = TimeCardTransaction.java; sourceTree = "<group>"; };
-		4BA3B938229BE8F7005B1295 /* DeleteEmployeeTransaction.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = DeleteEmployeeTransaction.java; sourceTree = "<group>"; };
-		4BA3B939229BE8F7005B1295 /* Employee.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Employee.java; sourceTree = "<group>"; };
-		4BA3B93A229BE8F7005B1295 /* TimeCard.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = TimeCard.java; sourceTree = "<group>"; };
-		4BA3B93B229BE8F7005B1295 /* Transaction.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Transaction.java; sourceTree = "<group>"; };
 		4BD8D9C522831FB900B79C31 /* OffNovelBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OffNovelBook.h; sourceTree = "<group>"; };
 		4BD8D9C622831FB900B79C31 /* OffNovelBook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OffNovelBook.m; sourceTree = "<group>"; };
 		4BD8D9C82283285400B79C31 /* IComputerBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IComputerBook.h; sourceTree = "<group>"; };
@@ -708,7 +608,6 @@
 		4B46C6552282E3D400A5FA1A /* DesignPatternDemo */ = {
 			isa = PBXGroup;
 			children = (
-				4BA3B906229BE8F7005B1295 /* SalaryPayment-master */,
 				4BD8D9CE2283ABF700B79C31 /* Base */,
 				4B46C6902282E89000A5FA1A /* Pattern */,
 				4B46C68F2282E87C00A5FA1A /* Principle */,
@@ -1143,79 +1042,6 @@
 			path = Bridge;
 			sourceTree = "<group>";
 		};
-		4BA3B906229BE8F7005B1295 /* SalaryPayment-master */ = {
-			isa = PBXGroup;
-			children = (
-				4BA3B90D229BE8F7005B1295 /* src */,
-				4BA3B907229BE8F7005B1295 /* test */,
-				4BA3B90A229BE8F7005B1295 /* TODO.md */,
-				4BA3B90B229BE8F7005B1295 /* README.md */,
-			);
-			path = "SalaryPayment-master";
-			sourceTree = "<group>";
-		};
-		4BA3B907229BE8F7005B1295 /* test */ = {
-			isa = PBXGroup;
-			children = (
-				4BA3B908229BE8F7005B1295 /* UtilTest.java */,
-				4BA3B909229BE8F7005B1295 /* TestAddSalariedEmployee.java */,
-			);
-			path = test;
-			sourceTree = "<group>";
-		};
-		4BA3B90D229BE8F7005B1295 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				4BA3B90E229BE8F7005B1295 /* AddEmployee.java */,
-				4BA3B90F229BE8F7005B1295 /* PaymentSchedule.java */,
-				4BA3B910229BE8F7005B1295 /* DirectMethod.java */,
-				4BA3B911229BE8F7005B1295 /* ChangeMethodTransaction.java */,
-				4BA3B912229BE8F7005B1295 /* ChangeMailTransaction.java */,
-				4BA3B913229BE8F7005B1295 /* PaydayTransaction.java */,
-				4BA3B914229BE8F7005B1295 /* Util.java */,
-				4BA3B915229BE8F7005B1295 /* NoAffiliation.java */,
-				4BA3B916229BE8F7005B1295 /* BlweeklySchedule.java */,
-				4BA3B917229BE8F7005B1295 /* ChangeAffiliationTransaction.java */,
-				4BA3B918229BE8F7005B1295 /* ChangeDirectTransaction.java */,
-				4BA3B919229BE8F7005B1295 /* ChangeClassificationTransaction.java */,
-				4BA3B91A229BE8F7005B1295 /* ChangeMemberTransaction.java */,
-				4BA3B91B229BE8F7005B1295 /* UnionAffiliation.java */,
-				4BA3B91C229BE8F7005B1295 /* Paycheck.java */,
-				4BA3B91D229BE8F7005B1295 /* AddSalariedEmployee.java */,
-				4BA3B91E229BE8F7005B1295 /* ChangeNameTransaction.java */,
-				4BA3B91F229BE8F7005B1295 /* PaymentClassification.java */,
-				4BA3B920229BE8F7005B1295 /* SalesReceiptTransaction.java */,
-				4BA3B921229BE8F7005B1295 /* AddCommissionedEmployee.java */,
-				4BA3B922229BE8F7005B1295 /* ChangeHourlyTransaction.java */,
-				4BA3B923229BE8F7005B1295 /* PaymentMethod.java */,
-				4BA3B924229BE8F7005B1295 /* MailMethod.java */,
-				4BA3B925229BE8F7005B1295 /* SalesReceipt.java */,
-				4BA3B926229BE8F7005B1295 /* MonthlySchedule.java */,
-				4BA3B927229BE8F7005B1295 /* ChangeHoldTransaction.java */,
-				4BA3B928229BE8F7005B1295 /* CommissionedClassification.java */,
-				4BA3B929229BE8F7005B1295 /* ChangeSalariedTransaction.java */,
-				4BA3B92A229BE8F7005B1295 /* WeeklySchedule.java */,
-				4BA3B92B229BE8F7005B1295 /* ChangeEmployeeTransaction.java */,
-				4BA3B92C229BE8F7005B1295 /* EmployeeRepositoryImpl.java */,
-				4BA3B92D229BE8F7005B1295 /* ChangeCommissionedClassification.java */,
-				4BA3B92E229BE8F7005B1295 /* SalariedClassification.java */,
-				4BA3B92F229BE8F7005B1295 /* EmployeeRepository.java */,
-				4BA3B930229BE8F7005B1295 /* ServiceChargeTransaction.java */,
-				4BA3B931229BE8F7005B1295 /* ChangeUnffiliatedTransaction.java */,
-				4BA3B932229BE8F7005B1295 /* HoldMethod.java */,
-				4BA3B933229BE8F7005B1295 /* AddHourlyEmployee.java */,
-				4BA3B934229BE8F7005B1295 /* Affiliation.java */,
-				4BA3B935229BE8F7005B1295 /* HourlyClassification.java */,
-				4BA3B936229BE8F7005B1295 /* ServiceCharge.java */,
-				4BA3B937229BE8F7005B1295 /* TimeCardTransaction.java */,
-				4BA3B938229BE8F7005B1295 /* DeleteEmployeeTransaction.java */,
-				4BA3B939229BE8F7005B1295 /* Employee.java */,
-				4BA3B93A229BE8F7005B1295 /* TimeCard.java */,
-				4BA3B93B229BE8F7005B1295 /* Transaction.java */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
 		4BD8D9CE2283ABF700B79C31 /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -1630,9 +1456,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BA3B93E229BE8F7005B1295 /* TODO.md in Resources */,
 				4B46C6632282E3D400A5FA1A /* LaunchScreen.storyboard in Resources */,
-				4BA3B93F229BE8F7005B1295 /* README.md in Resources */,
 				4B5D59A123618AF3008607C0 /* gamelist.json in Resources */,
 				4B46C6602282E3D400A5FA1A /* Assets.xcassets in Resources */,
 				4B46C65E2282E3D400A5FA1A /* Main.storyboard in Resources */,
@@ -1687,7 +1511,6 @@
 				4B6DBE9622892220008559EF /* SignInfo.m in Sources */,
 				4B6DBDF72286A843008559EF /* BlockEnemy.m in Sources */,
 				4BD8DA922285075D00B79C31 /* DelegateMain.m in Sources */,
-				4BA3B965229BE8F7005B1295 /* HoldMethod.java in Sources */,
 				4B6DBE732287B29C008559EF /* StateContext.m in Sources */,
 				4B6DBE402286D264008559EF /* ModenPostOffice.m in Sources */,
 				4BD8DA6922845C8700B79C31 /* HummerH1Model.m in Sources */,
@@ -1696,19 +1519,15 @@
 				4B6DBE502286FDE7008559EF /* Caretaker.m in Sources */,
 				4BD8DA5C2284542500B79C31 /* MaleWhiteHuman.m in Sources */,
 				4B6DBE892288FE43008559EF /* SymbolExpression.m in Sources */,
-				4BA3B958229BE8F7005B1295 /* SalesReceipt.java in Sources */,
 				4B6DBE3A2286D135008559EF /* LetterProcessImpl.m in Sources */,
 				4B6DBE862288FDCE008559EF /* VarExpression.m in Sources */,
 				4BD8D9D72283AEA600B79C31 /* Teacher.m in Sources */,
 				4BD8DA62228454FA00B79C31 /* NvWaMain2.m in Sources */,
 				4B6DBE6D2287ADE4008559EF /* StateMain.m in Sources */,
 				4BD8DA31228442EE00B79C31 /* WhiteHuman.m in Sources */,
-				4BA3B95F229BE8F7005B1295 /* EmployeeRepositoryImpl.java in Sources */,
 				4B6DBE4D2286FB7E008559EF /* Menento.m in Sources */,
 				4BD8D9E92283B34200B79C31 /* LKPMain2.m in Sources */,
 				76903D1F24000CD100F29F08 /* ImageView1Decoration.m in Sources */,
-				4BA3B955229BE8F7005B1295 /* ChangeHourlyTransaction.java in Sources */,
-				4BA3B947229BE8F7005B1295 /* Util.java in Sources */,
 				4B6DBE8F2288FF63008559EF /* SubExpression.m in Sources */,
 				76AC41EA22DB4CAD004312B7 /* AlertViewHandler.m in Sources */,
 				4B6694BC2285865000F17A56 /* Purchase.m in Sources */,
@@ -1724,26 +1543,17 @@
 				4B6DBEB82289490F008559EF /* IPod.m in Sources */,
 				4B6DBE7F2288F638008559EF /* StoppingState.m in Sources */,
 				765891B82410852300867C22 /* Invoker.swift in Sources */,
-				4BA3B96B229BE8F7005B1295 /* DeleteEmployeeTransaction.java in Sources */,
 				4B5D5991236189BB008607C0 /* BaseSectionAdapter.m in Sources */,
-				4BA3B96E229BE8F7005B1295 /* Transaction.java in Sources */,
 				4BD8DA002283F64F00B79C31 /* PettyGirl.m in Sources */,
 				4BD8DA372284439100B79C31 /* HumanFactory.m in Sources */,
-				4BA3B943229BE8F7005B1295 /* DirectMethod.java in Sources */,
 				4B6DBE4A2286FA11008559EF /* MemoMain.m in Sources */,
 				4B5D5998236189C8008607C0 /* GameCellAdapter.m in Sources */,
-				4BA3B954229BE8F7005B1295 /* AddCommissionedEmployee.java in Sources */,
 				4B46C6962282E8E000A5FA1A /* Benz.m in Sources */,
 				4BD8D9E62283B2C500B79C31 /* InstallSoftware.m in Sources */,
-				4BA3B946229BE8F7005B1295 /* PaydayTransaction.java in Sources */,
-				4BA3B94B229BE8F7005B1295 /* ChangeDirectTransaction.java in Sources */,
-				4BA3B962229BE8F7005B1295 /* EmployeeRepository.java in Sources */,
 				765891C02410DA8000867C22 /* ResponseMain.swift in Sources */,
 				4BD8DA85228470AF00B79C31 /* BMWBuilder.m in Sources */,
-				4BA3B968229BE8F7005B1295 /* HourlyClassification.java in Sources */,
 				4B6DBE832288FD77008559EF /* Expression.m in Sources */,
 				4BD8D9C722831FB900B79C31 /* OffNovelBook.m in Sources */,
-				4BA3B96C229BE8F7005B1295 /* Employee.java in Sources */,
 				4BD8D9E32283B21600B79C31 /* Wizard.m in Sources */,
 				4B5D599F23618ACB008607C0 /* GameCell.m in Sources */,
 				4B6DBE302286C333008559EF /* WangSi.m in Sources */,
@@ -1751,30 +1561,20 @@
 				4BD8DA1622843E5E00B79C31 /* Handgun.m in Sources */,
 				4B5D5992236189BB008607C0 /* BaseCellAdapter.m in Sources */,
 				4B6DBE012286AC15008559EF /* AdapterMain.m in Sources */,
-				4BA3B94F229BE8F7005B1295 /* Paycheck.java in Sources */,
-				4BA3B956229BE8F7005B1295 /* PaymentMethod.java in Sources */,
 				76903D1C24000C2F00F29F08 /* ImageViewDecorationMain.m in Sources */,
 				4B6DBE202286B9D5008559EF /* CombineMain.m in Sources */,
-				4BA3B93C229BE8F7005B1295 /* UtilTest.java in Sources */,
 				4B6694C5228589E800F17A56 /* MediatorMain.m in Sources */,
 				760550712361DC260028139A /* WPTextViewBackoutManager.m in Sources */,
 				4B6DBE9922893F10008559EF /* FlyweightMain.m in Sources */,
 				76AC418822DB17AB004312B7 /* CMApnsAlertView.m in Sources */,
-				4BA3B961229BE8F7005B1295 /* SalariedClassification.java in Sources */,
 				4B6DBE272286BE18008559EF /* HanFeiZi.m in Sources */,
-				4BA3B95E229BE8F7005B1295 /* ChangeEmployeeTransaction.java in Sources */,
 				76903D162400026200F29F08 /* ImageViewBaseDecoration.m in Sources */,
 				4B6DBE792287BA27008559EF /* ClosingState.m in Sources */,
-				4BA3B967229BE8F7005B1295 /* Affiliation.java in Sources */,
 				4BD8DA3E22844B4500B79C31 /* AbstractWhiteHuman.m in Sources */,
 				4BD8DA53228453A200B79C31 /* FemaleBlackHuman.m in Sources */,
-				4BA3B95C229BE8F7005B1295 /* ChangeSalariedTransaction.java in Sources */,
-				4BA3B963229BE8F7005B1295 /* ServiceChargeTransaction.java in Sources */,
 				4BD8DA882285015500B79C31 /* Director.m in Sources */,
 				4B6DBE1D2286B94A008559EF /* Leaf.m in Sources */,
 				4BD8DA7C22846D2C00B79C31 /* BuilderMain.m in Sources */,
-				4BA3B94E229BE8F7005B1295 /* UnionAffiliation.java in Sources */,
-				4BA3B94D229BE8F7005B1295 /* ChangeMemberTransaction.java in Sources */,
 				4B46C65B2282E3D400A5FA1A /* ViewController.m in Sources */,
 				4B8DE4A522858FAD00667D86 /* Mediator.m in Sources */,
 				4BD8DA8F228506A900B79C31 /* GamePlayer.m in Sources */,
@@ -1786,23 +1586,18 @@
 				4B6DBE922288FF80008559EF /* Calculator.m in Sources */,
 				4BD8DA6622845C4200B79C31 /* HummerModel.m in Sources */,
 				4B6DBDF12286A7B5008559EF /* BackDoor.m in Sources */,
-				4BA3B952229BE8F7005B1295 /* PaymentClassification.java in Sources */,
 				4B6DBE1A2286B8D6008559EF /* Branch.m in Sources */,
 				760550742361DC450028139A /* WPTextViewChangeModel.m in Sources */,
-				4BA3B960229BE8F7005B1295 /* ChangeCommissionedClassification.java in Sources */,
-				4BA3B964229BE8F7005B1295 /* ChangeUnffiliatedTransaction.java in Sources */,
 				4BD8DA50228452FE00B79C31 /* FemaleFactory.m in Sources */,
 				4B324BBE228314C700F78D8E /* NovelBook.m in Sources */,
 				4B8DE4A222858F0A00667D86 /* AbstractMediator.m in Sources */,
 				4B6DBDF42286A80C008559EF /* GivenGreenLight.m in Sources */,
-				4BA3B95B229BE8F7005B1295 /* CommissionedClassification.java in Sources */,
 				76D09449240DDCFB007733C7 /* BridgeMain2.swift in Sources */,
 				4B46C6662282E3D400A5FA1A /* main.m in Sources */,
 				4BD8DA1C22843EA700B79C31 /* MachineGun.m in Sources */,
 				4BD8DA7922846CDE00B79C31 /* BMWModel.m in Sources */,
 				4B6694B522857BD900F17A56 /* Mail.m in Sources */,
 				4BD8D9E02283B0A300B79C31 /* LKPMain.m in Sources */,
-				4BA3B951229BE8F7005B1295 /* ChangeNameTransaction.java in Sources */,
 				4B6DBDFA2286A884008559EF /* Context.m in Sources */,
 				4B6DBE3D2286D19C008559EF /* FacadeMain.m in Sources */,
 				4B6DBE7C2288F5E0008559EF /* RunningState.m in Sources */,
@@ -1810,15 +1605,12 @@
 				76D09467240F2DF7007733C7 /* Visitor.swift in Sources */,
 				4B6DBE8C2288FEC8008559EF /* AddExpression.m in Sources */,
 				76162F0E23A633C10014382D /* UITextView+WPBackout.m in Sources */,
-				4BA3B966229BE8F7005B1295 /* AddHourlyEmployee.java in Sources */,
 				4B5D5999236189C8008607C0 /* SectionAdapterViewController.m in Sources */,
 				4BD8DA7322846ADA00B79C31 /* CarModel.m in Sources */,
 				4B6DBEBB22894B4C008559EF /* Clothes.m in Sources */,
 				4B46C6582282E3D400A5FA1A /* AppDelegate.m in Sources */,
-				4BA3B95A229BE8F7005B1295 /* ChangeHoldTransaction.java in Sources */,
 				4BD8DA7F22846FEF00B79C31 /* CarBuilder.m in Sources */,
 				4BD8D9DA2283AECE00B79C31 /* GroupLeader.m in Sources */,
-				4BA3B950229BE8F7005B1295 /* AddSalariedEmployee.java in Sources */,
 				4BD8DA062283F91700B79C31 /* Searcher.m in Sources */,
 				4B6DBEAF22894844008559EF /* IPodCrop.m in Sources */,
 				4BD8DA6F22845DD300B79C31 /* TemplateMain.m in Sources */,
@@ -1826,34 +1618,26 @@
 				4BD8DA4422844BB300B79C31 /* AbstractYellowHuman.m in Sources */,
 				4BD8DA952285081500B79C31 /* GamePlayerProxy.m in Sources */,
 				4B6694BF2285867D00F17A56 /* Stock.m in Sources */,
-				4BA3B94C229BE8F7005B1295 /* ChangeClassificationTransaction.java in Sources */,
-				4BA3B94A229BE8F7005B1295 /* ChangeAffiliationTransaction.java in Sources */,
 				4BD8D9CD228328CE00B79C31 /* ComputerBook.m in Sources */,
 				4B6DBE102286B01D008559EF /* OuterUserInfo.m in Sources */,
-				4BA3B944229BE8F7005B1295 /* ChangeMethodTransaction.java in Sources */,
 				4B6DBEB5228948C8008559EF /* House.m in Sources */,
 				7605506E2361D6710028139A /* MemoViewController.m in Sources */,
 				4BD8DA822284704400B79C31 /* BenzBuilder.m in Sources */,
 				4BD8DA7622846C4B00B79C31 /* BenzModel.m in Sources */,
 				76D09469240F2E05007733C7 /* Employee.swift in Sources */,
-				4BA3B957229BE8F7005B1295 /* MailMethod.java in Sources */,
 				4BD8DA2E228442AC00B79C31 /* YellowHuman.m in Sources */,
-				4BA3B959229BE8F7005B1295 /* MonthlySchedule.java in Sources */,
 				4B5D599C23618A48008607C0 /* GameModel.m in Sources */,
 				761276DA22F5108700917BEF /* ViewController2.m in Sources */,
 				4B6694B22285797100F17A56 /* AdvTemplate.m in Sources */,
 				4BD8DA2222843F4500B79C31 /* LSPMain.m in Sources */,
 				4B42524222831637009DF4B9 /* BookStore.m in Sources */,
 				4BD8DA3A228445D400B79C31 /* NvWaMain.m in Sources */,
-				4BA3B969229BE8F7005B1295 /* ServiceCharge.java in Sources */,
 				4B6DBE332286C3B8008559EF /* LiuSi.m in Sources */,
 				76D0946F240F3CB8007733C7 /* Decorator.swift in Sources */,
 				765891B62410851A00867C22 /* CommandMain.swift in Sources */,
 				765891B42410837900867C22 /* Command.swift in Sources */,
 				4B6DBE2D2286C047008559EF /* ObserverMain.m in Sources */,
 				76903D1924000ADF00F29F08 /* ImageView2Decoration.m in Sources */,
-				4BA3B941229BE8F7005B1295 /* AddEmployee.java in Sources */,
-				4BA3B93D229BE8F7005B1295 /* TestAddSalariedEmployee.java in Sources */,
 				4B6DBEA622894702008559EF /* HouseCrop.m in Sources */,
 				4B6DBEA32289468F008559EF /* Crop.m in Sources */,
 				76D09447240DDA95007733C7 /* Colors.swift in Sources */,
@@ -1861,12 +1645,10 @@
 				4BD8DA1F22843ECE00B79C31 /* Solidier.m in Sources */,
 				4BD8DA4A22844C3600B79C31 /* MaleYellowHuman.m in Sources */,
 				4B6DBE072286ADB8008559EF /* UserInfo.m in Sources */,
-				4BA3B949229BE8F7005B1295 /* BlweeklySchedule.java in Sources */,
 				4BD8DA4722844C1400B79C31 /* FemaleYellowHuman.m in Sources */,
 				765891BE2410D2F100867C22 /* Handler.swift in Sources */,
 				76D0946B240F3314007733C7 /* VisitorMain.swift in Sources */,
 				4BD8D9D32283AC7000B79C31 /* DependencyInversionMain.m in Sources */,
-				4BA3B953229BE8F7005B1295 /* SalesReceiptTransaction.java in Sources */,
 				765891B22410816900867C22 /* Group.swift in Sources */,
 				76D0946D240F3C05007733C7 /* SchoolReport.swift in Sources */,
 				4B6DBE9F2289401A008559EF /* SignInfoFactory.m in Sources */,
@@ -1876,23 +1658,17 @@
 				765891BC2410D1A100867C22 /* Women.swift in Sources */,
 				4B6DBE472286F99D008559EF /* Boy.m in Sources */,
 				4B8DE4A8228598A400667D86 /* AbstractColleague.m in Sources */,
-				4BA3B942229BE8F7005B1295 /* PaymentSchedule.java in Sources */,
 				4B6DBE432286D361008559EF /* Police.m in Sources */,
-				4BA3B95D229BE8F7005B1295 /* WeeklySchedule.java in Sources */,
 				76AC41EE22DB6054004312B7 /* AlertViewRequest.m in Sources */,
 				760550772361E23A0028139A /* MemoTextView.m in Sources */,
 				4B6DBEA92289475D008559EF /* ClothesCrop.m in Sources */,
 				4B46C6932282E8BC00A5FA1A /* Driver.m in Sources */,
 				4BD8DA1322843D4E00B79C31 /* AbstractGun.m in Sources */,
-				4BA3B96A229BE8F7005B1295 /* TimeCardTransaction.java in Sources */,
-				4BA3B948229BE8F7005B1295 /* NoAffiliation.java in Sources */,
 				76AC41E222DB3062004312B7 /* LiveFooterView.m in Sources */,
 				4BD8DA032283F82600B79C31 /* AbstractSearcher.m in Sources */,
 				4B6DBE2A2286BF15008559EF /* Lisi.m in Sources */,
 				4B6DBDFD2286A932008559EF /* StrategyMain.m in Sources */,
-				4BA3B945229BE8F7005B1295 /* ChangeMailTransaction.java in Sources */,
 				4B6DBEAC2289479F008559EF /* BridgeMain.m in Sources */,
-				4BA3B96D229BE8F7005B1295 /* TimeCard.java in Sources */,
 				4BD8D9DD2283AEEC00B79C31 /* Girl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
