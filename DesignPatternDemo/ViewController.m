@@ -21,7 +21,6 @@
 #import "DelegateMain.h"
 #import "PrototypeMain.h"
 #import "MediatorMain.h"
-#import "ResponseMain.h"
 #import "StrategyMain.h"
 #import "AdapterMain.h"
 #import "CombineMain.h"

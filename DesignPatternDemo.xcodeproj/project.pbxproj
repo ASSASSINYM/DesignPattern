@@ -36,12 +36,6 @@
 		4B6694BF2285867D00F17A56 /* Stock.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6694BE2285867D00F17A56 /* Stock.m */; };
 		4B6694C22285873500F17A56 /* Sale.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6694C12285873500F17A56 /* Sale.m */; };
 		4B6694C5228589E800F17A56 /* MediatorMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6694C4228589E800F17A56 /* MediatorMain.m */; };
-		4B6DBDC322865AB2008559EF /* Women.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDC222865AB2008559EF /* Women.m */; };
-		4B6DBDC722865BAE008559EF /* Father.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDC622865BAE008559EF /* Father.m */; };
-		4B6DBDCA22865C2B008559EF /* Husband.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDC922865C2B008559EF /* Husband.m */; };
-		4B6DBDCD22865C64008559EF /* Son.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDCC22865C64008559EF /* Son.m */; };
-		4B6DBDD022865CB8008559EF /* ResponseMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDCF22865CB8008559EF /* ResponseMain.m */; };
-		4B6DBDD322865E89008559EF /* Handler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDD222865E89008559EF /* Handler.m */; };
 		4B6DBDF12286A7B5008559EF /* BackDoor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDF02286A7B5008559EF /* BackDoor.m */; };
 		4B6DBDF42286A80C008559EF /* GivenGreenLight.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDF32286A80C008559EF /* GivenGreenLight.m */; };
 		4B6DBDF72286A843008559EF /* BlockEnemy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DBDF62286A843008559EF /* BlockEnemy.m */; };
@@ -215,6 +209,9 @@
 		765891B42410837900867C22 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765891B32410837900867C22 /* Command.swift */; };
 		765891B62410851A00867C22 /* CommandMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765891B52410851A00867C22 /* CommandMain.swift */; };
 		765891B82410852300867C22 /* Invoker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765891B72410852300867C22 /* Invoker.swift */; };
+		765891BC2410D1A100867C22 /* Women.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765891BB2410D1A100867C22 /* Women.swift */; };
+		765891BE2410D2F100867C22 /* Handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765891BD2410D2F100867C22 /* Handler.swift */; };
+		765891C02410DA8000867C22 /* ResponseMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765891BF2410DA8000867C22 /* ResponseMain.swift */; };
 		76903D162400026200F29F08 /* ImageViewBaseDecoration.m in Sources */ = {isa = PBXBuildFile; fileRef = 76903D152400026200F29F08 /* ImageViewBaseDecoration.m */; };
 		76903D1924000ADF00F29F08 /* ImageView2Decoration.m in Sources */ = {isa = PBXBuildFile; fileRef = 76903D1824000ADF00F29F08 /* ImageView2Decoration.m */; };
 		76903D1C24000C2F00F29F08 /* ImageViewDecorationMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 76903D1B24000C2F00F29F08 /* ImageViewDecorationMain.m */; };
@@ -317,19 +314,6 @@
 		4B6694C12285873500F17A56 /* Sale.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sale.m; sourceTree = "<group>"; };
 		4B6694C3228589E800F17A56 /* MediatorMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediatorMain.h; sourceTree = "<group>"; };
 		4B6694C4228589E800F17A56 /* MediatorMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediatorMain.m; sourceTree = "<group>"; };
-		4B6DBDBE22865A1A008559EF /* IWomen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IWomen.h; sourceTree = "<group>"; };
-		4B6DBDC122865AB2008559EF /* Women.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Women.h; sourceTree = "<group>"; };
-		4B6DBDC222865AB2008559EF /* Women.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Women.m; sourceTree = "<group>"; };
-		4B6DBDC522865BAE008559EF /* Father.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Father.h; sourceTree = "<group>"; };
-		4B6DBDC622865BAE008559EF /* Father.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Father.m; sourceTree = "<group>"; };
-		4B6DBDC822865C2B008559EF /* Husband.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Husband.h; sourceTree = "<group>"; };
-		4B6DBDC922865C2B008559EF /* Husband.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Husband.m; sourceTree = "<group>"; };
-		4B6DBDCB22865C64008559EF /* Son.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Son.h; sourceTree = "<group>"; };
-		4B6DBDCC22865C64008559EF /* Son.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Son.m; sourceTree = "<group>"; };
-		4B6DBDCE22865CB8008559EF /* ResponseMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResponseMain.h; sourceTree = "<group>"; };
-		4B6DBDCF22865CB8008559EF /* ResponseMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResponseMain.m; sourceTree = "<group>"; };
-		4B6DBDD122865E89008559EF /* Handler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Handler.h; sourceTree = "<group>"; };
-		4B6DBDD222865E89008559EF /* Handler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Handler.m; sourceTree = "<group>"; };
 		4B6DBDEC2286A786008559EF /* IStrategy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IStrategy.h; sourceTree = "<group>"; };
 		4B6DBDEF2286A7B5008559EF /* BackDoor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackDoor.h; sourceTree = "<group>"; };
 		4B6DBDF02286A7B5008559EF /* BackDoor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackDoor.m; sourceTree = "<group>"; };
@@ -633,6 +617,9 @@
 		765891B32410837900867C22 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
 		765891B52410851A00867C22 /* CommandMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandMain.swift; sourceTree = "<group>"; };
 		765891B72410852300867C22 /* Invoker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invoker.swift; sourceTree = "<group>"; };
+		765891BB2410D1A100867C22 /* Women.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Women.swift; sourceTree = "<group>"; };
+		765891BD2410D2F100867C22 /* Handler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handler.swift; sourceTree = "<group>"; };
+		765891BF2410DA8000867C22 /* ResponseMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseMain.swift; sourceTree = "<group>"; };
 		76903D142400026200F29F08 /* ImageViewBaseDecoration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewBaseDecoration.h; sourceTree = "<group>"; };
 		76903D152400026200F29F08 /* ImageViewBaseDecoration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewBaseDecoration.m; sourceTree = "<group>"; };
 		76903D1724000ADF00F29F08 /* ImageView2Decoration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageView2Decoration.h; sourceTree = "<group>"; };
@@ -961,19 +948,9 @@
 		4B6DBDBD228659F3008559EF /* Response */ = {
 			isa = PBXGroup;
 			children = (
-				4B6DBDBE22865A1A008559EF /* IWomen.h */,
-				4B6DBDC122865AB2008559EF /* Women.h */,
-				4B6DBDC222865AB2008559EF /* Women.m */,
-				4B6DBDD122865E89008559EF /* Handler.h */,
-				4B6DBDD222865E89008559EF /* Handler.m */,
-				4B6DBDC522865BAE008559EF /* Father.h */,
-				4B6DBDC622865BAE008559EF /* Father.m */,
-				4B6DBDC822865C2B008559EF /* Husband.h */,
-				4B6DBDC922865C2B008559EF /* Husband.m */,
-				4B6DBDCB22865C64008559EF /* Son.h */,
-				4B6DBDCC22865C64008559EF /* Son.m */,
-				4B6DBDCE22865CB8008559EF /* ResponseMain.h */,
-				4B6DBDCF22865CB8008559EF /* ResponseMain.m */,
+				765891BB2410D1A100867C22 /* Women.swift */,
+				765891BD2410D2F100867C22 /* Handler.swift */,
+				765891BF2410DA8000867C22 /* ResponseMain.swift */,
 			);
 			path = Response;
 			sourceTree = "<group>";
@@ -1761,6 +1738,7 @@
 				4BA3B946229BE8F7005B1295 /* PaydayTransaction.java in Sources */,
 				4BA3B94B229BE8F7005B1295 /* ChangeDirectTransaction.java in Sources */,
 				4BA3B962229BE8F7005B1295 /* EmployeeRepository.java in Sources */,
+				765891C02410DA8000867C22 /* ResponseMain.swift in Sources */,
 				4BD8DA85228470AF00B79C31 /* BMWBuilder.m in Sources */,
 				4BA3B968229BE8F7005B1295 /* HourlyClassification.java in Sources */,
 				4B6DBE832288FD77008559EF /* Expression.m in Sources */,
@@ -1790,7 +1768,6 @@
 				4BA3B967229BE8F7005B1295 /* Affiliation.java in Sources */,
 				4BD8DA3E22844B4500B79C31 /* AbstractWhiteHuman.m in Sources */,
 				4BD8DA53228453A200B79C31 /* FemaleBlackHuman.m in Sources */,
-				4B6DBDCA22865C2B008559EF /* Husband.m in Sources */,
 				4BA3B95C229BE8F7005B1295 /* ChangeSalariedTransaction.java in Sources */,
 				4BA3B963229BE8F7005B1295 /* ServiceChargeTransaction.java in Sources */,
 				4BD8DA882285015500B79C31 /* Director.m in Sources */,
@@ -1803,7 +1780,6 @@
 				4BD8DA8F228506A900B79C31 /* GamePlayer.m in Sources */,
 				4B6DBE702287B261008559EF /* LiftState.m in Sources */,
 				4B6694B822857EA200F17A56 /* PrototypeMain.m in Sources */,
-				4B6DBDCD22865C64008559EF /* Son.m in Sources */,
 				4BD8DA1922843E8600B79C31 /* Rifle.m in Sources */,
 				4BD8DA2B2284425C00B79C31 /* BlackHuman.m in Sources */,
 				4B5D5993236189BB008607C0 /* BaseListAdapter.m in Sources */,
@@ -1820,7 +1796,6 @@
 				4B8DE4A222858F0A00667D86 /* AbstractMediator.m in Sources */,
 				4B6DBDF42286A80C008559EF /* GivenGreenLight.m in Sources */,
 				4BA3B95B229BE8F7005B1295 /* CommissionedClassification.java in Sources */,
-				4B6DBDC322865AB2008559EF /* Women.m in Sources */,
 				76D09449240DDCFB007733C7 /* BridgeMain2.swift in Sources */,
 				4B46C6662282E3D400A5FA1A /* main.m in Sources */,
 				4BD8DA1C22843EA700B79C31 /* MachineGun.m in Sources */,
@@ -1856,13 +1831,11 @@
 				4BD8D9CD228328CE00B79C31 /* ComputerBook.m in Sources */,
 				4B6DBE102286B01D008559EF /* OuterUserInfo.m in Sources */,
 				4BA3B944229BE8F7005B1295 /* ChangeMethodTransaction.java in Sources */,
-				4B6DBDD022865CB8008559EF /* ResponseMain.m in Sources */,
 				4B6DBEB5228948C8008559EF /* House.m in Sources */,
 				7605506E2361D6710028139A /* MemoViewController.m in Sources */,
 				4BD8DA822284704400B79C31 /* BenzBuilder.m in Sources */,
 				4BD8DA7622846C4B00B79C31 /* BenzModel.m in Sources */,
 				76D09469240F2E05007733C7 /* Employee.swift in Sources */,
-				4B6DBDC722865BAE008559EF /* Father.m in Sources */,
 				4BA3B957229BE8F7005B1295 /* MailMethod.java in Sources */,
 				4BD8DA2E228442AC00B79C31 /* YellowHuman.m in Sources */,
 				4BA3B959229BE8F7005B1295 /* MonthlySchedule.java in Sources */,
@@ -1890,9 +1863,9 @@
 				4B6DBE072286ADB8008559EF /* UserInfo.m in Sources */,
 				4BA3B949229BE8F7005B1295 /* BlweeklySchedule.java in Sources */,
 				4BD8DA4722844C1400B79C31 /* FemaleYellowHuman.m in Sources */,
+				765891BE2410D2F100867C22 /* Handler.swift in Sources */,
 				76D0946B240F3314007733C7 /* VisitorMain.swift in Sources */,
 				4BD8D9D32283AC7000B79C31 /* DependencyInversionMain.m in Sources */,
-				4B6DBDD322865E89008559EF /* Handler.m in Sources */,
 				4BA3B953229BE8F7005B1295 /* SalesReceiptTransaction.java in Sources */,
 				765891B22410816900867C22 /* Group.swift in Sources */,
 				76D0946D240F3C05007733C7 /* SchoolReport.swift in Sources */,
@@ -1900,6 +1873,7 @@
 				765891AC2410759A00867C22 /* UIViewControllerDecoration.swift in Sources */,
 				4B6694C22285873500F17A56 /* Sale.m in Sources */,
 				4BD8DA342284433100B79C31 /* AbstractHumanFactory.m in Sources */,
+				765891BC2410D1A100867C22 /* Women.swift in Sources */,
 				4B6DBE472286F99D008559EF /* Boy.m in Sources */,
 				4B8DE4A8228598A400667D86 /* AbstractColleague.m in Sources */,
 				4BA3B942229BE8F7005B1295 /* PaymentSchedule.java in Sources */,
